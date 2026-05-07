@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "privacy": "Politique de confidentialité",
+    "support": "Support"
+  },
+  "landing": {
+    "hero": {
+      "title": "Apprenez le japonais avec Sukuro",
+      "subtitle": "Maîtrisez le vocabulaire, les kanjis et la grammaire avec nos flashcards intelligentes et explications IA.",
+      "getApp": "Obtenir l'application"
+    },
+    "creator": {
+      "title": "Un mot du créateur",
+      "message": "Le message du créateur sera ajouté ici plus tard."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Sukuro. Tous droits réservés.",
+    "links": "Liens",
+    "social": "Réseaux sociaux"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 27 février 2026",
+    "intro": {
+      "title": "1. Introduction",
+      "text": "Bienvenue sur Sukuro. Nous prenons votre vie privée très au sérieux. Cette politique de confidentialité explique comment nous recueillons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre application mobile."
+    },
+    "data": {
+      "title": "2. Données que nous recueillons",
+      "text": "Nous recueillons les types de données suivants pour assurer le bon fonctionnement de l'application :",
+      "auth": "Informations de compte (Authentification) : Lorsque vous vous connectez avec Google ou Apple, nous recevons votre adresse e-mail et un identifiant utilisateur unique. Ces données sont gérées par notre fournisseur d'authentification, Supabase.",
+      "progress": "Données de progression : Nous stockons votre progression d'apprentissage (leçons terminées, scores, vocabulaire appris) dans notre base de données afin de synchroniser votre expérience sur vos appareils.",
+      "technical": "Données techniques (Logs) : Des informations techniques (type d'appareil, version du système d'exploitation, rapports de plantage) peuvent être recueillies automatiquement pour nous aider à corriger les bugs et améliorer l'application."
+    },
+    "ai": {
+      "title": "3. Utilisation de l'Intelligence Artificielle (IA)",
+      "text": "Sukuro utilise les services Google Gemini (Google Generative AI) pour générer du contenu éducatif, des corrections ou des phrases d'exemple.",
+      "point1": "Des données textuelles (par exemple vos réponses à un exercice) peuvent être envoyées aux serveurs de Google pour être traitées.",
+      "point2": "Ces données ne sont pas utilisées par Google pour entraîner leurs modèles (conformément à leurs conditions d'utilisation d'API standard) et sont utilisées uniquement pour fournir la réponse immédiate dans l'application."
+    },
+    "sharing": {
+      "title": "4. Partage de données avec des tiers",
+      "text": "Nous ne vendons jamais vos données personnelles. Nous partageons des données uniquement avec les fournisseurs de services suivants qui nous aident à faire fonctionner l'application :",
+      "supabase": "Supabase : Pour l'hébergement de la base de données et l'authentification des utilisateurs.",
+      "google": "Google (Firebase/Cloud) : Pour l'authentification (Google Sign-In) et les services d'IA (Gemini).",
+      "apple": "Apple : Pour l'authentification (Sign in with Apple) sur les appareils iOS."
+    },
+    "security": {
+      "title": "5. Sécurité des données",
+      "text": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos données. Toutes les communications entre l'application et nos serveurs sont cryptées (HTTPS/SSL). L'accès à votre compte est protégé par les protocoles d'authentification sécurisés de Google et Apple."
+    },
+    "retention": {
+      "title": "6. Conservation et suppression des données",
+      "text1": "Nous conservons vos données tant que votre compte est actif.",
+      "text2": "Conformément aux exigences du Google Play Store, vous avez le droit de demander la suppression complète de votre compte et de toutes les données associées.",
+      "text3": "Pour demander la suppression de votre compte, vous pouvez :",
+      "point1": "Utiliser l'option \"Supprimer mon compte\" dans les paramètres de l'application (si disponible), ou",
+      "point2": "Nous contacter directement à l'adresse suivante : {email}."
+    },
+    "children": {
+      "title": "7. Enfants",
+      "text": "Notre application est destinée à l'apprentissage des langues pour un public général. Nous ne recueillons pas sciemment de données personnelles d'enfants de moins de 13 ans sans le consentement vérifiable des parents."
+    },
+    "contact": {
+      "title": "8. Contact",
+      "text": "Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter à :",
+      "name": "Florian Budniewski",
+      "email": "E-mail : {email}"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "contact": {
+      "title": "Nous contacter",
+      "description": "Besoin d'aide avec Sukuro ? Contactez-nous.",
+      "text": "Si vous avez des questions, des problèmes ou des commentaires, n'hésitez pas à nous contacter par e-mail :"
+    },
+    "faq": {
+      "title": "Foire Aux Questions",
+      "q1": {
+        "q": "Comment puis-je supprimer mon compte ?",
+        "a": "Vous pouvez supprimer votre compte directement depuis les paramètres de l'application. Vous pouvez également nous envoyer un e-mail à l'adresse ci-dessus pour demander la suppression de votre compte."
+      },
+      "q2": {
+        "q": "Comment mes données sont-elles utilisées ?",
+        "a": "Nous recueillons uniquement les données nécessaires au fonctionnement de l'application, telles que votre progression d'apprentissage. Pour plus de détails, veuillez lire notre Politique de confidentialité."
+      }
+    }
+  }
+}

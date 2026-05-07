@@ -1,4 +1,29 @@
+<script setup lang="ts">
+const { t } = useI18n()
+
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - Sukuro` : 'Sukuro - Learn Japanese'
+  },
+  meta: [
+    { name: 'description', content: 'Master Japanese vocabulary, kanji, and grammar with Sukuro.' }
+  ],
+  link: [
+    { rel: 'icon', type: 'image/png', href: '/favicon.ico' }
+  ]
+})
+
+useSeoMeta({
+  ogTitle: 'Sukuro - Learn Japanese',
+  ogDescription: 'Master Japanese vocabulary, kanji, and grammar with Sukuro.',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>
+
 <template>
-  <NuxtRouteAnnouncer />
-  <NuxtPage />
+  <NuxtLayout>
+    <NuxtRouteAnnouncer />
+    <NuxtPage />
+  </NuxtLayout>
 </template>

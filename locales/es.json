@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "privacy": "Política de privacidad",
+    "support": "Soporte"
+  },
+  "landing": {
+    "hero": {
+      "title": "Aprende japonés con Sukuro",
+      "subtitle": "Domina el vocabulario, los kanjis y la gramática con nuestras tarjetas inteligentes y explicaciones de IA.",
+      "getApp": "Obtener la aplicación"
+    },
+    "creator": {
+      "title": "Unas palabras del creador",
+      "message": "El mensaje del creador se agregará aquí más tarde."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Sukuro. Todos los derechos reservados.",
+    "links": "Enlaces",
+    "social": "Redes sociales"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización: 27 de febrero de 2026",
+    "intro": {
+      "title": "1. Introducción",
+      "text": "Bienvenido a Sukuro. Nos tomamos su privacidad muy en serio. Esta política de privacidad explica cómo recopilamos, utilizamos, divulgamos y protegemos su información cuando utiliza nuestra aplicación móvil."
+    },
+    "data": {
+      "title": "2. Datos que recopilamos",
+      "text": "Recopilamos los siguientes tipos de datos para garantizar el correcto funcionamiento de la aplicación:",
+      "auth": "Información de la cuenta (Autenticación): Cuando inicia sesión con Google o Apple, recibimos su dirección de correo electrónico y un identificador de usuario único. Estos datos se gestionan a través de nuestro proveedor de autenticación, Supabase.",
+      "progress": "Datos de progreso: Almacenamos su progreso de aprendizaje (lecciones completadas, puntuaciones, vocabulario aprendido) en nuestra base de datos para sincronizar su experiencia en sus dispositivos.",
+      "technical": "Datos técnicos (Registros): La información técnica (tipo de dispositivo, versión del sistema operativo, informes de fallos) puede recopilarse automáticamente para ayudarnos a corregir errores y mejorar la aplicación."
+    },
+    "ai": {
+      "title": "3. Uso de Inteligencia Artificial (IA)",
+      "text": "Sukuro utiliza los servicios de Google Gemini (Google Generative AI) para generar contenido educativo, correcciones o frases de ejemplo.",
+      "point1": "Los datos de texto (por ejemplo, sus respuestas a un ejercicio) pueden enviarse a los servidores de Google para su procesamiento.",
+      "point2": "Estos datos no son utilizados por Google para entrenar sus modelos (de acuerdo con sus términos de uso de API estándar) y se utilizan solo para proporcionar la respuesta inmediata en la aplicación."
+    },
+    "sharing": {
+      "title": "4. Intercambio de datos con terceros",
+      "text": "Nunca vendemos sus datos personales. Compartimos datos solo con los siguientes proveedores de servicios que nos ayudan a operar la aplicación:",
+      "supabase": "Supabase: Para el alojamiento de la base de datos y la autenticación de usuarios.",
+      "google": "Google (Firebase/Cloud): Para la autenticación (Google Sign-In) y los servicios de IA (Gemini).",
+      "apple": "Apple: Para la autenticación (Sign in with Apple) en dispositivos iOS."
+    },
+    "security": {
+      "title": "5. Seguridad de los datos",
+      "text": "Implementamos medidas de seguridad adecuadas para proteger sus datos. Todas las comunicaciones entre la aplicación y nuestros servidores están encriptadas (HTTPS/SSL). El acceso a su cuenta está protegido por los protocolos de autenticación seguros de Google y Apple."
+    },
+    "retention": {
+      "title": "6. Retención y eliminación de datos",
+      "text1": "Conservamos sus datos mientras su cuenta esté activa.",
+      "text2": "De acuerdo con los requisitos de Google Play Store, tiene derecho a solicitar la eliminación completa de su cuenta y todos los datos asociados.",
+      "text3": "Para solicitar la eliminación de su cuenta, puede:",
+      "point1": "Usar la opción \"Eliminar mi cuenta\" en la configuración de la aplicación (si está disponible), o",
+      "point2": "Contactarnos directamente en la siguiente dirección: {email}."
+    },
+    "children": {
+      "title": "7. Niños",
+      "text": "Nuestra aplicación está destinada al aprendizaje de idiomas para un público general. No recopilamos a sabiendas datos personales de niños menores de 13 años sin el consentimiento verificable de los padres."
+    },
+    "contact": {
+      "title": "8. Contacto",
+      "text": "Si tiene alguna pregunta sobre esta política de privacidad, contáctenos en:",
+      "name": "Florian Budniewski",
+      "email": "Correo electrónico: {email}"
+    }
+  },
+  "support": {
+    "title": "Soporte",
+    "contact": {
+      "title": "Contáctenos",
+      "description": "¿Necesita ayuda con Sukuro? Póngase en contacto con nosotros.",
+      "text": "Si tiene alguna pregunta, problema o comentario, no dude en comunicarse con nosotros por correo electrónico:"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": {
+        "q": "¿Cómo elimino mi cuenta?",
+        "a": "Puede eliminar su cuenta directamente desde la configuración de la aplicación. Alternativamente, puede enviarnos un correo electrónico a la dirección anterior para solicitar la eliminación de la cuenta."
+      },
+      "q2": {
+        "q": "¿Cómo se utilizan mis datos?",
+        "a": "Solo recopilamos los datos necesarios para que la aplicación funcione, como su progreso de aprendizaje. Para obtener más detalles, lea nuestra Política de privacidad."
+      }
+    }
+  }
+}

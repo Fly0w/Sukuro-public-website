@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "privacy": "Chính sách bảo mật",
+    "support": "Hỗ trợ"
+  },
+  "landing": {
+    "hero": {
+      "title": "Học tiếng Nhật cùng Sukuro",
+      "subtitle": "Nắm vững từ vựng, kanji và ngữ pháp với thẻ ghi nhớ thông minh và giải thích bằng AI của chúng tôi.",
+      "getApp": "Tải ứng dụng"
+    },
+    "creator": {
+      "title": "Lời từ người sáng tạo",
+      "message": "Tin nhắn từ người sáng tạo sẽ được thêm vào đây sau."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Sukuro. Đã đăng ký Bản quyền.",
+    "links": "Liên kết",
+    "social": "Mạng xã hội"
+  },
+  "privacy": {
+    "title": "Chính sách bảo mật",
+    "lastUpdated": "Cập nhật lần cuối: 27 tháng 2 năm 2026",
+    "intro": {
+      "title": "1. Giới thiệu",
+      "text": "Chào mừng đến với Sukuro. Chúng tôi rất coi trọng quyền riêng tư của bạn. Chính sách bảo mật này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn sử dụng ứng dụng di động của chúng tôi."
+    },
+    "data": {
+      "title": "2. Dữ liệu chúng tôi thu thập",
+      "text": "Chúng tôi thu thập các loại dữ liệu sau để đảm bảo ứng dụng hoạt động bình thường:",
+      "auth": "Thông vị tài khoản (Xác thực): Khi bạn đăng nhập bằng Google hoặc Apple, chúng tôi nhận được địa chỉ email và số nhận dạng người dùng duy nhất của bạn. Dữ liệu này được quản lý thông qua nhà cung cấp dịch vụ xác thực của chúng tôi, Supabase.",
+      "progress": "Dữ liệu tiến độ: Chúng tôi lưu trữ tiến độ học tập của bạn (bài học đã hoàn thành, điểm số, từ vựng đã học) trong cơ sở dữ liệu của chúng tôi để đồng bộ hóa trải nghiệm của bạn trên các thiết bị.",
+      "technical": "Dữ liệu kỹ thuật (Nhật ký): Thông tin kỹ thuật (loại thiết bị, phiên bản hệ điều hành, báo cáo sự cố) có thể được thu thập tự động để giúp chúng tôi sửa lỗi và cải thiện ứng dụng."
+    },
+    "ai": {
+      "title": "3. Việc sử dụng Trí tuệ nhân tạo (AI)",
+      "text": "Sukuro sử dụng dịch vụ Google Gemini (Google Generative AI) để tạo nội dung giáo dục, chỉnh sửa hoặc câu ví dụ.",
+      "point1": "Dữ liệu văn bản (ví dụ: câu trả lời của bạn cho một bài tập) có thể được gửi đến máy chủ của Google để xử lý.",
+      "point2": "Google không sử dụng dữ liệu này để đào tạo mô hình của họ (theo điều khoản sử dụng API tiêu chuẩn của họ) và chỉ được sử dụng để cung cấp phản hồi ngay lập tức trong ứng dụng."
+    },
+    "sharing": {
+      "title": "4. Chia sẻ dữ liệu với bên thứ ba",
+      "text": "Chúng tôi không bao giờ bán dữ liệu cá nhân của bạn. Chúng tôi chỉ chia sẻ dữ liệu với các nhà cung cấp dịch vụ sau đây, những người giúp chúng tôi vận hành ứng dụng:",
+      "supabase": "Supabase: Dành cho lưu trữ cơ sở dữ liệu và xác thực người dùng.",
+      "google": "Google (Firebase/Cloud): Dành cho xác thực (Google Sign-In) và các dịch vụ AI (Gemini).",
+      "apple": "Apple: Dành cho xác thực (Đăng nhập bằng Apple) trên thiết bị iOS."
+    },
+    "security": {
+      "title": "5. Bảo mật dữ liệu",
+      "text": "Chúng tôi thực hiện các biện pháp bảo mật thích hợp để bảo vệ dữ liệu của bạn. Mọi thông tin liên lạc giữa ứng dụng và máy chủ của chúng tôi đều được mã hóa (HTTPS/SSL). Quyền truy cập vào tài khoản của bạn được bảo vệ bởi các giao thức xác thực an toàn của Google và Apple."
+    },
+    "retention": {
+      "title": "6. Lưu giữ và xóa dữ liệu",
+      "text1": "Chúng tôi lưu giữ dữ liệu của bạn miễn là tài khoản của bạn đang hoạt động.",
+      "text2": "Phù hợp với yêu cầu của Cửa hàng Google Play, bạn có quyền yêu cầu xóa hoàn toàn tài khoản của mình và tất cả dữ liệu liên quan.",
+      "text3": "Để yêu cầu xóa tài khoản của bạn, bạn có thể:",
+      "point1": "Sử dụng tùy chọn \"Xóa tài khoản của tôi\" trong cài đặt ứng dụng (nếu có), hoặc",
+      "point2": "Liên hệ trực tiếp với chúng tôi theo địa chỉ sau: {email}."
+    },
+    "children": {
+      "title": "7. Trẻ em",
+      "text": "Ứng dụng của chúng tôi dành cho việc học ngôn ngữ cho đối tượng chung. Chúng tôi không cố ý thu thập dữ liệu cá nhân từ trẻ em dưới 13 tuổi mà không có sự đồng ý của cha mẹ có thể xác minh được."
+    },
+    "contact": {
+      "title": "8. Liên hệ",
+      "text": "Nếu bạn có bất kỳ câu hỏi nào về chính sách bảo mật này, vui lòng liên hệ với chúng tôi tại:",
+      "name": "Florian Budniewski",
+      "email": "Email: {email}"
+    }
+  },
+  "support": {
+    "title": "Hỗ trợ",
+    "contact": {
+      "title": "Liên hệ với chúng tôi",
+      "description": "Cần giúp đỡ với Sukuro? Hãy liên lạc với chúng tôi.",
+      "text": "Nếu bạn có bất kỳ câu hỏi, vấn đề hoặc phản hồi nào, vui lòng liên hệ với chúng tôi qua email:"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "q1": {
+        "q": "Làm thế nào để tôi xóa tài khoản của mình?",
+        "a": "Bạn có thể xóa tài khoản của mình trực tiếp từ cài đặt ứng dụng. Hoặc bạn có thể gửi email cho chúng tôi theo địa chỉ trên để yêu cầu xóa tài khoản."
+      },
+      "q2": {
+        "q": "Dữ liệu của tôi được sử dụng như thế nào?",
+        "a": "Chúng tôi chỉ thu thập dữ liệu cần thiết để ứng dụng hoạt động, chẳng hạn như tiến độ học tập của bạn. Để biết thêm chi tiết, vui lòng đọc Chính sách bảo mật của chúng tôi."
+      }
+    }
+  }
+}

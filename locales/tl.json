@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Home",
+    "privacy": "Patakaran sa Pagkapribado",
+    "support": "Suporta"
+  },
+  "landing": {
+    "hero": {
+      "title": "Matuto ng Japanese kasama ang Sukuro",
+      "subtitle": "Kabisaduhin ang bokabularyo, kanji, at gramatika gamit ang aming matalinong flashcards at AI explanations.",
+      "getApp": "Kunin ang app"
+    },
+    "creator": {
+      "title": "Mensahe mula sa lumikha",
+      "message": "Ang mensahe mula sa lumikha ay idaragdag dito sa ibang pagkakataon."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Sukuro. Nakalaan ang lahat ng karapatan.",
+    "links": "Mga Link",
+    "social": "Social"
+  },
+  "privacy": {
+    "title": "Patakaran sa Pagkapribado",
+    "lastUpdated": "Huling na-update: Pebrero 27, 2026",
+    "intro": {
+      "title": "1. Panimula",
+      "text": "Maligayang pagdating sa Sukuro. Sineseryoso namin ang iyong pagkapribado. Ipinapaliwanag ng patakaran sa pagkapribado na ito kung paano namin kinokolekta, ginagamit, ibinubunyag, at pinoprotektahan ang iyong impormasyon kapag ginamit mo ang aming mobile application."
+    },
+    "data": {
+      "title": "2. Data na aming kinokolekta",
+      "text": "Kinokolekta namin ang mga sumusunod na uri ng data upang matiyak ang maayos na paggana ng app:",
+      "auth": "Impormasyon ng account (Pagpapatotoo): Kapag nag-sign in ka sa Google o Apple, natatanggap namin ang iyong email address at isang natatanging user identifier. Ang data na ito ay pinamamahalaan sa pamamagitan ng aming authentication provider, ang Supabase.",
+      "progress": "Data ng pag-unlad: Iniimbak namin ang iyong pag-unlad sa pag-aaral (mga natapos na aralin, marka, natutunang bokabularyo) sa aming database upang i-synchronize ang iyong karanasan sa lahat ng iyong device.",
+      "technical": "Teknikal na data (Mga Log): Ang teknikal na impormasyon (uri ng device, bersyon ng operating system, mga ulat ng pag-crash) ay maaaring awtomatikong makolekta upang matulungan kaming mag-ayos ng mga bug at mapabuti ang app."
+    },
+    "ai": {
+      "title": "3. Paggamit ng Artificial Intelligence (AI)",
+      "text": "Gumagamit ang Sukuro ng mga serbisyo ng Google Gemini (Google Generative AI) upang makabuo ng nilalamang pang-edukasyon, pagwawasto, o mga halimbawang pangungusap.",
+      "point1": "Ang text data (hal. ang iyong mga sagot sa isang ehersisyo) ay maaaring ipadala sa mga server ng Google upang iproseso.",
+      "point2": "Ang data na ito ay hindi ginagamit ng Google upang sanayin ang kanilang mga modelo (ayon sa kanilang karaniwang mga tuntunin ng paggamit ng API) at ginagamit lamang upang ibigay ang agarang tugon sa app."
+    },
+    "sharing": {
+      "title": "4. Pagbabahagi ng data sa mga third party",
+      "text": "Hindi namin kailanman ibebenta ang iyong personal na data. Nagbabahagi lamang kami ng data sa mga sumusunod na service provider na tumutulong sa amin na patakbuhin ang app:",
+      "supabase": "Supabase: Para sa database hosting at pagpapatotoo ng user.",
+      "google": "Google (Firebase/Cloud): Para sa pagpapatotoo (Google Sign-In) at mga serbisyo ng AI (Gemini).",
+      "apple": "Apple: Para sa pagpapatotoo (Sign in with Apple) sa mga iOS device."
+    },
+    "security": {
+      "title": "5. Seguridad ng data",
+      "text": "Nagpapatupad kami ng mga naaangkop na hakbang sa seguridad upang protektahan ang iyong data. Ang lahat ng komunikasyon sa pagitan ng app at ng aming mga server ay naka-encrypt (HTTPS/SSL). Ang pag-access sa iyong account ay protektado ng mga secure na authentication protocol ng Google at Apple."
+    },
+    "retention": {
+      "title": "6. Pagpapanatili at pagtanggal ng data",
+      "text1": "Pinapanatili namin ang iyong data hangga't aktibo ang iyong account.",
+      "text2": "Alinsunod sa mga kinakailangan ng Google Play Store, may karapatan kang hilingin ang buong pagtanggal ng iyong account at lahat ng nauugnay na data.",
+      "text3": "Upang humiling na tanggalin ang iyong account, maaari mong:",
+      "point1": "Gamitin ang opsyong \"Tanggalin ang aking account\" sa mga setting ng app (kung available), o",
+      "point2": "Direktang makipag-ugnayan sa amin sa sumusunod na address: {email}."
+    },
+    "children": {
+      "title": "7. Mga Bata",
+      "text": "Ang aming app ay inilaan para sa pag-aaral ng wika para sa pangkalahatang madla. Hindi namin sadyang kinokolekta ang personal na data mula sa mga batang wala pang 13 taong gulang nang walang mabe-verify na pahintulot ng magulang."
+    },
+    "contact": {
+      "title": "8. Makipag-ugnayan",
+      "text": "Kung mayroon kang anumang mga katanungan tungkol sa patakaran sa pagkapribado na ito, mangyaring makipag-ugnayan sa amin sa:",
+      "name": "Florian Budniewski",
+      "email": "Email: {email}"
+    }
+  },
+  "support": {
+    "title": "Suporta",
+    "contact": {
+      "title": "Makipag-ugnayan sa Amin",
+      "description": "Kailangan ng tulong sa Sukuro? Makipag-ugnayan sa amin.",
+      "text": "Kung mayroon kang anumang mga katanungan, isyu, o feedback, mangyaring huwag mag-atubiling makipag-ugnayan sa amin sa pamamagitan ng email:"
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong (FAQ)",
+      "q1": {
+        "q": "Paano ko tatanggalin ang aking account?",
+        "a": "Maaari mong tanggalin ang iyong account nang direkta mula sa mga setting ng app. Bilang kahalili, maaari kang mag-email sa amin sa address sa itaas upang humiling ng pagtanggal ng account."
+      },
+      "q2": {
+        "q": "Paano ginagamit ang aking data?",
+        "a": "Kinokolekta lamang namin ang data na kinakailangan para gumana ang app, tulad ng pag-unlad mo sa pag-aaral. Para sa higit pang mga detalye, mangyaring basahin ang aming Patakaran sa Pagkapribado."
+      }
+    }
+  }
+}
