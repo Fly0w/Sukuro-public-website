@@ -1,4 +1,4 @@
-{
+﻿{
   "nav": {
     "home": "Heim",
     "about": "Um",
@@ -13,7 +13,8 @@
     },
     "creator": {
       "title": "Ein Wort vom Schöpfer",
-      "message": "Die Nachricht des Erstellers wird später hier hinzugefügt."
+      "role": "Entwickler von Sukuro",
+      "message": "Japanisch ist eine Sprache voller Nuancen und oft schwer zu meistern, wenn man nicht in Japan aufgewachsen ist. Zwischen komplexer Grammatik und Kanji mit mehreren Lesungen ist Frustration schnell da.\n\nSukuro verändert das Spiel. Dank seiner KI entschlüsselt die App stark kontextabhängige Begriffe und macht dein Lernen einfacher.\n\nEine Zugfahrt? Eine Kaffeepause? Verwandle jede freie Minute mit unseren intelligenten Flashcards in Fortschritt."
     }
   },
   "about": {
@@ -410,7 +411,9 @@
       "s3Body": "In der japanischen Kommunikation wird ein direktes „Nein“ oft vermieden, um die soziale Harmonie (和, wa) zu wahren. 曖昧な言い方 – eine mehrdeutige Ausdrucksweise – ist daher in höflichen oder beruflichen Kontexten sehr verbreitet. Das Erlernen des Lesens dieser subtilen, indirekten Signale ist der Schlüssel zum wirklichen Verständnis des echten Japanisch.",
       "ex1Trans": "Er gab eine vage Antwort.",
       "ex2Trans": "Diese Regel ist nicht eindeutig.",
-      "ex3Trans": "Sie lächelte zweideutig."
+      "ex3Trans": "Sie lächelte zweideutig.",
+      "reset": "Erneut versuchen",
+      "examplesLabel": "Beispiele"
     },
     "cta": {
       "eyebrow": "Fangen Sie an",

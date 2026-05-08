@@ -1,4 +1,4 @@
-{
+﻿{
   "nav": {
     "home": "Trang chủ",
     "about": "Giới thiệu",
@@ -13,7 +13,8 @@
     },
     "creator": {
       "title": "Lời từ người sáng tạo",
-      "message": "Tin nhắn từ người sáng tạo sẽ được thêm vào đây sau."
+      "role": "Người tạo ra Sukuro",
+      "message": "Tiếng Nhật là một ngôn ngữ giàu sắc thái và thường khó thành thạo nếu bạn không lớn lên ở Nhật Bản. Giữa ngữ pháp phức tạp và kanji có nhiều cách đọc, cảm giác nản lòng đến rất nhanh.\n\nSukuro thay đổi điều đó. Nhờ AI, ứng dụng giúp bạn giải nghĩa những từ ngữ phụ thuộc mạnh vào ngữ cảnh và đơn giản hóa quá trình học.\n\nMột chuyến tàu? Một giờ nghỉ cà phê? Hãy biến mọi khoảng thời gian trống thành tiến bộ với các flashcard thông minh của chúng tôi."
     }
   },
   "footer": {
@@ -186,7 +187,9 @@
       "s3Body": "Trong giao tiếp tiếng Nhật, việc nói “không” quá trực tiếp thường được giảm nhẹ để giữ hòa khí. Vì vậy, cách nói mơ hồ có thể mang chức năng lịch sự, nhất là trong môi trường công việc hoặc quan hệ xã hội nhạy cảm. Hiểu được sắc thái này sẽ giúp bạn nắm ngôn ngữ thực tế tốt hơn.",
       "ex1Trans": "Anh ấy đưa ra một câu trả lời mơ hồ.",
       "ex2Trans": "Quy định đó khá mơ hồ.",
-      "ex3Trans": "Cô ấy mỉm cười đầy ẩn ý."
+      "ex3Trans": "Cô ấy mỉm cười đầy ẩn ý.",
+      "reset": "Thử lại",
+      "examplesLabel": "Ví dụ"
     },
     "cta": {
       "eyebrow": "Bắt đầu",

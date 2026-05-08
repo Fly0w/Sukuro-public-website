@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { t } = useI18n()
-const SUPPORT_EMAIL = 'florian.budniewski@hotmail.com'
+const { data: contact } = await useFetch('/api/contact-email')
+const supportEmail = computed(() => contact.value?.email || '')
 
 useSeoMeta({
   title: t('nav.privacy'),
@@ -89,11 +90,11 @@ useSeoMeta({
           <div class="pt-1">
             <p class="text-sm font-semibold text-foreground">{{ t('privacy.contact.name') }}</p>
             <a
-              :href="`mailto:${SUPPORT_EMAIL}`"
+              :href="`mailto:${supportEmail}`"
               class="inline-flex items-center gap-1.5 text-sm text-primary hover:underline underline-offset-4 transition-colors duration-150 mt-1"
             >
               <Icon name="lucide:mail" class="w-3.5 h-3.5" />
-              {{ SUPPORT_EMAIL }}
+              {{ supportEmail }}
             </a>
           </div>
         </div>

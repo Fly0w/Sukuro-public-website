@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const { data: contact } = await useFetch('/api/contact-email')
+const supportEmail = computed(() => contact.value?.email || '')
 
 useSeoMeta({
   title: t('nav.support'),
@@ -20,11 +22,11 @@ useSeoMeta({
         <CardContent>
           <p class="mb-4 text-muted-foreground leading-relaxed">{{ t('support.contact.text') }}</p>
           <a
-            href="mailto:florian.budniewski@hotmail.com"
+            :href="`mailto:${supportEmail}`"
             class="inline-flex items-center gap-1.5 text-primary font-medium hover:underline underline-offset-4 transition-colors duration-150"
           >
             <Icon name="lucide:mail" class="w-4 h-4" />
-            florian.budniewski@hotmail.com
+            {{ supportEmail }}
           </a>
         </CardContent>
       </Card>

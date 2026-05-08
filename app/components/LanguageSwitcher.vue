@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-
 const { locale, locales, setLocale } = useI18n()
 
 const availableLocales = computed(() => {
@@ -17,7 +15,7 @@ const currentLocaleName = computed(() => {
 </script>
 
 <template>
-  <DropdownMenu>
+  <DropdownMenu :modal="false">
     <DropdownMenuTrigger asChild>
       <Button variant="outline" size="sm" class="flex items-center gap-2">
         <Icon name="lucide:globe" class="w-4 h-4" />

@@ -1,4 +1,4 @@
-{
+﻿{
   "nav": {
     "home": "Home",
     "about": "Tungkol Sa",
@@ -13,7 +13,8 @@
     },
     "creator": {
       "title": "Mensahe mula sa lumikha",
-      "message": "Ang mensahe mula sa lumikha ay idaragdag dito sa ibang pagkakataon."
+      "role": "Tagalikha ng Sukuro",
+      "message": "Ang Japanese ay isang wikang puno ng mga nuance at kadalasang mahirap paghusayan kung hindi ka lumaki sa Japan. Sa pagitan ng komplikadong grammar at mga kanji na may maraming pagbasa, mabilis dumating ang frustration.\n\nBinabago iyon ng Sukuro. Sa tulong ng AI nito, inuunawa ng app ang mga terminong nakadepende sa konteksto at pinapasimple ang iyong pag-aaral.\n\nBiyahe sa tren? Coffee break? Gawing progreso ang bawat bakanteng sandali gamit ang aming smart flashcards."
     }
   },
   "footer": {
@@ -186,7 +187,9 @@
       "s3Body": "Sa komunikasyong Hapones, kadalasang iniiwasan ang direktang “hindi” upang mapanatili ang maayos na ugnayan. Dahil dito, ang malabong paraan ng pagsasalita ay maaaring tanda ng paggalang at konsiderasyon, lalo na sa pormal o propesyonal na sitwasyon. Kapag naunawaan mo ito, mas maiintindihan mo ang tunay na daloy ng usapan sa Japanese.",
       "ex1Trans": "Nagbigay siya ng malabong sagot.",
       "ex2Trans": "Malabo ang patakarang iyon.",
-      "ex3Trans": "Ngumiti siya nang may kalabuan."
+      "ex3Trans": "Ngumiti siya nang may kalabuan.",
+      "reset": "Subukan muli",
+      "examplesLabel": "Mga halimbawa"
     },
     "cta": {
       "eyebrow": "Magsimula",

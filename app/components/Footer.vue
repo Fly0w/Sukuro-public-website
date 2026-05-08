@@ -51,11 +51,6 @@ const appConfig = useAppConfig()
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/about')" class="text-sm text-muted-foreground hover:text-primary transition-colors duration-150 hover:translate-x-0.5 inline-block transition-transform">
-                {{ t('nav.about') }}
-              </NuxtLink>
-            </li>
-            <li>
               <NuxtLink :to="localePath('/privacy-policy')" class="text-sm text-muted-foreground hover:text-primary transition-colors duration-150 hover:translate-x-0.5 inline-block transition-transform">
                 {{ t('nav.privacy') }}
               </NuxtLink>

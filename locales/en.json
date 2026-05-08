@@ -1,4 +1,4 @@
-{
+﻿{
   "nav": {
     "home": "Home",
     "about": "About",
@@ -13,7 +13,8 @@
     },
     "creator": {
       "title": "A word from the creator",
-      "message": "Message from the creator will be added here later."
+      "role": "Creator of Sukuro",
+      "message": "Japanese is a language of nuance, often difficult to master unless you grew up in Japan. Between complex grammar and kanji with multiple readings, frustration can come quickly.\n\nSukuro changes the game. Thanks to its AI, the app deciphers highly contextual terms and makes your learning path clearer and simpler.\n\nOn a train ride? Coffee break? Turn every spare moment into progress with our smart flashcards."
     }
   },
   "about": {
@@ -290,7 +291,9 @@
       "s3Body": "In Japanese communication, a direct \"no\" is often avoided to preserve social harmony (和, wa). 曖昧な言い方 — an ambiguous way of speaking — is therefore very common in polite or professional contexts. Learning to read these subtle, indirect signals is key to truly understanding real Japanese.",
       "ex1Trans": "He gave a vague answer.",
       "ex2Trans": "That rule is ambiguous.",
-      "ex3Trans": "She smiled ambiguously."
+      "ex3Trans": "She smiled ambiguously.",
+      "reset": "Try again",
+      "examplesLabel": "Examples"
     },
     "cta": {
       "eyebrow": "Get started",

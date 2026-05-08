@@ -25,12 +25,6 @@ const mobileMenuOpen = ref(false)
             {{ t('nav.home') }}
           </NuxtLink>
           <NuxtLink
-            :to="localePath('/about')"
-            class="nav-link-animated flex items-center text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-          >
-            {{ t('nav.about') }}
-          </NuxtLink>
-          <NuxtLink
             :to="localePath('/privacy-policy')"
             class="nav-link-animated flex items-center text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
           >
@@ -69,14 +63,6 @@ const mobileMenuOpen = ref(false)
               >
                 <Icon name="lucide:house" class="w-5 h-5 shrink-0" />
                 {{ t('nav.home') }}
-              </NuxtLink>
-              <NuxtLink
-                :to="localePath('/about')"
-                class="flex items-center gap-3 rounded-lg px-3 py-3 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-accent transition-colors duration-150"
-                @click="mobileMenuOpen = false"
-              >
-                <Icon name="lucide:info" class="w-5 h-5 shrink-0" />
-                {{ t('nav.about') }}
               </NuxtLink>
               <NuxtLink
                 :to="localePath('/privacy-policy')"

@@ -2,6 +2,9 @@
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
+  runtimeConfig: {
+    contactEmail: '',
+  },
   modules: [
     '@nuxt/icon',
     '@nuxt/fonts',
@@ -75,9 +78,15 @@ export default defineNuxtConfig({
     ],
     baseUrl: 'https://sukuro-app.com',
     defaultLocale: 'en',
-    strategy: 'prefix_except_default',
+    strategy: 'no_prefix',
     restructureDir: '',
     langDir: 'locales',
-    detectBrowserLanguage: false,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'sukuro_locale',
+      alwaysRedirect: false,
+      fallbackLocale: 'en',
+    },
   },
+  
 })

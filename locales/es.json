@@ -1,4 +1,4 @@
-{
+﻿{
   "nav": {
     "home": "Inicio",
     "about": "Acerca de",
@@ -13,7 +13,8 @@
     },
     "creator": {
       "title": "Unas palabras del creador",
-      "message": "El mensaje del creador se agregará aquí más tarde."
+      "role": "Creador de Sukuro",
+      "message": "El japonés es un idioma lleno de matices y, a menudo, difícil de dominar si no has crecido en Japón. Entre una gramática compleja y kanjis con múltiples lecturas, la frustración aparece rápido.\n\nSukuro cambia las reglas del juego. Gracias a su IA, la app descifra los términos más contextuales y simplifica tu aprendizaje.\n\n¿Un trayecto en tren? ¿Una pausa para el café? Convierte cada momento libre en progreso con nuestras flashcards inteligentes."
     }
   },
   "footer": {
@@ -186,7 +187,9 @@
       "s3Body": "En la comunicación japonesa, un “no” directo suele evitarse para mantener la armonía social. Por eso, las formulaciones ambiguas pueden funcionar como estrategia de cortesía, especialmente en contextos formales o profesionales. Comprender este matiz ayuda a interpretar mejor conversaciones reales, más allá de la traducción literal.",
       "ex1Trans": "Él dio una respuesta ambigua.",
       "ex2Trans": "Esa norma es ambigua.",
-      "ex3Trans": "Ella sonrió de forma ambigua."
+      "ex3Trans": "Ella sonrió de forma ambigua.",
+      "reset": "Intentar de nuevo",
+      "examplesLabel": "Ejemplos"
     },
     "cta": {
       "eyebrow": "Empezar",

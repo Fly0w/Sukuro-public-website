@@ -1,4 +1,4 @@
-{
+﻿{
   "nav": {
     "home": "Accueil",
     "about": "À propos",
@@ -13,7 +13,8 @@
     },
     "creator": {
       "title": "Un mot du créateur",
-      "message": "Le message du créateur sera ajouté ici plus tard."
+      "role": "Créateur de Sukuro",
+      "message": "Le japonais est une langue de nuances, souvent difficile à maîtriser sans être né sur l’archipel. Entre la grammaire complexe et les kanjis aux multiples lectures, la frustration est vite arrivée.\n\nSukuro change la donne. Grâce à son IA, l'application décrypte pour vous les termes les plus contextuels et simplifie votre apprentissage.\n\nUn trajet en train ? Une pause café ? Transformez chaque temps mort en progrès avec nos flashcards intelligentes."
     }
   },
   "about": {
@@ -410,7 +411,9 @@
       "s3Body": "En japonais, dire directement « non » est souvent évité pour préserver l'harmonie sociale (和, wa). 曖昧な言い方 — une façon de parler ambiguë — est donc très répandue dans les contextes polis ou professionnels. Apprendre à décrypter ces signaux indirects et subtils est essentiel pour vraiment comprendre le japonais parlé.",
       "ex1Trans": "Il a donné une réponse vague.",
       "ex2Trans": "Cette règle est ambiguë.",
-      "ex3Trans": "Elle a souri de façon ambiguë."
+      "ex3Trans": "Elle a souri de façon ambiguë.",
+      "reset": "Réessayer",
+      "examplesLabel": "Exemples"
     },
     "cta": {
       "eyebrow": "Commencer",
