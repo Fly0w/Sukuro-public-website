@@ -173,7 +173,20 @@
       "waExplanation": "marca el tema de la frase.",
       "gaExplanation": "marca el sujeto, quien realiza la acción.",
       "example1Note": "El gato come pescado. (tema: gato)",
-      "example2Note": "El gato llegó. (sujeto: gato)"
+      "example2Note": "El gato llegó. (sujeto: gato)",
+      "wordMeaning": "Vago, ambiguo",
+      "askAi": "Preguntar a la IA",
+      "analyzing": "Analizando...",
+      "resultHeader": "Sukuro IA · Explicación",
+      "s1Title": "Significado",
+      "s1Body": "曖昧 (aimai) describe algo vago, ambiguo o poco definido. Puede referirse a una respuesta, una actitud, una norma o una situación en la que faltan límites claros. El kanji 曖 aporta una idea de opacidad o algo velado, y 昧 refuerza la noción de falta de claridad; juntos expresan una ambigüedad que puede ser intencional o involuntaria.",
+      "s2Title": "Uso",
+      "s2Body": "曖昧 es un adjetivo na. Por eso, con sustantivos se usa como 曖昧な + sustantivo, y en función adverbial como 曖昧に + verbo. Es muy común en expresiones como 曖昧な返事 (respuesta ambigua), 曖昧な態度 (actitud poco definida) o 曖昧に答える (responder de forma ambigua). Se usa mucho cuando no se quiere sonar demasiado tajante.",
+      "s3Title": "Nota cultural",
+      "s3Body": "En la comunicación japonesa, un “no” directo suele evitarse para mantener la armonía social. Por eso, las formulaciones ambiguas pueden funcionar como estrategia de cortesía, especialmente en contextos formales o profesionales. Comprender este matiz ayuda a interpretar mejor conversaciones reales, más allá de la traducción literal.",
+      "ex1Trans": "Él dio una respuesta ambigua.",
+      "ex2Trans": "Esa norma es ambigua.",
+      "ex3Trans": "Ella sonrió de forma ambigua."
     },
     "cta": {
       "eyebrow": "Empezar",
@@ -182,48 +195,48 @@
     },
     "kana": {
       "eyebrow": "Kana",
-      "title": "Learn hiragana and katakana",
-      "description": "Sukuro also helps you build a strong reading foundation with both Japanese syllabaries.",
+      "title": "Aprende hiragana y katakana",
+      "description": "Sukuro también te ayuda a construir una base sólida de lectura con los dos silabarios japoneses.",
       "hiragana": {
         "title": "Hiragana",
-        "description": "Used for native Japanese words and grammar endings."
+        "description": "Se usa para palabras japonesas nativas y terminaciones gramaticales."
       },
       "katakana": {
         "title": "Katakana",
-        "description": "Used mainly for foreign words, names, and emphasis."
+        "description": "Se usa sobre todo para palabras extranjeras, nombres y énfasis."
       }
     },
     "jlpt": {
       "eyebrow": "JLPT",
-      "title": "Choose your favorite JLPT level",
-      "description": "You can focus your learning on the JLPT level that matches your objective, from beginner to advanced.",
-      "selectLabel": "Select your preferred level:",
-      "favoriteLabel": "Selected level",
+      "title": "Elige tu nivel JLPT favorito",
+      "description": "Puedes centrar tu aprendizaje en el nivel JLPT que mejor se adapte a tu objetivo, desde principiante hasta avanzado.",
+      "selectLabel": "Selecciona tu nivel preferido:",
+      "favoriteLabel": "Nivel seleccionado",
       "levels": {
         "n5": {
-          "label": "Beginner",
-          "focus": "Foundation of everyday Japanese",
-          "description": "Focuses on basic vocabulary, essential kanji, and simple sentence patterns for daily conversation."
+          "label": "Principiante",
+          "focus": "Base del japonés cotidiano",
+          "description": "Se centra en vocabulario básico, kanji esenciales y patrones de frases simples para la conversación diaria."
         },
         "n4": {
-          "label": "Elementary",
-          "focus": "Expand practical communication",
-          "description": "Introduces more grammar and vocabulary to understand common situations and short passages."
+          "label": "Elemental",
+          "focus": "Ampliar la comunicación práctica",
+          "description": "Introduce más gramática y vocabulario para comprender situaciones comunes y textos breves."
         },
         "n3": {
-          "label": "Intermediate",
-          "focus": "Bridge to real-world fluency",
-          "description": "Covers more nuanced grammar and broader vocabulary used in real conversations and media."
+          "label": "Intermedio",
+          "focus": "Puente hacia una fluidez real",
+          "description": "Cubre gramática más matizada y vocabulario más amplio usado en conversaciones reales y medios."
         },
         "n2": {
-          "label": "Upper-intermediate",
-          "focus": "High comprehension and precision",
-          "description": "Targets advanced reading/listening comprehension for news, formal contexts, and complex topics."
+          "label": "Intermedio alto",
+          "focus": "Alta comprensión y precisión",
+          "description": "Apunta a una comprensión avanzada de lectura/escucha para noticias, contextos formales y temas complejos."
         },
         "n1": {
-          "label": "Advanced",
-          "focus": "Near-native understanding",
-          "description": "Emphasizes subtle grammar, abstract topics, and high-level comprehension close to native usage."
+          "label": "Avanzado",
+          "focus": "Comprensión casi nativa",
+          "description": "Enfatiza gramática sutil, temas abstractos y comprensión de alto nivel cercana al uso nativo."
         }
       }
     },
@@ -231,241 +244,241 @@
       "vocab": {
         "n5": {
           "w1": {
-            "meaning": "Water",
-            "exampleMeaning": "to drink water"
+            "meaning": "Agua",
+            "exampleMeaning": "beber agua"
           },
           "w2": {
-            "meaning": "To eat",
-            "exampleMeaning": "to eat breakfast"
+            "meaning": "Comer",
+            "exampleMeaning": "desayunar"
           },
           "w3": {
-            "meaning": "School",
-            "exampleMeaning": "to go to school"
+            "meaning": "Escuela",
+            "exampleMeaning": "ir a la escuela"
           },
           "w4": {
-            "meaning": "Friend",
-            "exampleMeaning": "to play with a friend"
+            "meaning": "Amigo",
+            "exampleMeaning": "jugar con un amigo"
           }
         },
         "n4": {
           "w1": {
-            "meaning": "Promise",
-            "exampleMeaning": "to keep a promise"
+            "meaning": "Promesa",
+            "exampleMeaning": "cumplir una promesa"
           },
           "w2": {
-            "meaning": "Experience",
-            "exampleMeaning": "to gain experience abroad"
+            "meaning": "Experiencia",
+            "exampleMeaning": "ganar experiencia en el extranjero"
           },
           "w3": {
-            "meaning": "Review",
-            "exampleMeaning": "to review every day"
+            "meaning": "Repaso",
+            "exampleMeaning": "repasar cada día"
           },
           "w4": {
-            "meaning": "Hobby",
-            "exampleMeaning": "my hobby is photography"
+            "meaning": "Pasatiempo",
+            "exampleMeaning": "mi pasatiempo es la fotografía"
           }
         },
         "n3": {
           "w1": {
-            "meaning": "Environment",
-            "exampleMeaning": "to think about environmental issues"
+            "meaning": "Entorno",
+            "exampleMeaning": "pensar en problemas medioambientales"
           },
           "w2": {
-            "meaning": "Conclusion",
-            "exampleMeaning": "to state the conclusion first"
+            "meaning": "Conclusión",
+            "exampleMeaning": "decir primero la conclusión"
           },
           "w3": {
-            "meaning": "Realization",
-            "exampleMeaning": "to make a dream come true"
+            "meaning": "Realización",
+            "exampleMeaning": "hacer realidad un sueño"
           },
           "w4": {
-            "meaning": "Appropriate",
-            "exampleMeaning": "to choose an appropriate expression"
+            "meaning": "Adecuado",
+            "exampleMeaning": "elegir una expresión adecuada"
           }
         },
         "n2": {
           "w1": {
-            "meaning": "Challenge / Task",
-            "exampleMeaning": "to analyze a challenge"
+            "meaning": "Desafío / Tarea",
+            "exampleMeaning": "analizar un desafío"
           },
           "w2": {
-            "meaning": "Logic",
-            "exampleMeaning": "to explain logically"
+            "meaning": "Lógica",
+            "exampleMeaning": "explicar de forma lógica"
           },
           "w3": {
-            "meaning": "Phenomenon",
-            "exampleMeaning": "to study social phenomena"
+            "meaning": "Fenómeno",
+            "exampleMeaning": "estudiar fenómenos sociales"
           },
           "w4": {
-            "meaning": "Policy measure",
-            "exampleMeaning": "to introduce a new policy measure"
+            "meaning": "Medida política",
+            "exampleMeaning": "introducir una nueva medida política"
           }
         },
         "n1": {
           "w1": {
-            "meaning": "Spirit / Drive",
-            "exampleMeaning": "a speech full of determination"
+            "meaning": "Determinación / Ímpetu",
+            "exampleMeaning": "un discurso lleno de determinación"
           },
           "w2": {
-            "meaning": "Public awareness",
-            "exampleMeaning": "to thoroughly disseminate rules"
+            "meaning": "Difusión pública",
+            "exampleMeaning": "difundir las reglas de forma exhaustiva"
           },
           "w3": {
-            "meaning": "Valid / Reasonable",
-            "exampleMeaning": "to make a sound judgment"
+            "meaning": "Válido / Razonable",
+            "exampleMeaning": "tomar una decisión acertada"
           },
           "w4": {
-            "meaning": "Category / Scope",
-            "exampleMeaning": "to go beyond one’s area of expertise"
+            "meaning": "Categoría / Alcance",
+            "exampleMeaning": "ir más allá del ámbito de especialidad"
           }
         }
       },
       "kanji": {
         "n5": {
           "k1": {
-            "meaning": "Sun · Day"
+            "meaning": "Sol · Día"
           },
           "k2": {
-            "meaning": "Moon · Month"
+            "meaning": "Luna · Mes"
           },
           "k3": {
-            "meaning": "Mountain"
+            "meaning": "Montaña"
           },
           "k4": {
-            "meaning": "River"
+            "meaning": "Río"
           },
           "k5": {
-            "meaning": "Person"
+            "meaning": "Persona"
           }
         },
         "n4": {
           "k1": {
-            "meaning": "Pass · Commute"
+            "meaning": "Pasar · Desplazarse"
           },
           "k2": {
-            "meaning": "Business · Study"
+            "meaning": "Trabajo · Estudio"
           },
           "k3": {
-            "meaning": "Special"
+            "meaning": "Especial"
           },
           "k4": {
-            "meaning": "Explain"
+            "meaning": "Explicar"
           },
           "k5": {
-            "meaning": "Continue"
+            "meaning": "Continuar"
           }
         },
         "n3": {
           "k1": {
-            "meaning": "Accustom"
+            "meaning": "Acostumbrarse"
           },
           "k2": {
-            "meaning": "Condition"
+            "meaning": "Condición"
           },
           "k3": {
-            "meaning": "Present · Submit"
+            "meaning": "Presentar · Entregar"
           },
           "k4": {
-            "meaning": "Plan · Proposal"
+            "meaning": "Plan · Propuesta"
           },
           "k5": {
-            "meaning": "Operate"
+            "meaning": "Operar"
           }
         },
         "n2": {
           "k1": {
-            "meaning": "Theory · Argument"
+            "meaning": "Teoría · Argumento"
           },
           "k2": {
-            "meaning": "Responsibility"
+            "meaning": "Responsabilidad"
           },
           "k3": {
-            "meaning": "Measure · Guess"
+            "meaning": "Medir · Estimar"
           },
           "k4": {
-            "meaning": "Proof"
+            "meaning": "Prueba"
           },
           "k5": {
-            "meaning": "Guide"
+            "meaning": "Guiar"
           }
         },
         "n1": {
           "k1": {
-            "meaning": "Manifest"
+            "meaning": "Manifestar"
           },
           "k2": {
-            "meaning": "Consideration"
+            "meaning": "Consideración"
           },
           "k3": {
-            "meaning": "Follow"
+            "meaning": "Seguir"
           },
           "k4": {
-            "meaning": "Fine · Detailed"
+            "meaning": "Fino · Detallado"
           },
           "k5": {
-            "meaning": "Solid · Firm"
+            "meaning": "Sólido · Firme"
           }
         }
       },
       "grammar": {
         "n5": {
           "g1": {
-            "label": "Basic assertion",
-            "explanation": "States a fact or describes something in the simplest form.",
-            "translation": "This is a book."
+            "label": "Afirmación básica",
+            "explanation": "Enuncia un hecho o describe algo en su forma más simple.",
+            "translation": "Esto es un libro."
           },
           "g2": {
-            "label": "Expressing likes",
-            "explanation": "Used to express what you like.",
-            "translation": "I like Japanese."
+            "label": "Expresar gustos",
+            "explanation": "Se usa para expresar lo que te gusta.",
+            "translation": "Me gusta el japonés."
           }
         },
         "n4": {
           "g1": {
-            "label": "Obligation",
-            "explanation": "Expresses that something must be done.",
-            "translation": "I must practice kanji every day."
+            "label": "Obligación",
+            "explanation": "Expresa que algo debe hacerse.",
+            "translation": "Debo practicar kanji todos los días."
           },
           "g2": {
-            "label": "Opinion",
-            "explanation": "Expresses what the speaker thinks.",
-            "translation": "I think this grammar is important."
+            "label": "Opinión",
+            "explanation": "Expresa lo que piensa el hablante.",
+            "translation": "Creo que esta gramática es importante."
           }
         },
         "n3": {
           "g1": {
-            "label": "Purpose / Wish",
-            "explanation": "Indicates purpose or a desired outcome.",
-            "translation": "I practice so that I can speak Japanese."
+            "label": "Propósito / Deseo",
+            "explanation": "Indica un propósito o un resultado deseado.",
+            "translation": "Practico para poder hablar japonés."
           },
           "g2": {
-            "label": "Established rule",
-            "explanation": "Shows a rule, schedule, or arrangement already decided.",
-            "translation": "In class, we are supposed to use only Japanese."
+            "label": "Regla establecida",
+            "explanation": "Muestra una regla, un horario o un arreglo ya decidido.",
+            "translation": "En clase, se supone que debemos usar solo japonés."
           }
         },
         "n2": {
           "g1": {
-            "label": "No more than",
-            "explanation": "Emphasizes that something is merely / only.",
-            "translation": "This is nothing more than one example."
+            "label": "Nada más que",
+            "explanation": "Enfatiza que algo es solamente eso.",
+            "translation": "Esto no es más que un ejemplo."
           },
           "g2": {
-            "label": "Along with",
-            "explanation": "Indicates that one change accompanies another.",
-            "translation": "As your level improves, your vocabulary also grows."
+            "label": "Junto con",
+            "explanation": "Indica que un cambio acompaña a otro.",
+            "translation": "A medida que mejora tu nivel, también crece tu vocabulario."
           }
         },
         "n1": {
           "g1": {
-            "label": "Concerning / over",
-            "explanation": "Used for debates or issues surrounding a topic.",
-            "translation": "Debate continues over educational reform."
+            "label": "Con respecto a / sobre",
+            "explanation": "Se usa para debates o temas en torno a un asunto.",
+            "translation": "El debate sobre la reforma educativa continúa."
           },
           "g2": {
-            "label": "Cannot help but",
-            "explanation": "Expresses an irresistible feeling or reaction.",
-            "translation": "I cannot help but be surprised hearing this story."
+            "label": "No poder evitar",
+            "explanation": "Expresa una reacción o sentimiento irresistible.",
+            "translation": "No puedo evitar sorprenderme al oír esta historia."
           }
         }
       }

@@ -2,31 +2,63 @@
 const { t } = useI18n()
 const appConfig = useAppConfig()
 
+const SITE_URL = 'https://sukuro-app.com'
+
 useSeoMeta({
   title: t('nav.home'),
   description: t('landing.hero.subtitle')
 })
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "Sukuro",
-  "operatingSystem": "ANDROID, IOS",
-  "applicationCategory": "EducationalApplication",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+const jsonLdWebSite = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Sukuro',
+  url: SITE_URL,
+  description: 'Master Japanese vocabulary, kanji, and grammar with Sukuro.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${SITE_URL}/about`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+}
+
+const jsonLdApp = {
+  '@context': 'https://schema.org',
+  '@type': 'MobileApplication',
+  name: 'Sukuro',
+  url: SITE_URL,
+  description: 'Master Japanese vocabulary, kanji, and grammar with Sukuro.',
+  image: `${SITE_URL}/og-image.png`,
+  applicationCategory: 'EducationalApplication',
+  operatingSystem: 'ANDROID, IOS',
+  inLanguage: ['en', 'ja', 'zh', 'es', 'fr', 'vi', 'tl', 'ko', 'ru'],
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD',
+  },
+  downloadUrl: [
+    appConfig.sukuro.links.googlePlay,
+  ],
+  publisher: {
+    '@type': 'Organization',
+    name: 'Sukuro',
+    url: SITE_URL,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_URL}/favicon.png`,
+    },
+  },
 }
 
 useHead({
   script: [
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify(jsonLd)
-    }
-  ]
+    { type: 'application/ld+json', innerHTML: JSON.stringify(jsonLdWebSite) },
+    { type: 'application/ld+json', innerHTML: JSON.stringify(jsonLdApp) },
+  ],
 })
 </script>
 

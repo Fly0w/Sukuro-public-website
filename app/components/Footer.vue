@@ -43,7 +43,7 @@ const appConfig = useAppConfig()
 
         <!-- Liens -->
         <div>
-          <h3 class="font-semibold mb-3 text-xs uppercase tracking-widest text-foreground/60">{{ t('footer.links') }}</h3>
+          <p class="font-semibold mb-3 text-xs uppercase tracking-widest text-foreground">{{ t('footer.links') }}</p>
           <ul class="space-y-2.5">
             <li>
               <NuxtLink :to="localePath('/')" class="text-sm text-muted-foreground hover:text-primary transition-colors duration-150 hover:translate-x-0.5 inline-block transition-transform">
@@ -70,7 +70,7 @@ const appConfig = useAppConfig()
 
         <!-- Réseaux -->
         <div>
-          <h3 class="font-semibold mb-3 text-xs uppercase tracking-widest text-foreground/60">{{ t('footer.social') }}</h3>
+          <p class="font-semibold mb-3 text-xs uppercase tracking-widest text-foreground">{{ t('footer.social') }}</p>
           <ul class="space-y-2.5">
             <li>
               <a :href="appConfig.sukuro.links.instagram" target="_blank" rel="noopener noreferrer" class="text-sm text-muted-foreground hover:text-primary transition-colors duration-150 flex items-center gap-2 group/social">

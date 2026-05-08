@@ -173,7 +173,20 @@
       "waExplanation": "标示句子的主题。",
       "gaExplanation": "标示主语，即动作的发出者。",
       "example1Note": "猫吃鱼。（主题：猫）",
-      "example2Note": "猫来了。（主语：猫）"
+      "example2Note": "猫来了。（主语：猫）",
+      "wordMeaning": "模糊、暧昧",
+      "askAi": "询问 AI",
+      "analyzing": "分析中...",
+      "resultHeader": "Sukuro AI · 讲解",
+      "s1Title": "含义",
+      "s1Body": "曖昧（aimai）表示“模糊、不明确、界限不清”。它可以形容回答、态度、规则、情绪或情境等没有清晰定义的内容。汉字“曖”带有朦胧、隐约之感，“昧”强调不明与晦暗，两者组合后形成“表达上留有空间、故意或无意不说透”的语感。",
+      "s2Title": "用法",
+      "s2Body": "曖昧是な形容词。修饰名词时用“曖昧な + 名词”，修饰动词时常用“曖昧に + 动词”。常见搭配有：曖昧な返事（含糊的回答）、曖昧な態度（不表态的态度）、曖昧に答える（含糊作答）。在不想说得太绝对、或信息不足时，这个词非常常用。",
+      "s3Title": "文化说明",
+      "s3Body": "在日语交流里，为了维持和谐与礼貌，直接说“否定”往往会被弱化。于是，曖昧な言い方（含蓄、模糊的表达）在商务和日常都很常见。学习这个词时，重点不只在词义本身，更在于理解其背后的“留白”沟通方式。",
+      "ex1Trans": "他给了一个含糊的回答。",
+      "ex2Trans": "那条规则很模糊。",
+      "ex3Trans": "她露出暧昧的微笑。"
     },
     "cta": {
       "eyebrow": "开始使用",
@@ -181,49 +194,49 @@
       "description": "在 Android 或 iOS 上免费下载 Sukuro，立即开启你的日语学习之旅。"
     },
     "kana": {
-      "eyebrow": "Kana",
-      "title": "Learn hiragana and katakana",
-      "description": "Sukuro also helps you build a strong reading foundation with both Japanese syllabaries.",
+      "eyebrow": "假名",
+      "title": "学习平假名与片假名",
+      "description": "Sukuro 也会帮助你通过日语两套音节文字打下扎实的阅读基础。",
       "hiragana": {
-        "title": "Hiragana",
-        "description": "Used for native Japanese words and grammar endings."
+        "title": "平假名",
+        "description": "用于日语固有词以及语法词尾。"
       },
       "katakana": {
-        "title": "Katakana",
-        "description": "Used mainly for foreign words, names, and emphasis."
+        "title": "片假名",
+        "description": "主要用于外来语、人名以及强调。"
       }
     },
     "jlpt": {
       "eyebrow": "JLPT",
-      "title": "Choose your favorite JLPT level",
-      "description": "You can focus your learning on the JLPT level that matches your objective, from beginner to advanced.",
-      "selectLabel": "Select your preferred level:",
-      "favoriteLabel": "Selected level",
+      "title": "选择你偏好的 JLPT 等级",
+      "description": "你可以将学习重点放在最符合目标的 JLPT 等级上，从初学到高级都可以。",
+      "selectLabel": "选择你偏好的等级：",
+      "favoriteLabel": "已选等级",
       "levels": {
         "n5": {
-          "label": "Beginner",
-          "focus": "Foundation of everyday Japanese",
-          "description": "Focuses on basic vocabulary, essential kanji, and simple sentence patterns for daily conversation."
+          "label": "初级",
+          "focus": "日常日语基础",
+          "description": "聚焦基础词汇、核心汉字和日常对话所需的简单句型。"
         },
         "n4": {
-          "label": "Elementary",
-          "focus": "Expand practical communication",
-          "description": "Introduces more grammar and vocabulary to understand common situations and short passages."
+          "label": "初中级",
+          "focus": "扩展实用沟通能力",
+          "description": "引入更多语法和词汇，用于理解常见场景和短文。"
         },
         "n3": {
-          "label": "Intermediate",
-          "focus": "Bridge to real-world fluency",
-          "description": "Covers more nuanced grammar and broader vocabulary used in real conversations and media."
+          "label": "中级",
+          "focus": "迈向真实流利度",
+          "description": "涵盖更细致的语法和更广泛的词汇，适用于真实对话与媒体内容。"
         },
         "n2": {
-          "label": "Upper-intermediate",
-          "focus": "High comprehension and precision",
-          "description": "Targets advanced reading/listening comprehension for news, formal contexts, and complex topics."
+          "label": "中高级",
+          "focus": "高理解力与高准确度",
+          "description": "目标是提升新闻、正式场景和复杂主题下的高级读解与听解能力。"
         },
         "n1": {
-          "label": "Advanced",
-          "focus": "Near-native understanding",
-          "description": "Emphasizes subtle grammar, abstract topics, and high-level comprehension close to native usage."
+          "label": "高级",
+          "focus": "接近母语者的理解",
+          "description": "强调细微语法、抽象主题以及接近母语使用水平的高阶理解能力。"
         }
       }
     },
@@ -231,241 +244,241 @@
       "vocab": {
         "n5": {
           "w1": {
-            "meaning": "Water",
-            "exampleMeaning": "to drink water"
+            "meaning": "水",
+            "exampleMeaning": "喝水"
           },
           "w2": {
-            "meaning": "To eat",
-            "exampleMeaning": "to eat breakfast"
+            "meaning": "吃",
+            "exampleMeaning": "吃早餐"
           },
           "w3": {
-            "meaning": "School",
-            "exampleMeaning": "to go to school"
+            "meaning": "学校",
+            "exampleMeaning": "去学校"
           },
           "w4": {
-            "meaning": "Friend",
-            "exampleMeaning": "to play with a friend"
+            "meaning": "朋友",
+            "exampleMeaning": "和朋友一起玩"
           }
         },
         "n4": {
           "w1": {
-            "meaning": "Promise",
-            "exampleMeaning": "to keep a promise"
+            "meaning": "约定",
+            "exampleMeaning": "遵守约定"
           },
           "w2": {
-            "meaning": "Experience",
-            "exampleMeaning": "to gain experience abroad"
+            "meaning": "经验",
+            "exampleMeaning": "在国外积累经验"
           },
           "w3": {
-            "meaning": "Review",
-            "exampleMeaning": "to review every day"
+            "meaning": "复习",
+            "exampleMeaning": "每天复习"
           },
           "w4": {
-            "meaning": "Hobby",
-            "exampleMeaning": "my hobby is photography"
+            "meaning": "爱好",
+            "exampleMeaning": "我的爱好是摄影"
           }
         },
         "n3": {
           "w1": {
-            "meaning": "Environment",
-            "exampleMeaning": "to think about environmental issues"
+            "meaning": "环境",
+            "exampleMeaning": "思考环境问题"
           },
           "w2": {
-            "meaning": "Conclusion",
-            "exampleMeaning": "to state the conclusion first"
+            "meaning": "结论",
+            "exampleMeaning": "先说结论"
           },
           "w3": {
-            "meaning": "Realization",
-            "exampleMeaning": "to make a dream come true"
+            "meaning": "实现",
+            "exampleMeaning": "实现梦想"
           },
           "w4": {
-            "meaning": "Appropriate",
-            "exampleMeaning": "to choose an appropriate expression"
+            "meaning": "恰当",
+            "exampleMeaning": "选择恰当的表达"
           }
         },
         "n2": {
           "w1": {
-            "meaning": "Challenge / Task",
-            "exampleMeaning": "to analyze a challenge"
+            "meaning": "课题 / 任务",
+            "exampleMeaning": "分析课题"
           },
           "w2": {
-            "meaning": "Logic",
-            "exampleMeaning": "to explain logically"
+            "meaning": "逻辑",
+            "exampleMeaning": "逻辑地说明"
           },
           "w3": {
-            "meaning": "Phenomenon",
-            "exampleMeaning": "to study social phenomena"
+            "meaning": "现象",
+            "exampleMeaning": "研究社会现象"
           },
           "w4": {
-            "meaning": "Policy measure",
-            "exampleMeaning": "to introduce a new policy measure"
+            "meaning": "政策措施",
+            "exampleMeaning": "引入新的政策措施"
           }
         },
         "n1": {
           "w1": {
-            "meaning": "Spirit / Drive",
-            "exampleMeaning": "a speech full of determination"
+            "meaning": "气魄 / 干劲",
+            "exampleMeaning": "充满气魄的演讲"
           },
           "w2": {
-            "meaning": "Public awareness",
-            "exampleMeaning": "to thoroughly disseminate rules"
+            "meaning": "普及认知",
+            "exampleMeaning": "彻底宣传规则"
           },
           "w3": {
-            "meaning": "Valid / Reasonable",
-            "exampleMeaning": "to make a sound judgment"
+            "meaning": "妥当 / 合理",
+            "exampleMeaning": "作出合理判断"
           },
           "w4": {
-            "meaning": "Category / Scope",
-            "exampleMeaning": "to go beyond one’s area of expertise"
+            "meaning": "范畴 / 范围",
+            "exampleMeaning": "超出专业范畴"
           }
         }
       },
       "kanji": {
         "n5": {
           "k1": {
-            "meaning": "Sun · Day"
+            "meaning": "太阳 · 日"
           },
           "k2": {
-            "meaning": "Moon · Month"
+            "meaning": "月亮 · 月份"
           },
           "k3": {
-            "meaning": "Mountain"
+            "meaning": "山"
           },
           "k4": {
-            "meaning": "River"
+            "meaning": "河"
           },
           "k5": {
-            "meaning": "Person"
+            "meaning": "人"
           }
         },
         "n4": {
           "k1": {
-            "meaning": "Pass · Commute"
+            "meaning": "通过 · 通勤"
           },
           "k2": {
-            "meaning": "Business · Study"
+            "meaning": "业务 · 学业"
           },
           "k3": {
-            "meaning": "Special"
+            "meaning": "特别"
           },
           "k4": {
-            "meaning": "Explain"
+            "meaning": "解释"
           },
           "k5": {
-            "meaning": "Continue"
+            "meaning": "继续"
           }
         },
         "n3": {
           "k1": {
-            "meaning": "Accustom"
+            "meaning": "习惯"
           },
           "k2": {
-            "meaning": "Condition"
+            "meaning": "状况"
           },
           "k3": {
-            "meaning": "Present · Submit"
+            "meaning": "提出 · 提交"
           },
           "k4": {
-            "meaning": "Plan · Proposal"
+            "meaning": "计划 · 提案"
           },
           "k5": {
-            "meaning": "Operate"
+            "meaning": "经营"
           }
         },
         "n2": {
           "k1": {
-            "meaning": "Theory · Argument"
+            "meaning": "理论 · 论点"
           },
           "k2": {
-            "meaning": "Responsibility"
+            "meaning": "责任"
           },
           "k3": {
-            "meaning": "Measure · Guess"
+            "meaning": "测量 · 推测"
           },
           "k4": {
-            "meaning": "Proof"
+            "meaning": "证明"
           },
           "k5": {
-            "meaning": "Guide"
+            "meaning": "引导"
           }
         },
         "n1": {
           "k1": {
-            "meaning": "Manifest"
+            "meaning": "显现"
           },
           "k2": {
-            "meaning": "Consideration"
+            "meaning": "考量"
           },
           "k3": {
-            "meaning": "Follow"
+            "meaning": "遵循"
           },
           "k4": {
-            "meaning": "Fine · Detailed"
+            "meaning": "细致 · 详细"
           },
           "k5": {
-            "meaning": "Solid · Firm"
+            "meaning": "坚固 · 稳固"
           }
         }
       },
       "grammar": {
         "n5": {
           "g1": {
-            "label": "Basic assertion",
-            "explanation": "States a fact or describes something in the simplest form.",
-            "translation": "This is a book."
+            "label": "基本断定",
+            "explanation": "用最简单的形式陈述事实或描述事物。",
+            "translation": "这是一本书。"
           },
           "g2": {
-            "label": "Expressing likes",
-            "explanation": "Used to express what you like.",
-            "translation": "I like Japanese."
+            "label": "表达喜好",
+            "explanation": "用于表达自己喜欢什么。",
+            "translation": "我喜欢日语。"
           }
         },
         "n4": {
           "g1": {
-            "label": "Obligation",
-            "explanation": "Expresses that something must be done.",
-            "translation": "I must practice kanji every day."
+            "label": "义务",
+            "explanation": "表示某事必须去做。",
+            "translation": "我每天必须练习汉字。"
           },
           "g2": {
-            "label": "Opinion",
-            "explanation": "Expresses what the speaker thinks.",
-            "translation": "I think this grammar is important."
+            "label": "意见",
+            "explanation": "表达说话人的看法。",
+            "translation": "我认为这个语法很重要。"
           }
         },
         "n3": {
           "g1": {
-            "label": "Purpose / Wish",
-            "explanation": "Indicates purpose or a desired outcome.",
-            "translation": "I practice so that I can speak Japanese."
+            "label": "目的 / 愿望",
+            "explanation": "表示目的或希望达成的结果。",
+            "translation": "为了能说日语，我一直在练习。"
           },
           "g2": {
-            "label": "Established rule",
-            "explanation": "Shows a rule, schedule, or arrangement already decided.",
-            "translation": "In class, we are supposed to use only Japanese."
+            "label": "既定规则",
+            "explanation": "表示已经决定好的规则、日程或安排。",
+            "translation": "在课堂上，我们应该只使用日语。"
           }
         },
         "n2": {
           "g1": {
-            "label": "No more than",
-            "explanation": "Emphasizes that something is merely / only.",
-            "translation": "This is nothing more than one example."
+            "label": "仅仅 / 只不过",
+            "explanation": "强调某事只是如此而已。",
+            "translation": "这只不过是一个例子。"
           },
           "g2": {
-            "label": "Along with",
-            "explanation": "Indicates that one change accompanies another.",
-            "translation": "As your level improves, your vocabulary also grows."
+            "label": "伴随",
+            "explanation": "表示一个变化伴随着另一个变化。",
+            "translation": "随着水平提高，你的词汇量也会增长。"
           }
         },
         "n1": {
           "g1": {
-            "label": "Concerning / over",
-            "explanation": "Used for debates or issues surrounding a topic.",
-            "translation": "Debate continues over educational reform."
+            "label": "围绕 / 关于",
+            "explanation": "用于围绕某话题的争论或问题。",
+            "translation": "围绕教育改革的讨论仍在继续。"
           },
           "g2": {
-            "label": "Cannot help but",
-            "explanation": "Expresses an irresistible feeling or reaction.",
-            "translation": "I cannot help but be surprised hearing this story."
+            "label": "不由得",
+            "explanation": "表达无法抑制的感情或反应。",
+            "translation": "听到这个故事，我不由得感到惊讶。"
           }
         }
       }

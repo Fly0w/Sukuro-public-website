@@ -1,0 +1,481 @@
+{
+  "nav": {
+    "home": "Heim",
+    "about": "Um",
+    "privacy": "Datenschutzrichtlinie",
+    "support": "Unterstützung"
+  },
+  "landing": {
+    "hero": {
+      "title": "Lernen Sie Japanisch mit Sukuro",
+      "subtitle": "Meistern Sie Vokabeln, Kanji und Grammatik mit unseren intelligenten Lernkarten und KI-Erklärungen.",
+      "getApp": "Holen Sie sich die App"
+    },
+    "creator": {
+      "title": "Ein Wort vom Schöpfer",
+      "message": "Die Nachricht des Erstellers wird später hier hinzugefügt."
+    }
+  },
+  "about": {
+    "seoDescription": "Entdecken Sie, wie Sukuro Ihnen hilft, japanische Vokabeln, Kanji und Grammatik mit intelligenten Lernkarten und KI-gestützten Erklärungen zu beherrschen.",
+    "hero": {
+      "eyebrow": "Über Sukuro",
+      "titleBefore": "Ihr smarter Begleiter für",
+      "titleHighlight": "Japanisch lernen",
+      "subtitle": "Sukuro kombiniert Lernkarten mit räumlichen Wiederholungen, strukturiertes Kanji-Lernen, Grammatikmuster und KI-gestützte Erklärungen – alles in einer fokussierten App."
+    },
+    "pillars": {
+      "vocabulary": {
+        "title": "Vokabular",
+        "desc": "Intelligente Lernkarten mit räumlicher Wiederholung"
+      },
+      "kanji": {
+        "title": "Kanji",
+        "desc": "Lesarten, Bedeutungen und Strichreihenfolge"
+      },
+      "grammar": {
+        "title": "Grammatik",
+        "desc": "Musterbasierter Unterricht mit Beispielen"
+      }
+    },
+    "vocab": {
+      "eyebrow": "Vokabular",
+      "title": "Bauen Sie Ihre Wortbank auf",
+      "levelLabel": "Wählen Sie die JLPT-Stufe für Vokabelbeispiele:",
+      "description": "Lernen Sie neue Wörter mit ihrer Hiragana-Lesung, ihrem Romaji und ihrer Bedeutung. Jede Karte enthält einen Beispielsatz, sodass Sie das Wort im Kontext sehen können.",
+      "water": {
+        "meaning": "Wasser",
+        "exampleMeaning": "Wasser trinken"
+      },
+      "eat": {
+        "meaning": "Zum Essen",
+        "exampleMeaning": "frühstücken"
+      },
+      "school": {
+        "meaning": "Schule",
+        "exampleMeaning": "zur Schule gehen"
+      },
+      "friend": {
+        "meaning": "Freund",
+        "exampleMeaning": "mit einem Freund spielen"
+      }
+    },
+    "kanji": {
+      "eyebrow": "Kanji",
+      "title": "Beherrsche die Charaktere",
+      "levelLabel": "Wählen Sie die JLPT-Stufe für Kanji-Beispiele:",
+      "description": "Für jedes Kanji werden On'yomi (chinesische Lesart), Kun'yomi (japanische Lesart), Kernbedeutung und JLPT-Stufe angezeigt – alles, was Sie brauchen, auf einen Blick.",
+      "onLabel": "An:",
+      "kunLabel": "Kun:",
+      "sun": {
+        "meaning": "Sonntag"
+      },
+      "moon": {
+        "meaning": "Mond · Monat"
+      },
+      "mountain": {
+        "meaning": "Berg"
+      },
+      "river": {
+        "meaning": "Fluss"
+      },
+      "person": {
+        "meaning": "Person"
+      }
+    },
+    "grammar": {
+      "eyebrow": "Grammatik",
+      "title": "Satzmuster lernen",
+      "levelLabel": "Wählen Sie die JLPT-Stufe für Grammatikbeispiele:",
+      "description": "Die Grammatik in Sukuro wird durch praktische Muster gelehrt. Jede Lektion zeigt die Struktur, erklärt die Verwendung und bietet einen echten Beispielsatz mit Übersetzung.",
+      "p1": {
+        "label": "Grundaussage",
+        "explanation": "Stellt eine Tatsache dar oder beschreibt etwas. Die grundlegendste Satzstruktur im Japanischen.",
+        "translation": "Das ist ein Buch."
+      },
+      "p2": {
+        "label": "Laufende Aktion",
+        "explanation": "Drückt eine laufende Aktion oder einen anhaltenden Zustand zum Zeitpunkt des Sprechens aus.",
+        "translation": "Ich lerne Japanisch."
+      },
+      "p3": {
+        "label": "Likes ausdrücken",
+        "explanation": "Wird verwendet, um auszudrücken, dass man etwas oder jemanden mag oder mag.",
+        "translation": "Ich mag Japanisch."
+      }
+    },
+    "kana": {
+      "eyebrow": "Kana",
+      "title": "Lerne Hiragana und Katakana",
+      "description": "Sukuro hilft Ihnen auch dabei, eine solide Lesegrundlage mit beiden japanischen Silbenschriften aufzubauen.",
+      "hiragana": {
+        "title": "Hiragana",
+        "description": "Wird für einheimische japanische Wörter und Grammatikendungen verwendet."
+      },
+      "katakana": {
+        "title": "Katakana",
+        "description": "Wird hauptsächlich für Fremdwörter, Namen und Hervorhebungen verwendet."
+      }
+    },
+    "jlpt": {
+      "eyebrow": "JLPT",
+      "title": "Wählen Sie Ihr bevorzugtes JLPT-Level",
+      "description": "Sie können Ihr Lernen auf das JLPT-Niveau konzentrieren, das Ihrem Ziel entspricht, vom Anfänger bis zum Fortgeschrittenen.",
+      "selectLabel": "Wählen Sie Ihr bevorzugtes Level:",
+      "favoriteLabel": "Ausgewählte Ebene",
+      "levels": {
+        "n5": {
+          "label": "Anfänger",
+          "focus": "Grundlage des alltäglichen Japanisch",
+          "description": "Konzentriert sich auf den Grundwortschatz, wichtige Kanji und einfache Satzmuster für die tägliche Konversation."
+        },
+        "n4": {
+          "label": "Grundschule",
+          "focus": "Erweitern Sie die praktische Kommunikation",
+          "description": "Führt mehr Grammatik und Vokabular ein, um häufige Situationen und kurze Passagen zu verstehen."
+        },
+        "n3": {
+          "label": "Dazwischenliegend",
+          "focus": "Brücke zur Sprachkompetenz in der Praxis",
+          "description": "Behandelt eine differenziertere Grammatik und ein breiteres Vokabular, das in realen Gesprächen und Medien verwendet wird."
+        },
+        "n2": {
+          "label": "Obere Mittelstufe",
+          "focus": "Hohe Auffassungsgabe und Präzision",
+          "description": "Zielt auf ein fortgeschrittenes Lese-/Hörverständnis für Nachrichten, formelle Zusammenhänge und komplexe Themen ab."
+        },
+        "n1": {
+          "label": "Fortschrittlich",
+          "focus": "Nahezu muttersprachliches Verständnis",
+          "description": "Betont subtile Grammatik, abstrakte Themen und ein umfassendes Verständnis, das dem muttersprachlichen Sprachgebrauch nahe kommt."
+        }
+      }
+    },
+    "examples": {
+      "vocab": {
+        "n5": {
+          "w1": {
+            "meaning": "Wasser",
+            "exampleMeaning": "Wasser trinken"
+          },
+          "w2": {
+            "meaning": "Zum Essen",
+            "exampleMeaning": "frühstücken"
+          },
+          "w3": {
+            "meaning": "Schule",
+            "exampleMeaning": "zur Schule gehen"
+          },
+          "w4": {
+            "meaning": "Freund",
+            "exampleMeaning": "mit einem Freund spielen"
+          }
+        },
+        "n4": {
+          "w1": {
+            "meaning": "Versprechen",
+            "exampleMeaning": "ein Versprechen halten"
+          },
+          "w2": {
+            "meaning": "Erfahrung",
+            "exampleMeaning": "Erfahrungen im Ausland zu sammeln"
+          },
+          "w3": {
+            "meaning": "Rezension",
+            "exampleMeaning": "jeden Tag zu überprüfen"
+          },
+          "w4": {
+            "meaning": "Hobby",
+            "exampleMeaning": "Mein Hobby ist Fotografie"
+          }
+        },
+        "n3": {
+          "w1": {
+            "meaning": "Umfeld",
+            "exampleMeaning": "über Umweltthemen nachzudenken"
+          },
+          "w2": {
+            "meaning": "Abschluss",
+            "exampleMeaning": "um zunächst die Schlussfolgerung zu formulieren"
+          },
+          "w3": {
+            "meaning": "Realisierung",
+            "exampleMeaning": "um einen Traum wahr werden zu lassen"
+          },
+          "w4": {
+            "meaning": "Geeignet",
+            "exampleMeaning": "einen passenden Ausdruck wählen"
+          }
+        },
+        "n2": {
+          "w1": {
+            "meaning": "Herausforderung / Aufgabe",
+            "exampleMeaning": "eine Herausforderung analysieren"
+          },
+          "w2": {
+            "meaning": "Logik",
+            "exampleMeaning": "logisch erklären"
+          },
+          "w3": {
+            "meaning": "Phänomen",
+            "exampleMeaning": "soziale Phänomene zu studieren"
+          },
+          "w4": {
+            "meaning": "Politische Maßnahme",
+            "exampleMeaning": "eine neue politische Maßnahme einzuführen"
+          }
+        },
+        "n1": {
+          "w1": {
+            "meaning": "Geist / Antrieb",
+            "exampleMeaning": "eine Rede voller Entschlossenheit"
+          },
+          "w2": {
+            "meaning": "Öffentliches Bewusstsein",
+            "exampleMeaning": "Regeln gründlich zu verbreiten"
+          },
+          "w3": {
+            "meaning": "Gültig / Angemessen",
+            "exampleMeaning": "ein fundiertes Urteil zu fällen"
+          },
+          "w4": {
+            "meaning": "Kategorie/Bereich",
+            "exampleMeaning": "über das eigene Fachgebiet hinausgehen"
+          }
+        }
+      },
+      "kanji": {
+        "n5": {
+          "k1": {
+            "meaning": "Sonntag"
+          },
+          "k2": {
+            "meaning": "Mond · Monat"
+          },
+          "k3": {
+            "meaning": "Berg"
+          },
+          "k4": {
+            "meaning": "Fluss"
+          },
+          "k5": {
+            "meaning": "Person"
+          }
+        },
+        "n4": {
+          "k1": {
+            "meaning": "Passieren · Pendeln"
+          },
+          "k2": {
+            "meaning": "Wirtschaft · Studium"
+          },
+          "k3": {
+            "meaning": "Besonders"
+          },
+          "k4": {
+            "meaning": "Erklären"
+          },
+          "k5": {
+            "meaning": "Weitermachen"
+          }
+        },
+        "n3": {
+          "k1": {
+            "meaning": "Gewöhnen"
+          },
+          "k2": {
+            "meaning": "Zustand"
+          },
+          "k3": {
+            "meaning": "Präsentieren · Senden"
+          },
+          "k4": {
+            "meaning": "Plan · Vorschlag"
+          },
+          "k5": {
+            "meaning": "Arbeiten"
+          }
+        },
+        "n2": {
+          "k1": {
+            "meaning": "Theorie · Argument"
+          },
+          "k2": {
+            "meaning": "Verantwortung"
+          },
+          "k3": {
+            "meaning": "Messen · Schätzen"
+          },
+          "k4": {
+            "meaning": "Nachweisen"
+          },
+          "k5": {
+            "meaning": "Führung"
+          }
+        },
+        "n1": {
+          "k1": {
+            "meaning": "Manifest"
+          },
+          "k2": {
+            "meaning": "Rücksichtnahme"
+          },
+          "k3": {
+            "meaning": "Folgen"
+          },
+          "k4": {
+            "meaning": "Fein · Detailliert"
+          },
+          "k5": {
+            "meaning": "Solide · Fest"
+          }
+        }
+      },
+      "grammar": {
+        "n5": {
+          "g1": {
+            "label": "Grundaussage",
+            "explanation": "Stellt eine Tatsache dar oder beschreibt etwas in der einfachsten Form.",
+            "translation": "Das ist ein Buch."
+          },
+          "g2": {
+            "label": "Likes ausdrücken",
+            "explanation": "Wird verwendet, um auszudrücken, was Ihnen gefällt.",
+            "translation": "Ich mag Japanisch."
+          }
+        },
+        "n4": {
+          "g1": {
+            "label": "Verpflichtung",
+            "explanation": "Drückt aus, dass etwas getan werden muss.",
+            "translation": "Ich muss jeden Tag Kanji üben."
+          },
+          "g2": {
+            "label": "Meinung",
+            "explanation": "Drückt aus, was der Sprecher denkt.",
+            "translation": "Ich denke, diese Grammatik ist wichtig."
+          }
+        },
+        "n3": {
+          "g1": {
+            "label": "Zweck / Wunsch",
+            "explanation": "Zeigt einen Zweck oder ein gewünschtes Ergebnis an.",
+            "translation": "Ich übe, damit ich Japanisch sprechen kann."
+          },
+          "g2": {
+            "label": "Etablierte Regel",
+            "explanation": "Zeigt eine bereits beschlossene Regel, einen Zeitplan oder eine Vereinbarung an.",
+            "translation": "Im Unterricht sollen wir nur Japanisch sprechen."
+          }
+        },
+        "n2": {
+          "g1": {
+            "label": "Nicht mehr als",
+            "explanation": "Betont, dass etwas lediglich / nur ist.",
+            "translation": "Dies ist nichts weiter als ein Beispiel."
+          },
+          "g2": {
+            "label": "Zusammen mit",
+            "explanation": "Zeigt an, dass eine Änderung mit einer anderen einhergeht.",
+            "translation": "Wenn sich Ihr Niveau verbessert, wächst auch Ihr Wortschatz."
+          }
+        },
+        "n1": {
+          "g1": {
+            "label": "Besorgniserregend / vorbei",
+            "explanation": "Wird für Debatten oder Probleme rund um ein Thema verwendet.",
+            "translation": "Die Debatte über die Bildungsreform geht weiter."
+          },
+          "g2": {
+            "label": "Ich kann nicht anders",
+            "explanation": "Drückt ein unwiderstehliches Gefühl oder eine unwiderstehliche Reaktion aus.",
+            "translation": "Ich kann nicht anders, als überrascht zu sein, wenn ich diese Geschichte höre."
+          }
+        }
+      }
+    },
+    "ai": {
+      "eyebrow": "KI",
+      "title": "Angetrieben durch KI",
+      "description": "Tippen Sie auf einer beliebigen Karteikarte auf die KI-Schaltfläche, um eine klare, kontextbezogene Erklärung zu erhalten, die von Google Gemini generiert wird – direkt in der App, keine zusätzliche Suche erforderlich.",
+      "wordMeaning": "Vage, mehrdeutig",
+      "askAi": "Fragen Sie die KI",
+      "analyzing": "Analysieren...",
+      "resultHeader": "Sukuro AI · Erklärung",
+      "s1Title": "Bedeutung",
+      "s1Body": "曖昧 (aimai) bezieht sich auf etwas Unbestimmtes, Mehrdeutiges oder Unklares. Es kann eine Antwort, ein Gefühl, eine Regel oder eine Situation beschreiben, die nicht klar definiert ist. Das Kanji 曖 vermittelt die Nuance von etwas Düsterem oder Verborgenem, während 昧 Dunkelheit hervorruft – zusammen zeichnen sie ein Bild absichtlicher oder zufälliger Unbestimmtheit.",
+      "s2Title": "Verwendung",
+      "s2Body": "曖昧 ist ein な-Adjektiv, daher verbindet es sich direkt mit Substantiven (曖昧な + Substantiv) und wird mit に (曖昧に + Verb) zu einem Adverb. Sie werden es oft in Formulierungen wie 曖昧な返事 (eine vage Antwort), 曖昧な態度 (eine unverbindliche Haltung) oder 曖昧に答える (eine vage Antwort) antreffen.",
+      "s3Title": "Kulturelle Anmerkung",
+      "s3Body": "In der japanischen Kommunikation wird ein direktes „Nein“ oft vermieden, um die soziale Harmonie (和, wa) zu wahren. 曖昧な言い方 – eine mehrdeutige Ausdrucksweise – ist daher in höflichen oder beruflichen Kontexten sehr verbreitet. Das Erlernen des Lesens dieser subtilen, indirekten Signale ist der Schlüssel zum wirklichen Verständnis des echten Japanisch.",
+      "ex1Trans": "Er gab eine vage Antwort.",
+      "ex2Trans": "Diese Regel ist nicht eindeutig.",
+      "ex3Trans": "Sie lächelte zweideutig."
+    },
+    "cta": {
+      "eyebrow": "Fangen Sie an",
+      "title": "Bereit, mit dem Lernen zu beginnen?",
+      "description": "Laden Sie Sukuro kostenlos auf Android oder iOS herunter und beginnen Sie noch heute Ihre japanische Reise."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Sukuro. Alle Rechte vorbehalten.",
+    "links": "Links",
+    "social": "Sozial"
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Letzte Aktualisierung: 8. Mai 2026",
+    "intro": {
+      "title": "1. Einführung",
+      "text": "Willkommen bei Sukuro. Ihre Privatsphäre ist uns wichtig. Diese Richtlinie erläutert, welche Daten die App verarbeitet und wie wir sie verwenden. Die Kurzfassung: Sukuro sammelt keine persönlichen Daten und erfordert nicht die Erstellung eines Kontos."
+    },
+    "data": {
+      "title": "2. Von uns erfasste Daten",
+      "text": "Sukuro sammelt keine personenbezogenen Daten. Es ist weder die Erstellung eines Kontos noch eine E-Mail-Adresse noch eine persönliche Kennung erforderlich oder wird gespeichert. Die einzigen von der App generierten Daten sind:",
+      "local": "Lernfortschritt (abgeschlossene Lektionen, Punkte, erlernte Vokabeln): wird ausschließlich auf Ihrem Gerät über den lokalen Speicher gespeichert. Es wird niemals an unsere Server übermittelt.",
+      "technical": "Absturzberichte und anonyme Nutzungsstatistiken: können von den Plattformen Google Play Store oder Apple App Store erfasst werden. Dies wird ausschließlich von diesen Plattformen im Rahmen ihrer jeweiligen Datenschutzrichtlinien gehandhabt und liegt außerhalb unserer Kontrolle."
+    },
+    "ai": {
+      "title": "3. Einsatz Künstlicher Intelligenz (KI)",
+      "text": "Sukuro nutzt Google Gemini (Google Generative AI), um Bildungsinhalte wie Erklärungen und Beispielsätze zu generieren.",
+      "point1": "Wenn Sie eine KI-Erklärung anfordern, wird der Text der entsprechenden Übung oder Frage zur Verarbeitung an die Server von Google gesendet. Diese Anfragen enthalten keine personenbezogenen Daten.",
+      "point2": "Gemäß den Standard-API-Nutzungsbedingungen von Google werden diese Daten nicht zum Trainieren ihrer Modelle verwendet, sondern ausschließlich zur Generierung der in der App angezeigten unmittelbaren Antwort verarbeitet."
+    },
+    "sharing": {
+      "title": "4. Dienste Dritter",
+      "text": "Wir verkaufen, handeln oder teilen keine personenbezogenen Daten. Der einzige von Sukuro genutzte Drittanbieterdienst ist:",
+      "google": "Google Gemini API: Wird zur Generierung von KI-gestützten Erklärungen und Beispielsätzen verwendet. Übungstexte können auf den Servern von Google verarbeitet werden. Einzelheiten entnehmen Sie bitte der Datenschutzerklärung von Google.",
+      "note": "Es werden keine weiteren Analyse-, Tracking- oder Werbedienste Dritter genutzt."
+    },
+    "storage": {
+      "title": "5. Datenspeicherung und -löschung",
+      "text": "Alle Ihre Lerndaten werden lokal auf Ihrem Gerät gespeichert. Wir unterhalten keine serverseitige Datenbank mit Ihren persönlichen Daten. Um alle App-Daten dauerhaft zu löschen, deinstallieren Sie Sukuro einfach von Ihrem Gerät."
+    },
+    "contact": {
+      "title": "6. Kontakt",
+      "text": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:",
+      "name": "Florian Budniewski",
+      "email": "E-Mail: {email}"
+    }
+  },
+  "support": {
+    "title": "Unterstützung",
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "description": "Brauchen Sie Hilfe bei Sukuro? Nehmen Sie Kontakt mit uns auf.",
+      "text": "Wenn Sie Fragen, Probleme oder Feedback haben, zögern Sie bitte nicht, uns per E-Mail zu kontaktieren:"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": {
+        "q": "Wird mein Lernfortschritt gespeichert, wenn ich das Gerät wechsle?",
+        "a": "Ihr Fortschritt wird derzeit lokal auf Ihrem Gerät gespeichert. Wenn Sie zu einem neuen Gerät wechseln oder die App neu installieren, wird Ihr Fortschritt zurückgesetzt. Die geräteübergreifende Synchronisierung wird möglicherweise in einem zukünftigen Update hinzugefügt."
+      },
+      "q2": {
+        "q": "Erfasst Sukuro personenbezogene Daten?",
+        "a": "Nein. Sukuro erfordert kein Konto und sammelt keine persönlichen Daten. Ihr Lernfortschritt bleibt auf Ihrem Gerät. Der einzige externe Dienst, der für KI-Erklärungen genutzt wird, ist Google Gemini. Ausführliche Informationen finden Sie in unserer Datenschutzerklärung."
+      }
+    }
+  }
+}

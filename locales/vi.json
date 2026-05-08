@@ -173,7 +173,20 @@
       "waExplanation": "đánh dấu chủ đề của câu.",
       "gaExplanation": "đánh dấu chủ ngữ — người hoặc vật thực hiện hành động.",
       "example1Note": "Mèo ăn cá. (chủ đề: mèo)",
-      "example2Note": "Mèo đến. (chủ ngữ: mèo)"
+      "example2Note": "Mèo đến. (chủ ngữ: mèo)",
+      "wordMeaning": "Mơ hồ, không rõ ràng",
+      "askAi": "Hỏi AI",
+      "analyzing": "Đang phân tích...",
+      "resultHeader": "Sukuro AI · Giải thích",
+      "s1Title": "Ý nghĩa",
+      "s1Body": "曖昧 (aimai) diễn tả trạng thái mơ hồ, không rõ ràng hoặc thiếu ranh giới cụ thể. Từ này có thể dùng cho câu trả lời, thái độ, quy tắc, cảm xúc hay tình huống chưa được xác định dứt khoát. Chữ 曖 gợi sắc thái mờ tối, còn 昧 nhấn mạnh sự không minh bạch; ghép lại tạo nên ý “để ngỏ, không nói hết”.",
+      "s2Title": "Cách dùng",
+      "s2Body": "曖昧 là tính từ な. Khi bổ nghĩa danh từ, dùng 曖昧な + danh từ; khi dùng như trạng từ, dùng 曖昧に + động từ. Cụm thường gặp: 曖昧な返事 (câu trả lời mơ hồ), 曖昧な態度 (thái độ không rõ lập trường), 曖昧に答える (trả lời vòng vo). Từ này đặc biệt tự nhiên khi người nói muốn tránh phát biểu quá trực diện.",
+      "s3Title": "Ghi chú văn hóa",
+      "s3Body": "Trong giao tiếp tiếng Nhật, việc nói “không” quá trực tiếp thường được giảm nhẹ để giữ hòa khí. Vì vậy, cách nói mơ hồ có thể mang chức năng lịch sự, nhất là trong môi trường công việc hoặc quan hệ xã hội nhạy cảm. Hiểu được sắc thái này sẽ giúp bạn nắm ngôn ngữ thực tế tốt hơn.",
+      "ex1Trans": "Anh ấy đưa ra một câu trả lời mơ hồ.",
+      "ex2Trans": "Quy định đó khá mơ hồ.",
+      "ex3Trans": "Cô ấy mỉm cười đầy ẩn ý."
     },
     "cta": {
       "eyebrow": "Bắt đầu",
@@ -182,48 +195,48 @@
     },
     "kana": {
       "eyebrow": "Kana",
-      "title": "Learn hiragana and katakana",
-      "description": "Sukuro also helps you build a strong reading foundation with both Japanese syllabaries.",
+      "title": "Học hiragana và katakana",
+      "description": "Sukuro cũng giúp bạn xây nền tảng đọc vững chắc với cả hai bảng chữ âm tiết tiếng Nhật.",
       "hiragana": {
         "title": "Hiragana",
-        "description": "Used for native Japanese words and grammar endings."
+        "description": "Dùng cho từ thuần Nhật và đuôi ngữ pháp."
       },
       "katakana": {
         "title": "Katakana",
-        "description": "Used mainly for foreign words, names, and emphasis."
+        "description": "Chủ yếu dùng cho từ vay mượn, tên riêng và nhấn mạnh."
       }
     },
     "jlpt": {
       "eyebrow": "JLPT",
-      "title": "Choose your favorite JLPT level",
-      "description": "You can focus your learning on the JLPT level that matches your objective, from beginner to advanced.",
-      "selectLabel": "Select your preferred level:",
-      "favoriteLabel": "Selected level",
+      "title": "Chọn cấp JLPT bạn muốn tập trung",
+      "description": "Bạn có thể tập trung học theo cấp JLPT phù hợp với mục tiêu của mình, từ cơ bản đến nâng cao.",
+      "selectLabel": "Chọn cấp độ bạn muốn:",
+      "favoriteLabel": "Cấp độ đã chọn",
       "levels": {
         "n5": {
-          "label": "Beginner",
-          "focus": "Foundation of everyday Japanese",
-          "description": "Focuses on basic vocabulary, essential kanji, and simple sentence patterns for daily conversation."
+          "label": "Sơ cấp",
+          "focus": "Nền tảng tiếng Nhật hằng ngày",
+          "description": "Tập trung vào từ vựng cơ bản, kanji thiết yếu và mẫu câu đơn giản cho hội thoại hằng ngày."
         },
         "n4": {
-          "label": "Elementary",
-          "focus": "Expand practical communication",
-          "description": "Introduces more grammar and vocabulary to understand common situations and short passages."
+          "label": "Sơ trung cấp",
+          "focus": "Mở rộng giao tiếp thực tế",
+          "description": "Bổ sung thêm ngữ pháp và từ vựng để hiểu các tình huống phổ biến và đoạn văn ngắn."
         },
         "n3": {
-          "label": "Intermediate",
-          "focus": "Bridge to real-world fluency",
-          "description": "Covers more nuanced grammar and broader vocabulary used in real conversations and media."
+          "label": "Trung cấp",
+          "focus": "Cầu nối tới độ trôi chảy thực tế",
+          "description": "Bao gồm ngữ pháp tinh tế hơn và vốn từ rộng hơn dùng trong hội thoại thực tế và nội dung truyền thông."
         },
         "n2": {
-          "label": "Upper-intermediate",
-          "focus": "High comprehension and precision",
-          "description": "Targets advanced reading/listening comprehension for news, formal contexts, and complex topics."
+          "label": "Trung cao cấp",
+          "focus": "Khả năng hiểu và độ chính xác cao",
+          "description": "Hướng tới năng lực đọc/nghe nâng cao cho tin tức, ngữ cảnh trang trọng và chủ đề phức tạp."
         },
         "n1": {
-          "label": "Advanced",
-          "focus": "Near-native understanding",
-          "description": "Emphasizes subtle grammar, abstract topics, and high-level comprehension close to native usage."
+          "label": "Cao cấp",
+          "focus": "Mức độ hiểu gần người bản xứ",
+          "description": "Nhấn mạnh ngữ pháp tinh vi, chủ đề trừu tượng và khả năng hiểu ở mức cao gần với cách dùng của người bản xứ."
         }
       }
     },
@@ -231,241 +244,241 @@
       "vocab": {
         "n5": {
           "w1": {
-            "meaning": "Water",
-            "exampleMeaning": "to drink water"
+            "meaning": "Nước",
+            "exampleMeaning": "uống nước"
           },
           "w2": {
-            "meaning": "To eat",
-            "exampleMeaning": "to eat breakfast"
+            "meaning": "Ăn",
+            "exampleMeaning": "ăn sáng"
           },
           "w3": {
-            "meaning": "School",
-            "exampleMeaning": "to go to school"
+            "meaning": "Trường học",
+            "exampleMeaning": "đi học"
           },
           "w4": {
-            "meaning": "Friend",
-            "exampleMeaning": "to play with a friend"
+            "meaning": "Bạn bè",
+            "exampleMeaning": "chơi với bạn"
           }
         },
         "n4": {
           "w1": {
-            "meaning": "Promise",
-            "exampleMeaning": "to keep a promise"
+            "meaning": "Lời hứa",
+            "exampleMeaning": "giữ lời hứa"
           },
           "w2": {
-            "meaning": "Experience",
-            "exampleMeaning": "to gain experience abroad"
+            "meaning": "Kinh nghiệm",
+            "exampleMeaning": "tích lũy kinh nghiệm ở nước ngoài"
           },
           "w3": {
-            "meaning": "Review",
-            "exampleMeaning": "to review every day"
+            "meaning": "Ôn tập",
+            "exampleMeaning": "ôn tập mỗi ngày"
           },
           "w4": {
-            "meaning": "Hobby",
-            "exampleMeaning": "my hobby is photography"
+            "meaning": "Sở thích",
+            "exampleMeaning": "sở thích của tôi là nhiếp ảnh"
           }
         },
         "n3": {
           "w1": {
-            "meaning": "Environment",
-            "exampleMeaning": "to think about environmental issues"
+            "meaning": "Môi trường",
+            "exampleMeaning": "suy nghĩ về vấn đề môi trường"
           },
           "w2": {
-            "meaning": "Conclusion",
-            "exampleMeaning": "to state the conclusion first"
+            "meaning": "Kết luận",
+            "exampleMeaning": "nói kết luận trước"
           },
           "w3": {
-            "meaning": "Realization",
-            "exampleMeaning": "to make a dream come true"
+            "meaning": "Hiện thực hóa",
+            "exampleMeaning": "biến ước mơ thành hiện thực"
           },
           "w4": {
-            "meaning": "Appropriate",
-            "exampleMeaning": "to choose an appropriate expression"
+            "meaning": "Phù hợp",
+            "exampleMeaning": "chọn cách diễn đạt phù hợp"
           }
         },
         "n2": {
           "w1": {
-            "meaning": "Challenge / Task",
-            "exampleMeaning": "to analyze a challenge"
+            "meaning": "Thử thách / Nhiệm vụ",
+            "exampleMeaning": "phân tích một thử thách"
           },
           "w2": {
             "meaning": "Logic",
-            "exampleMeaning": "to explain logically"
+            "exampleMeaning": "giải thích một cách logic"
           },
           "w3": {
-            "meaning": "Phenomenon",
-            "exampleMeaning": "to study social phenomena"
+            "meaning": "Hiện tượng",
+            "exampleMeaning": "nghiên cứu hiện tượng xã hội"
           },
           "w4": {
-            "meaning": "Policy measure",
-            "exampleMeaning": "to introduce a new policy measure"
+            "meaning": "Biện pháp chính sách",
+            "exampleMeaning": "triển khai một biện pháp chính sách mới"
           }
         },
         "n1": {
           "w1": {
-            "meaning": "Spirit / Drive",
-            "exampleMeaning": "a speech full of determination"
+            "meaning": "Khí phách / Ý chí",
+            "exampleMeaning": "một bài phát biểu đầy quyết tâm"
           },
           "w2": {
-            "meaning": "Public awareness",
-            "exampleMeaning": "to thoroughly disseminate rules"
+            "meaning": "Phổ biến rộng rãi",
+            "exampleMeaning": "phổ biến quy tắc một cách triệt để"
           },
           "w3": {
-            "meaning": "Valid / Reasonable",
-            "exampleMeaning": "to make a sound judgment"
+            "meaning": "Hợp lý / Thỏa đáng",
+            "exampleMeaning": "đưa ra phán đoán hợp lý"
           },
           "w4": {
-            "meaning": "Category / Scope",
-            "exampleMeaning": "to go beyond one’s area of expertise"
+            "meaning": "Phạm vi / Phân loại",
+            "exampleMeaning": "vượt ra ngoài phạm vi chuyên môn"
           }
         }
       },
       "kanji": {
         "n5": {
           "k1": {
-            "meaning": "Sun · Day"
+            "meaning": "Mặt trời · Ngày"
           },
           "k2": {
-            "meaning": "Moon · Month"
+            "meaning": "Mặt trăng · Tháng"
           },
           "k3": {
-            "meaning": "Mountain"
+            "meaning": "Núi"
           },
           "k4": {
-            "meaning": "River"
+            "meaning": "Sông"
           },
           "k5": {
-            "meaning": "Person"
+            "meaning": "Người"
           }
         },
         "n4": {
           "k1": {
-            "meaning": "Pass · Commute"
+            "meaning": "Đi qua · Đi lại"
           },
           "k2": {
-            "meaning": "Business · Study"
+            "meaning": "Công việc · Học tập"
           },
           "k3": {
-            "meaning": "Special"
+            "meaning": "Đặc biệt"
           },
           "k4": {
-            "meaning": "Explain"
+            "meaning": "Giải thích"
           },
           "k5": {
-            "meaning": "Continue"
+            "meaning": "Tiếp tục"
           }
         },
         "n3": {
           "k1": {
-            "meaning": "Accustom"
+            "meaning": "Quen với"
           },
           "k2": {
-            "meaning": "Condition"
+            "meaning": "Tình trạng"
           },
           "k3": {
-            "meaning": "Present · Submit"
+            "meaning": "Trình bày · Nộp"
           },
           "k4": {
-            "meaning": "Plan · Proposal"
+            "meaning": "Kế hoạch · Đề xuất"
           },
           "k5": {
-            "meaning": "Operate"
+            "meaning": "Vận hành"
           }
         },
         "n2": {
           "k1": {
-            "meaning": "Theory · Argument"
+            "meaning": "Lý thuyết · Lập luận"
           },
           "k2": {
-            "meaning": "Responsibility"
+            "meaning": "Trách nhiệm"
           },
           "k3": {
-            "meaning": "Measure · Guess"
+            "meaning": "Đo lường · Ước lượng"
           },
           "k4": {
-            "meaning": "Proof"
+            "meaning": "Chứng minh"
           },
           "k5": {
-            "meaning": "Guide"
+            "meaning": "Dẫn dắt"
           }
         },
         "n1": {
           "k1": {
-            "meaning": "Manifest"
+            "meaning": "Thể hiện"
           },
           "k2": {
-            "meaning": "Consideration"
+            "meaning": "Cân nhắc"
           },
           "k3": {
-            "meaning": "Follow"
+            "meaning": "Theo"
           },
           "k4": {
-            "meaning": "Fine · Detailed"
+            "meaning": "Tinh tế · Chi tiết"
           },
           "k5": {
-            "meaning": "Solid · Firm"
+            "meaning": "Vững chắc · Kiên cố"
           }
         }
       },
       "grammar": {
         "n5": {
           "g1": {
-            "label": "Basic assertion",
-            "explanation": "States a fact or describes something in the simplest form.",
-            "translation": "This is a book."
+            "label": "Khẳng định cơ bản",
+            "explanation": "Nêu sự thật hoặc mô tả sự vật theo cách đơn giản nhất.",
+            "translation": "Đây là một quyển sách."
           },
           "g2": {
-            "label": "Expressing likes",
-            "explanation": "Used to express what you like.",
-            "translation": "I like Japanese."
+            "label": "Diễn đạt sở thích",
+            "explanation": "Dùng để diễn đạt điều bạn thích.",
+            "translation": "Tôi thích tiếng Nhật."
           }
         },
         "n4": {
           "g1": {
-            "label": "Obligation",
-            "explanation": "Expresses that something must be done.",
-            "translation": "I must practice kanji every day."
+            "label": "Nghĩa vụ",
+            "explanation": "Diễn tả rằng một việc phải được thực hiện.",
+            "translation": "Tôi phải luyện kanji mỗi ngày."
           },
           "g2": {
-            "label": "Opinion",
-            "explanation": "Expresses what the speaker thinks.",
-            "translation": "I think this grammar is important."
+            "label": "Ý kiến",
+            "explanation": "Diễn tả suy nghĩ của người nói.",
+            "translation": "Tôi nghĩ ngữ pháp này quan trọng."
           }
         },
         "n3": {
           "g1": {
-            "label": "Purpose / Wish",
-            "explanation": "Indicates purpose or a desired outcome.",
-            "translation": "I practice so that I can speak Japanese."
+            "label": "Mục đích / Mong muốn",
+            "explanation": "Chỉ mục đích hoặc kết quả mong muốn.",
+            "translation": "Tôi luyện tập để có thể nói tiếng Nhật."
           },
           "g2": {
-            "label": "Established rule",
-            "explanation": "Shows a rule, schedule, or arrangement already decided.",
-            "translation": "In class, we are supposed to use only Japanese."
+            "label": "Quy tắc đã định",
+            "explanation": "Thể hiện quy tắc, lịch trình hoặc sắp xếp đã được quyết định.",
+            "translation": "Trong lớp, chúng tôi được yêu cầu chỉ dùng tiếng Nhật."
           }
         },
         "n2": {
           "g1": {
-            "label": "No more than",
-            "explanation": "Emphasizes that something is merely / only.",
-            "translation": "This is nothing more than one example."
+            "label": "Không hơn là",
+            "explanation": "Nhấn mạnh rằng điều gì đó chỉ là như vậy thôi.",
+            "translation": "Đây chỉ là một ví dụ mà thôi."
           },
           "g2": {
-            "label": "Along with",
-            "explanation": "Indicates that one change accompanies another.",
-            "translation": "As your level improves, your vocabulary also grows."
+            "label": "Cùng với",
+            "explanation": "Cho biết một thay đổi đi kèm với thay đổi khác.",
+            "translation": "Khi trình độ của bạn tăng lên, vốn từ cũng tăng theo."
           }
         },
         "n1": {
           "g1": {
-            "label": "Concerning / over",
-            "explanation": "Used for debates or issues surrounding a topic.",
-            "translation": "Debate continues over educational reform."
+            "label": "Xoay quanh / Về",
+            "explanation": "Dùng cho tranh luận hoặc vấn đề xoay quanh một chủ đề.",
+            "translation": "Tranh luận về cải cách giáo dục vẫn tiếp diễn."
           },
           "g2": {
-            "label": "Cannot help but",
-            "explanation": "Expresses an irresistible feeling or reaction.",
-            "translation": "I cannot help but be surprised hearing this story."
+            "label": "Không thể không",
+            "explanation": "Diễn tả cảm xúc hoặc phản ứng không thể kìm lại.",
+            "translation": "Nghe câu chuyện này, tôi không thể không ngạc nhiên."
           }
         }
       }

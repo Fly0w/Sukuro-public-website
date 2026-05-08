@@ -11,6 +11,33 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
+
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      meta: [
+        { name: 'theme-color', content: '#7c3e0a' },
+        { name: 'color-scheme', content: 'light dark' },
+        { name: 'robots', content: 'index, follow' },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/app_icon.ico' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/app_icon.png' },
+        { rel: 'manifest', href: '/manifest.json' },
+      ],
+    },
+  },
+
+  fonts: {
+    families: [
+      { name: 'Noto Sans', provider: 'google', weights: [400, 500, 600, 700] },
+    ],
+    defaults: {
+      preload: true,
+    },
+  },
+
   vite: {
     plugins: [
       tailwindcss(),
@@ -42,13 +69,15 @@ export default defineNuxtConfig({
       { code: 'vi', language: 'vi-VN', name: 'Tiếng Việt', file: 'vi.json' },
       { code: 'tl', language: 'tl-PH', name: 'Tagalog', file: 'tl.json' },
       { code: 'ko', language: 'ko-KR', name: '한국어', file: 'ko.json' },
-      { code: 'ru', language: 'ru-RU', name: 'Русский', file: 'ru.json' }
+      { code: 'ru', language: 'ru-RU', name: 'Русский', file: 'ru.json' },
+      { code: 'hi', language: 'hi-IN', name: 'हिन्दी', file: 'hi.json' },
+      { code: 'de', language: 'de-DE', name: 'Deutsch', file: 'de.json' }
     ],
+    baseUrl: 'https://sukuro-app.com',
     defaultLocale: 'en',
     strategy: 'prefix_except_default',
-    restructureDir: false,
+    restructureDir: '',
     langDir: 'locales',
-    lazy: true,
-    detectBrowserLanguage: false
+    detectBrowserLanguage: false,
   },
 })

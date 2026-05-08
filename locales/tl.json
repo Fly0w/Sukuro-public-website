@@ -173,7 +173,20 @@
       "waExplanation": "minamarkahan ang paksa ng pangungusap.",
       "gaExplanation": "minamarkahan ang paksa ng aksyon — ang gumagawa.",
       "example1Note": "Kumakain ang pusa ng isda. (paksa: pusa)",
-      "example2Note": "Dumating ang pusa. (paksa ng aksyon: pusa)"
+      "example2Note": "Dumating ang pusa. (paksa ng aksyon: pusa)",
+      "wordMeaning": "Malabo, hindi malinaw",
+      "askAi": "Tanungin ang AI",
+      "analyzing": "Sinusuri...",
+      "resultHeader": "Sukuro AI · Paliwanag",
+      "s1Title": "Kahulugan",
+      "s1Body": "Ang 曖昧 (aimai) ay tumutukoy sa bagay na malabo, ambiguous, o kulang sa linaw. Puwede itong ilapat sa sagot, kilos, patakaran, damdamin, o sitwasyong hindi tiyak ang hangganan. Ang kanjing 曖 ay may himig ng pagkalabo o pagtatabing, habang ang 昧 ay nagpapahiwatig ng hindi pagiging malinaw; kapag pinagsama, nabubuo ang ideya ng sinadyang o di-sinasadyang pagiging hindi direkta.",
+      "s2Title": "Paggamit",
+      "s2Body": "Ang 曖昧 ay isang な-adjective. Kaya sa pag-modify ng pangngalan, ginagamit ang 曖昧な + noun; at bilang adverb, 曖昧に + verb. Karaniwang parirala: 曖昧な返事 (malabong sagot), 曖昧な態度 (di-tiyak na asal), at 曖昧に答える (sumagot nang hindi direkta). Madalas ito kapag ayaw maging sobrang matigas o tuwiran ang pahayag.",
+      "s3Title": "Tala sa kultura",
+      "s3Body": "Sa komunikasyong Hapones, kadalasang iniiwasan ang direktang “hindi” upang mapanatili ang maayos na ugnayan. Dahil dito, ang malabong paraan ng pagsasalita ay maaaring tanda ng paggalang at konsiderasyon, lalo na sa pormal o propesyonal na sitwasyon. Kapag naunawaan mo ito, mas maiintindihan mo ang tunay na daloy ng usapan sa Japanese.",
+      "ex1Trans": "Nagbigay siya ng malabong sagot.",
+      "ex2Trans": "Malabo ang patakarang iyon.",
+      "ex3Trans": "Ngumiti siya nang may kalabuan."
     },
     "cta": {
       "eyebrow": "Magsimula",
@@ -182,48 +195,48 @@
     },
     "kana": {
       "eyebrow": "Kana",
-      "title": "Learn hiragana and katakana",
-      "description": "Sukuro also helps you build a strong reading foundation with both Japanese syllabaries.",
+      "title": "Matutunan ang hiragana at katakana",
+      "description": "Tinutulungan ka rin ng Sukuro na bumuo ng matibay na pundasyon sa pagbasa gamit ang dalawang Japanese syllabary.",
       "hiragana": {
         "title": "Hiragana",
-        "description": "Used for native Japanese words and grammar endings."
+        "description": "Ginagamit para sa katutubong salitang Hapon at mga hulaping pang-gramatika."
       },
       "katakana": {
         "title": "Katakana",
-        "description": "Used mainly for foreign words, names, and emphasis."
+        "description": "Pangunahing ginagamit para sa hiram na salita, mga pangalan, at pagbibigay-diin."
       }
     },
     "jlpt": {
       "eyebrow": "JLPT",
-      "title": "Choose your favorite JLPT level",
-      "description": "You can focus your learning on the JLPT level that matches your objective, from beginner to advanced.",
-      "selectLabel": "Select your preferred level:",
-      "favoriteLabel": "Selected level",
+      "title": "Piliin ang paborito mong antas ng JLPT",
+      "description": "Maaari mong ituon ang pag-aaral sa antas ng JLPT na tumutugma sa iyong layunin, mula baguhan hanggang advanced.",
+      "selectLabel": "Piliin ang gusto mong antas:",
+      "favoriteLabel": "Napiling antas",
       "levels": {
         "n5": {
-          "label": "Beginner",
-          "focus": "Foundation of everyday Japanese",
-          "description": "Focuses on basic vocabulary, essential kanji, and simple sentence patterns for daily conversation."
+          "label": "Baguhan",
+          "focus": "Pundasyon ng pang-araw-araw na Japanese",
+          "description": "Nakatuon sa batayang bokabularyo, mahahalagang kanji, at simpleng pattern ng pangungusap para sa araw-araw na usapan."
         },
         "n4": {
           "label": "Elementary",
-          "focus": "Expand practical communication",
-          "description": "Introduces more grammar and vocabulary to understand common situations and short passages."
+          "focus": "Palawakin ang praktikal na komunikasyon",
+          "description": "Nagdaragdag ng mas maraming grammar at bokabularyo para maunawaan ang karaniwang sitwasyon at maiikling teksto."
         },
         "n3": {
           "label": "Intermediate",
-          "focus": "Bridge to real-world fluency",
-          "description": "Covers more nuanced grammar and broader vocabulary used in real conversations and media."
+          "focus": "Tulay tungo sa tunay na fluency",
+          "description": "Saklaw ang mas maselang grammar at mas malawak na bokabularyo na ginagamit sa totoong usapan at media."
         },
         "n2": {
           "label": "Upper-intermediate",
-          "focus": "High comprehension and precision",
-          "description": "Targets advanced reading/listening comprehension for news, formal contexts, and complex topics."
+          "focus": "Mataas na pag-unawa at katumpakan",
+          "description": "Target ang advanced na pag-unawa sa pagbasa/pakikinig para sa balita, pormal na konteksto, at kumplikadong paksa."
         },
         "n1": {
           "label": "Advanced",
-          "focus": "Near-native understanding",
-          "description": "Emphasizes subtle grammar, abstract topics, and high-level comprehension close to native usage."
+          "focus": "Pag-unawang halos katulad ng native",
+          "description": "Binibigyang-diin ang mas pino na grammar, abstraktong paksa, at mataas na antas ng pag-unawa na malapit sa gamit ng native speakers."
         }
       }
     },
@@ -231,241 +244,241 @@
       "vocab": {
         "n5": {
           "w1": {
-            "meaning": "Water",
-            "exampleMeaning": "to drink water"
+            "meaning": "Tubig",
+            "exampleMeaning": "uminom ng tubig"
           },
           "w2": {
-            "meaning": "To eat",
-            "exampleMeaning": "to eat breakfast"
+            "meaning": "Kumain",
+            "exampleMeaning": "kumain ng almusal"
           },
           "w3": {
-            "meaning": "School",
-            "exampleMeaning": "to go to school"
+            "meaning": "Paaralan",
+            "exampleMeaning": "pumunta sa paaralan"
           },
           "w4": {
-            "meaning": "Friend",
-            "exampleMeaning": "to play with a friend"
+            "meaning": "Kaibigan",
+            "exampleMeaning": "makipaglaro sa kaibigan"
           }
         },
         "n4": {
           "w1": {
-            "meaning": "Promise",
-            "exampleMeaning": "to keep a promise"
+            "meaning": "Pangako",
+            "exampleMeaning": "tuparin ang pangako"
           },
           "w2": {
-            "meaning": "Experience",
-            "exampleMeaning": "to gain experience abroad"
+            "meaning": "Karanasan",
+            "exampleMeaning": "makakuha ng karanasan sa ibang bansa"
           },
           "w3": {
-            "meaning": "Review",
-            "exampleMeaning": "to review every day"
+            "meaning": "Pagrepaso",
+            "exampleMeaning": "magrepaso araw-araw"
           },
           "w4": {
-            "meaning": "Hobby",
-            "exampleMeaning": "my hobby is photography"
+            "meaning": "Libangan",
+            "exampleMeaning": "ang libangan ko ay potograpiya"
           }
         },
         "n3": {
           "w1": {
-            "meaning": "Environment",
-            "exampleMeaning": "to think about environmental issues"
+            "meaning": "Kapaligiran",
+            "exampleMeaning": "pag-isipan ang mga isyung pangkapaligiran"
           },
           "w2": {
-            "meaning": "Conclusion",
-            "exampleMeaning": "to state the conclusion first"
+            "meaning": "Konklusyon",
+            "exampleMeaning": "sabihin muna ang konklusyon"
           },
           "w3": {
-            "meaning": "Realization",
-            "exampleMeaning": "to make a dream come true"
+            "meaning": "Pagsasakatuparan",
+            "exampleMeaning": "maisakatuparan ang pangarap"
           },
           "w4": {
-            "meaning": "Appropriate",
-            "exampleMeaning": "to choose an appropriate expression"
+            "meaning": "Angkop",
+            "exampleMeaning": "pumili ng angkop na pahayag"
           }
         },
         "n2": {
           "w1": {
-            "meaning": "Challenge / Task",
-            "exampleMeaning": "to analyze a challenge"
+            "meaning": "Hamon / Gawain",
+            "exampleMeaning": "suriin ang isang hamon"
           },
           "w2": {
-            "meaning": "Logic",
-            "exampleMeaning": "to explain logically"
+            "meaning": "Lohika",
+            "exampleMeaning": "magpaliwanag nang lohikal"
           },
           "w3": {
-            "meaning": "Phenomenon",
-            "exampleMeaning": "to study social phenomena"
+            "meaning": "Penomenon",
+            "exampleMeaning": "pag-aralan ang mga panlipunang penomenon"
           },
           "w4": {
-            "meaning": "Policy measure",
-            "exampleMeaning": "to introduce a new policy measure"
+            "meaning": "Hakbang-patakaran",
+            "exampleMeaning": "magpatupad ng bagong hakbang-patakaran"
           }
         },
         "n1": {
           "w1": {
-            "meaning": "Spirit / Drive",
-            "exampleMeaning": "a speech full of determination"
+            "meaning": "Diwa / Sigla",
+            "exampleMeaning": "isang talumpating puno ng determinasyon"
           },
           "w2": {
-            "meaning": "Public awareness",
-            "exampleMeaning": "to thoroughly disseminate rules"
+            "meaning": "Malawakang kaalaman",
+            "exampleMeaning": "ipalaganap nang lubos ang mga tuntunin"
           },
           "w3": {
-            "meaning": "Valid / Reasonable",
-            "exampleMeaning": "to make a sound judgment"
+            "meaning": "Wasto / Makatwiran",
+            "exampleMeaning": "gumawa ng makatwirang pasya"
           },
           "w4": {
-            "meaning": "Category / Scope",
-            "exampleMeaning": "to go beyond one’s area of expertise"
+            "meaning": "Kategorya / Saklaw",
+            "exampleMeaning": "lumampas sa saklaw ng sariling espesyalisasyon"
           }
         }
       },
       "kanji": {
         "n5": {
           "k1": {
-            "meaning": "Sun · Day"
+            "meaning": "Araw · Araw (petsa)"
           },
           "k2": {
-            "meaning": "Moon · Month"
+            "meaning": "Buwan · Buwan (month)"
           },
           "k3": {
-            "meaning": "Mountain"
+            "meaning": "Bundok"
           },
           "k4": {
-            "meaning": "River"
+            "meaning": "Ilog"
           },
           "k5": {
-            "meaning": "Person"
+            "meaning": "Tao"
           }
         },
         "n4": {
           "k1": {
-            "meaning": "Pass · Commute"
+            "meaning": "Dumaan · Mag-commute"
           },
           "k2": {
-            "meaning": "Business · Study"
+            "meaning": "Trabaho · Pag-aaral"
           },
           "k3": {
-            "meaning": "Special"
+            "meaning": "Espesyal"
           },
           "k4": {
-            "meaning": "Explain"
+            "meaning": "Ipaliwanag"
           },
           "k5": {
-            "meaning": "Continue"
+            "meaning": "Magpatuloy"
           }
         },
         "n3": {
           "k1": {
-            "meaning": "Accustom"
+            "meaning": "Masanay"
           },
           "k2": {
-            "meaning": "Condition"
+            "meaning": "Kalagayan"
           },
           "k3": {
-            "meaning": "Present · Submit"
+            "meaning": "Iharap · Isumite"
           },
           "k4": {
-            "meaning": "Plan · Proposal"
+            "meaning": "Plano · Panukala"
           },
           "k5": {
-            "meaning": "Operate"
+            "meaning": "Pamahalaan"
           }
         },
         "n2": {
           "k1": {
-            "meaning": "Theory · Argument"
+            "meaning": "Teorya · Pangangatwiran"
           },
           "k2": {
-            "meaning": "Responsibility"
+            "meaning": "Pananagutan"
           },
           "k3": {
-            "meaning": "Measure · Guess"
+            "meaning": "Sukatin · Tantiyahin"
           },
           "k4": {
-            "meaning": "Proof"
+            "meaning": "Patunay"
           },
           "k5": {
-            "meaning": "Guide"
+            "meaning": "Gumabay"
           }
         },
         "n1": {
           "k1": {
-            "meaning": "Manifest"
+            "meaning": "Ihayag"
           },
           "k2": {
-            "meaning": "Consideration"
+            "meaning": "Pagsasaalang-alang"
           },
           "k3": {
-            "meaning": "Follow"
+            "meaning": "Sumunod"
           },
           "k4": {
-            "meaning": "Fine · Detailed"
+            "meaning": "Pino · Detalyado"
           },
           "k5": {
-            "meaning": "Solid · Firm"
+            "meaning": "Matibay · Solido"
           }
         }
       },
       "grammar": {
         "n5": {
           "g1": {
-            "label": "Basic assertion",
-            "explanation": "States a fact or describes something in the simplest form.",
-            "translation": "This is a book."
+            "label": "Pangunahing pahayag",
+            "explanation": "Nagsasaad ng katotohanan o naglalarawan sa pinakasimpleng anyo.",
+            "translation": "Ito ay isang libro."
           },
           "g2": {
-            "label": "Expressing likes",
-            "explanation": "Used to express what you like.",
-            "translation": "I like Japanese."
+            "label": "Pagpapahayag ng gusto",
+            "explanation": "Ginagamit upang ipahayag ang mga gusto mo.",
+            "translation": "Gusto ko ang Japanese."
           }
         },
         "n4": {
           "g1": {
-            "label": "Obligation",
-            "explanation": "Expresses that something must be done.",
-            "translation": "I must practice kanji every day."
+            "label": "Obligasyon",
+            "explanation": "Ipinapahayag na may bagay na kailangang gawin.",
+            "translation": "Kailangan kong magsanay ng kanji araw-araw."
           },
           "g2": {
-            "label": "Opinion",
-            "explanation": "Expresses what the speaker thinks.",
-            "translation": "I think this grammar is important."
+            "label": "Opinyon",
+            "explanation": "Ipinapahayag ang iniisip ng nagsasalita.",
+            "translation": "Sa tingin ko mahalaga ang grammar na ito."
           }
         },
         "n3": {
           "g1": {
-            "label": "Purpose / Wish",
-            "explanation": "Indicates purpose or a desired outcome.",
-            "translation": "I practice so that I can speak Japanese."
+            "label": "Layunin / Nais",
+            "explanation": "Nagpapahiwatig ng layunin o ninanais na resulta.",
+            "translation": "Nagsasanay ako para makapagsalita ng Japanese."
           },
           "g2": {
-            "label": "Established rule",
-            "explanation": "Shows a rule, schedule, or arrangement already decided.",
-            "translation": "In class, we are supposed to use only Japanese."
+            "label": "Itinakdang tuntunin",
+            "explanation": "Ipinapakita ang tuntunin, iskedyul, o kaayusang napagpasyahan na.",
+            "translation": "Sa klase, inaasahang Japanese lang ang gagamitin namin."
           }
         },
         "n2": {
           "g1": {
-            "label": "No more than",
-            "explanation": "Emphasizes that something is merely / only.",
-            "translation": "This is nothing more than one example."
+            "label": "Hindi hihigit sa",
+            "explanation": "Binibigyang-diin na iyon ay basta ganoon lamang.",
+            "translation": "Isa lamang itong halimbawa."
           },
           "g2": {
-            "label": "Along with",
-            "explanation": "Indicates that one change accompanies another.",
-            "translation": "As your level improves, your vocabulary also grows."
+            "label": "Kasabay ng",
+            "explanation": "Ipinapahiwatig na may pagbabagong kasabay ng isa pang pagbabago.",
+            "translation": "Habang tumataas ang antas mo, lumalawak din ang bokabularyo mo."
           }
         },
         "n1": {
           "g1": {
-            "label": "Concerning / over",
-            "explanation": "Used for debates or issues surrounding a topic.",
-            "translation": "Debate continues over educational reform."
+            "label": "Tungkol sa / ukol sa",
+            "explanation": "Ginagamit sa mga debate o usaping umiikot sa isang paksa.",
+            "translation": "Nagpapatuloy ang debate tungkol sa repormang pang-edukasyon."
           },
           "g2": {
-            "label": "Cannot help but",
-            "explanation": "Expresses an irresistible feeling or reaction.",
-            "translation": "I cannot help but be surprised hearing this story."
+            "label": "Hindi mapigilang",
+            "explanation": "Nagpapahayag ng damdamin o reaksiyong hindi mapigilan.",
+            "translation": "Hindi ko maiwasang magulat nang marinig ko ang kuwentong ito."
           }
         }
       }

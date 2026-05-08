@@ -173,7 +173,20 @@
       "waExplanation": "文の「テーマ」を示します。",
       "gaExplanation": "「主語」、動作の主体を示します。",
       "example1Note": "猫が魚を食べる（テーマは猫）",
-      "example2Note": "猫が来た（主語は猫）"
+      "example2Note": "猫が来た（主語は猫）",
+      "wordMeaning": "曖昧・はっきりしない",
+      "askAi": "AIに聞く",
+      "analyzing": "解析中...",
+      "resultHeader": "Sukuro AI · 解説",
+      "s1Title": "意味",
+      "s1Body": "曖昧（あいまい）は、物事がはっきりせず、解釈が一つに定まらない状態を表す語です。返事、態度、規則、気持ちなど、境界がぼやけている内容に広く使えます。漢字の「曖」は薄暗さ・不明瞭さを、「昧」は見えにくさ・判然としなさを含み、組み合わせることで「意図的にも無意識にも曇った状態」というニュアンスを作ります。",
+      "s2Title": "使い方",
+      "s2Body": "曖昧はナ形容詞なので、名詞を修飾するときは「曖昧な＋名詞」、動詞を修飾するときは「曖昧に＋動詞」の形になります。よく使う組み合わせとして、曖昧な返事、曖昧な態度、曖昧に答える、などがあります。相手に断定を避けたいときや、情報が十分でないときに特に自然です。",
+      "s3Title": "文化メモ",
+      "s3Body": "日本語のコミュニケーションでは、関係性や場の空気を保つために、直接的な「いいえ」を避ける場面が少なくありません。そのため、曖昧な言い方は丁寧さや配慮として機能することがあります。文法だけでなく、こうした間接的な含みを読み取れるようになると、実際の会話理解が大きく進みます。",
+      "ex1Trans": "彼は曖昧な返事をした。",
+      "ex2Trans": "その規則は曖昧だ。",
+      "ex3Trans": "彼女は曖昧に笑った。"
     },
     "cta": {
       "eyebrow": "はじめる",
@@ -181,49 +194,49 @@
       "description": "AndroidまたはiOSでSukuroを無料ダウンロードし、今日から日本語の旅を始めましょう。"
     },
     "kana": {
-      "eyebrow": "Kana",
-      "title": "Learn hiragana and katakana",
-      "description": "Sukuro also helps you build a strong reading foundation with both Japanese syllabaries.",
+      "eyebrow": "かな",
+      "title": "ひらがなとカタカナを学ぼう",
+      "description": "Sukuroは、2つの日本語の音節文字を使って、読む力の土台づくりもサポートします。",
       "hiragana": {
-        "title": "Hiragana",
-        "description": "Used for native Japanese words and grammar endings."
+        "title": "ひらがな",
+        "description": "和語や文法の語尾を表すときに使われます。"
       },
       "katakana": {
-        "title": "Katakana",
-        "description": "Used mainly for foreign words, names, and emphasis."
+        "title": "カタカナ",
+        "description": "主に外来語、名前、強調表現に使われます。"
       }
     },
     "jlpt": {
       "eyebrow": "JLPT",
-      "title": "Choose your favorite JLPT level",
-      "description": "You can focus your learning on the JLPT level that matches your objective, from beginner to advanced.",
-      "selectLabel": "Select your preferred level:",
-      "favoriteLabel": "Selected level",
+      "title": "お気に入りのJLPTレベルを選ぼう",
+      "description": "初級から上級まで、あなたの目標に合ったJLPTレベルに学習の重点を置けます。",
+      "selectLabel": "希望するレベルを選択:",
+      "favoriteLabel": "選択中のレベル",
       "levels": {
         "n5": {
-          "label": "Beginner",
-          "focus": "Foundation of everyday Japanese",
-          "description": "Focuses on basic vocabulary, essential kanji, and simple sentence patterns for daily conversation."
+          "label": "初級",
+          "focus": "日常日本語の土台",
+          "description": "日常会話に必要な基本語彙、重要な漢字、シンプルな文型に重点を置きます。"
         },
         "n4": {
-          "label": "Elementary",
-          "focus": "Expand practical communication",
-          "description": "Introduces more grammar and vocabulary to understand common situations and short passages."
+          "label": "初中級",
+          "focus": "実用的なコミュニケーションを拡張",
+          "description": "よくある場面や短い文章を理解するために、文法と語彙をさらに広げます。"
         },
         "n3": {
-          "label": "Intermediate",
-          "focus": "Bridge to real-world fluency",
-          "description": "Covers more nuanced grammar and broader vocabulary used in real conversations and media."
+          "label": "中級",
+          "focus": "実践的な流暢さへの橋渡し",
+          "description": "実際の会話やメディアで使われる、より繊細な文法と幅広い語彙を扱います。"
         },
         "n2": {
-          "label": "Upper-intermediate",
-          "focus": "High comprehension and precision",
-          "description": "Targets advanced reading/listening comprehension for news, formal contexts, and complex topics."
+          "label": "中上級",
+          "focus": "高い読解力と精度",
+          "description": "ニュース、フォーマルな文脈、複雑な話題に対応できる高度な読解・聴解力を目指します。"
         },
         "n1": {
-          "label": "Advanced",
-          "focus": "Near-native understanding",
-          "description": "Emphasizes subtle grammar, abstract topics, and high-level comprehension close to native usage."
+          "label": "上級",
+          "focus": "ネイティブに近い理解",
+          "description": "微妙な文法、抽象的なテーマ、ネイティブに近い高レベルの理解力を重視します。"
         }
       }
     },
@@ -231,241 +244,241 @@
       "vocab": {
         "n5": {
           "w1": {
-            "meaning": "Water",
-            "exampleMeaning": "to drink water"
+            "meaning": "水",
+            "exampleMeaning": "水を飲む"
           },
           "w2": {
-            "meaning": "To eat",
-            "exampleMeaning": "to eat breakfast"
+            "meaning": "食べる",
+            "exampleMeaning": "朝ごはんを食べる"
           },
           "w3": {
-            "meaning": "School",
-            "exampleMeaning": "to go to school"
+            "meaning": "学校",
+            "exampleMeaning": "学校に行く"
           },
           "w4": {
-            "meaning": "Friend",
-            "exampleMeaning": "to play with a friend"
+            "meaning": "友達",
+            "exampleMeaning": "友達と遊ぶ"
           }
         },
         "n4": {
           "w1": {
-            "meaning": "Promise",
-            "exampleMeaning": "to keep a promise"
+            "meaning": "約束",
+            "exampleMeaning": "約束を守る"
           },
           "w2": {
-            "meaning": "Experience",
-            "exampleMeaning": "to gain experience abroad"
+            "meaning": "経験",
+            "exampleMeaning": "海外で経験を積む"
           },
           "w3": {
-            "meaning": "Review",
-            "exampleMeaning": "to review every day"
+            "meaning": "復習",
+            "exampleMeaning": "毎日復習する"
           },
           "w4": {
-            "meaning": "Hobby",
-            "exampleMeaning": "my hobby is photography"
+            "meaning": "趣味",
+            "exampleMeaning": "趣味は写真です"
           }
         },
         "n3": {
           "w1": {
-            "meaning": "Environment",
-            "exampleMeaning": "to think about environmental issues"
+            "meaning": "環境",
+            "exampleMeaning": "環境問題について考える"
           },
           "w2": {
-            "meaning": "Conclusion",
-            "exampleMeaning": "to state the conclusion first"
+            "meaning": "結論",
+            "exampleMeaning": "結論を先に述べる"
           },
           "w3": {
-            "meaning": "Realization",
-            "exampleMeaning": "to make a dream come true"
+            "meaning": "実現",
+            "exampleMeaning": "夢を実現する"
           },
           "w4": {
-            "meaning": "Appropriate",
-            "exampleMeaning": "to choose an appropriate expression"
+            "meaning": "適切",
+            "exampleMeaning": "適切な表現を選ぶ"
           }
         },
         "n2": {
           "w1": {
-            "meaning": "Challenge / Task",
-            "exampleMeaning": "to analyze a challenge"
+            "meaning": "課題",
+            "exampleMeaning": "課題を分析する"
           },
           "w2": {
-            "meaning": "Logic",
-            "exampleMeaning": "to explain logically"
+            "meaning": "論理",
+            "exampleMeaning": "論理的に説明する"
           },
           "w3": {
-            "meaning": "Phenomenon",
-            "exampleMeaning": "to study social phenomena"
+            "meaning": "現象",
+            "exampleMeaning": "社会現象を研究する"
           },
           "w4": {
-            "meaning": "Policy measure",
-            "exampleMeaning": "to introduce a new policy measure"
+            "meaning": "施策",
+            "exampleMeaning": "新しい施策を導入する"
           }
         },
         "n1": {
           "w1": {
-            "meaning": "Spirit / Drive",
-            "exampleMeaning": "a speech full of determination"
+            "meaning": "気迫",
+            "exampleMeaning": "気迫に満ちた演説"
           },
           "w2": {
-            "meaning": "Public awareness",
-            "exampleMeaning": "to thoroughly disseminate rules"
+            "meaning": "周知",
+            "exampleMeaning": "規則を周知徹底する"
           },
           "w3": {
-            "meaning": "Valid / Reasonable",
-            "exampleMeaning": "to make a sound judgment"
+            "meaning": "妥当",
+            "exampleMeaning": "妥当な判断を下す"
           },
           "w4": {
-            "meaning": "Category / Scope",
-            "exampleMeaning": "to go beyond one’s area of expertise"
+            "meaning": "範疇",
+            "exampleMeaning": "専門の範疇を超える"
           }
         }
       },
       "kanji": {
         "n5": {
           "k1": {
-            "meaning": "Sun · Day"
+            "meaning": "日・太陽"
           },
           "k2": {
-            "meaning": "Moon · Month"
+            "meaning": "月・月（暦）"
           },
           "k3": {
-            "meaning": "Mountain"
+            "meaning": "山"
           },
           "k4": {
-            "meaning": "River"
+            "meaning": "川"
           },
           "k5": {
-            "meaning": "Person"
+            "meaning": "人"
           }
         },
         "n4": {
           "k1": {
-            "meaning": "Pass · Commute"
+            "meaning": "通る・通学"
           },
           "k2": {
-            "meaning": "Business · Study"
+            "meaning": "業・学業"
           },
           "k3": {
-            "meaning": "Special"
+            "meaning": "特別"
           },
           "k4": {
-            "meaning": "Explain"
+            "meaning": "説明する"
           },
           "k5": {
-            "meaning": "Continue"
+            "meaning": "続ける"
           }
         },
         "n3": {
           "k1": {
-            "meaning": "Accustom"
+            "meaning": "慣れる"
           },
           "k2": {
-            "meaning": "Condition"
+            "meaning": "状況"
           },
           "k3": {
-            "meaning": "Present · Submit"
+            "meaning": "提出する・示す"
           },
           "k4": {
-            "meaning": "Plan · Proposal"
+            "meaning": "案・提案"
           },
           "k5": {
-            "meaning": "Operate"
+            "meaning": "営む・運営する"
           }
         },
         "n2": {
           "k1": {
-            "meaning": "Theory · Argument"
+            "meaning": "理論・議論"
           },
           "k2": {
-            "meaning": "Responsibility"
+            "meaning": "責任"
           },
           "k3": {
-            "meaning": "Measure · Guess"
+            "meaning": "測る・推測する"
           },
           "k4": {
-            "meaning": "Proof"
+            "meaning": "証明"
           },
           "k5": {
-            "meaning": "Guide"
+            "meaning": "導く"
           }
         },
         "n1": {
           "k1": {
-            "meaning": "Manifest"
+            "meaning": "現す"
           },
           "k2": {
-            "meaning": "Consideration"
+            "meaning": "配慮"
           },
           "k3": {
-            "meaning": "Follow"
+            "meaning": "従う"
           },
           "k4": {
-            "meaning": "Fine · Detailed"
+            "meaning": "細かい・精密"
           },
           "k5": {
-            "meaning": "Solid · Firm"
+            "meaning": "堅固・しっかり"
           }
         }
       },
       "grammar": {
         "n5": {
           "g1": {
-            "label": "Basic assertion",
-            "explanation": "States a fact or describes something in the simplest form.",
-            "translation": "This is a book."
+            "label": "基本的な断定",
+            "explanation": "最もシンプルな形で事実を述べたり説明したりします。",
+            "translation": "これは本です。"
           },
           "g2": {
-            "label": "Expressing likes",
-            "explanation": "Used to express what you like.",
-            "translation": "I like Japanese."
+            "label": "好みを表す",
+            "explanation": "好きなものを表現するときに使います。",
+            "translation": "日本語が好きです。"
           }
         },
         "n4": {
           "g1": {
-            "label": "Obligation",
-            "explanation": "Expresses that something must be done.",
-            "translation": "I must practice kanji every day."
+            "label": "義務",
+            "explanation": "何かをしなければならないことを表します。",
+            "translation": "毎日漢字を練習しなければなりません。"
           },
           "g2": {
-            "label": "Opinion",
-            "explanation": "Expresses what the speaker thinks.",
-            "translation": "I think this grammar is important."
+            "label": "意見",
+            "explanation": "話し手の考えを表します。",
+            "translation": "この文法は大切だと思います。"
           }
         },
         "n3": {
           "g1": {
-            "label": "Purpose / Wish",
-            "explanation": "Indicates purpose or a desired outcome.",
-            "translation": "I practice so that I can speak Japanese."
+            "label": "目的・願望",
+            "explanation": "目的や望む結果を示します。",
+            "translation": "日本語が話せるように練習しています。"
           },
           "g2": {
-            "label": "Established rule",
-            "explanation": "Shows a rule, schedule, or arrangement already decided.",
-            "translation": "In class, we are supposed to use only Japanese."
+            "label": "決まっているルール",
+            "explanation": "すでに決まっている規則や予定を示します。",
+            "translation": "授業では日本語だけを使うことになっています。"
           }
         },
         "n2": {
           "g1": {
-            "label": "No more than",
-            "explanation": "Emphasizes that something is merely / only.",
-            "translation": "This is nothing more than one example."
+            "label": "〜にすぎない",
+            "explanation": "単にそれだけだということを強調します。",
+            "translation": "これはただの一例にすぎません。"
           },
           "g2": {
-            "label": "Along with",
-            "explanation": "Indicates that one change accompanies another.",
-            "translation": "As your level improves, your vocabulary also grows."
+            "label": "〜に伴って",
+            "explanation": "ある変化に伴って別の変化が起きることを示します。",
+            "translation": "レベルが上がるにつれて語彙も増えます。"
           }
         },
         "n1": {
           "g1": {
-            "label": "Concerning / over",
-            "explanation": "Used for debates or issues surrounding a topic.",
-            "translation": "Debate continues over educational reform."
+            "label": "〜をめぐって",
+            "explanation": "ある話題を取り巻く議論や問題に使います。",
+            "translation": "教育改革をめぐる議論は続いています。"
           },
           "g2": {
-            "label": "Cannot help but",
-            "explanation": "Expresses an irresistible feeling or reaction.",
-            "translation": "I cannot help but be surprised hearing this story."
+            "label": "〜ずにはいられない",
+            "explanation": "抑えられない感情や反応を表します。",
+            "translation": "この話を聞くと驚かずにはいられません。"
           }
         }
       }

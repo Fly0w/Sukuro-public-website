@@ -297,6 +297,42 @@ function jlptBadgeClass(level: string) {
 
   return palette[level] ?? 'bg-muted text-muted-foreground'
 }
+
+// AI demo section
+const aiLoading = ref(false)
+const aiDone = ref(false)
+
+const aiWord = {
+  kanji: '曖昧',
+  reading: 'あいまい',
+  romaji: 'aimai',
+  level: 'N2',
+  examples: [
+    { jp: '曖昧な返事をした', reading: 'あいまいなへんじをした' },
+    { jp: 'その規則は曖昧だ', reading: 'そのきそくはあいまいだ' },
+    { jp: '彼女は曖昧に笑った', reading: 'かのじょはあいまいにわらった' },
+  ],
+}
+
+const aiSections = computed(() => [
+  { title: t('about.ai.s1Title'), body: t('about.ai.s1Body') },
+  { title: t('about.ai.s2Title'), body: t('about.ai.s2Body') },
+  { title: t('about.ai.s3Title'), body: t('about.ai.s3Body') },
+])
+
+const aiExampleTrans = computed(() => [
+  t('about.ai.ex1Trans'),
+  t('about.ai.ex2Trans'),
+  t('about.ai.ex3Trans'),
+])
+
+async function handleAskAI() {
+  if (aiLoading.value || aiDone.value) return
+  aiLoading.value = true
+  await new Promise(resolve => setTimeout(resolve, 2400))
+  aiLoading.value = false
+  aiDone.value = true
+}
 </script>
 
 <template>
@@ -576,41 +612,90 @@ function jlptBadgeClass(level: string) {
           </div>
 
           <div class="rounded-xl border border-border/60 bg-card overflow-hidden shadow-sm">
-            <div class="px-4 py-3 border-b border-border/50 flex items-center gap-2 bg-muted/30">
-              <div class="w-2 h-2 rounded-full bg-primary/60" />
-              <p class="text-xs font-medium text-muted-foreground">{{ t('about.ai.chatHeader') }}</p>
-            </div>
-            <div class="p-5 space-y-4">
-              <div class="flex gap-3 items-end">
-                <div class="w-7 h-7 rounded-full bg-muted flex items-center justify-center shrink-0">
-                  <Icon name="lucide:user" class="w-3.5 h-3.5 text-muted-foreground" />
+            <!-- Word + Ask AI button -->
+            <div class="p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center gap-2.5 flex-wrap">
+                  <span class="text-4xl font-bold text-foreground tracking-tight">{{ aiWord.kanji }}</span>
+                  <span
+                    class="text-[11px] font-bold px-2 py-0.5 rounded-full shrink-0"
+                    :class="jlptBadgeClass(aiWord.level)"
+                  >{{ aiWord.level }}</span>
                 </div>
-                <div class="bg-muted/60 rounded-2xl rounded-bl-sm px-4 py-2.5 text-sm text-foreground/80 max-w-xs">
-                  {{ t('about.ai.userQuestion') }}
+                <p class="text-sm text-muted-foreground mt-1">{{ aiWord.reading }} · {{ aiWord.romaji }}</p>
+                <p class="text-sm font-medium text-foreground/80 mt-0.5">{{ t('about.ai.wordMeaning') }}</p>
+              </div>
+              <Button
+                variant="default"
+                size="sm"
+                class="shrink-0 gap-1.5"
+                :disabled="aiLoading || aiDone"
+                @click="handleAskAI"
+              >
+                <Icon name="lucide:sparkles" class="w-3.5 h-3.5" />
+                {{ t('about.ai.askAi') }}
+              </Button>
+            </div>
+
+            <!-- Loading animation -->
+            <Transition
+              enter-active-class="transition-all duration-300 ease-out"
+              enter-from-class="opacity-0"
+              enter-to-class="opacity-100"
+              leave-active-class="transition-all duration-200 ease-in"
+              leave-from-class="opacity-100"
+              leave-to-class="opacity-0"
+            >
+              <div v-if="aiLoading" class="px-5 pb-5 flex items-center gap-2">
+                <div class="w-6 h-6 rounded-full bg-primary/15 flex items-center justify-center shrink-0">
+                  <span class="text-[9px] font-bold text-primary">AI</span>
+                </div>
+                <div class="flex items-center gap-1.5 bg-muted/50 rounded-full px-4 py-2">
+                  <span class="text-xs text-muted-foreground mr-1">{{ t('about.ai.analyzing') }}</span>
+                  <span class="w-1.5 h-1.5 rounded-full bg-primary/60 animate-bounce [animation-delay:0ms]" />
+                  <span class="w-1.5 h-1.5 rounded-full bg-primary/60 animate-bounce [animation-delay:150ms]" />
+                  <span class="w-1.5 h-1.5 rounded-full bg-primary/60 animate-bounce [animation-delay:300ms]" />
                 </div>
               </div>
-              <div class="flex gap-3 items-end justify-end">
-                <div class="bg-primary/10 rounded-2xl rounded-br-sm px-4 py-3 text-sm text-foreground/80 max-w-sm space-y-2">
-                  <div class="space-y-2">
-                    <p>
-                      <strong class="text-foreground">は (wa)</strong> {{ t('about.ai.waExplanation') }}
-                    </p>
-                    <p>
-                      <strong class="text-foreground">が (ga)</strong> {{ t('about.ai.gaExplanation') }}
-                    </p>
+            </Transition>
+
+            <!-- Explanation result -->
+            <Transition
+              enter-active-class="transition-all duration-600 ease-out"
+              enter-from-class="opacity-0 translate-y-3"
+              enter-to-class="opacity-100 translate-y-0"
+            >
+              <div v-if="aiDone" class="border-t border-border/50">
+                <!-- Result header -->
+                <div class="px-5 pt-4 pb-1 flex items-center gap-2">
+                  <div class="w-5 h-5 rounded-full bg-primary/15 flex items-center justify-center shrink-0">
+                    <span class="text-[8px] font-bold text-primary">AI</span>
                   </div>
-                  <div class="rounded-lg bg-background/60 px-3 py-2 space-y-1 text-xs">
-                    <p class="font-medium text-foreground">猫<strong class="text-primary">は</strong>魚を食べる</p>
-                    <p class="text-muted-foreground italic">{{ t('about.ai.example1Note') }}</p>
-                    <p class="font-medium text-foreground mt-1">猫<strong class="text-primary">が</strong>来た</p>
-                    <p class="text-muted-foreground italic">{{ t('about.ai.example2Note') }}</p>
-                  </div>
+                  <p class="text-[11px] font-medium text-muted-foreground">{{ t('about.ai.resultHeader') }}</p>
                 </div>
-                <div class="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
-                  <span class="text-[11px] font-bold text-primary">AI</span>
+
+                <!-- Sections -->
+                <div class="px-5 pb-4 space-y-4 mt-2">
+                  <div v-for="(section, i) in aiSections" :key="i" class="space-y-1">
+                    <h4 class="text-sm font-semibold text-foreground">{{ section.title }}</h4>
+                    <p class="text-sm text-foreground/75 leading-relaxed">{{ section.body }}</p>
+                  </div>
+
+                  <!-- Examples -->
+                  <div class="space-y-2 pt-1">
+                    <div
+                      v-for="(ex, i) in aiWord.examples"
+                      :key="i"
+                      class="rounded-lg bg-muted/40 border border-border/40 px-4 py-3"
+                    >
+                      <p class="font-medium text-foreground text-sm">{{ ex.jp }}</p>
+                      <p class="text-xs text-muted-foreground mt-0.5">{{ ex.reading }}</p>
+                      <p class="text-xs text-primary/80 mt-1 italic">{{ aiExampleTrans[i] }}</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Transition>
           </div>
         </div>
       </div>

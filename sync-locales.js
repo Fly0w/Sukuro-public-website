@@ -5,7 +5,7 @@ const localesDir = path.join(process.cwd(), 'locales')
 const enPath = path.join(localesDir, 'en.json')
 const enData = JSON.parse(fs.readFileSync(enPath, 'utf8'))
 
-const languages = ['ja', 'zh', 'es', 'fr', 'vi', 'tl', 'ko', 'ru']
+const languages = ['ja', 'zh', 'es', 'fr', 'vi', 'tl', 'ko', 'ru', 'hi', 'de']
 
 function syncKeys(source, target) {
   const result = { ...target }

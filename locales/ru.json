@@ -173,7 +173,20 @@
       "waExplanation": "обозначает тему предложения.",
       "gaExplanation": "обозначает подлежащее — того, кто выполняет действие.",
       "example1Note": "Кошка ест рыбу. (тема: кошка)",
-      "example2Note": "Кошка пришла. (подлежащее: кошка)"
+      "example2Note": "Кошка пришла. (подлежащее: кошка)",
+      "wordMeaning": "Неясный, двусмысленный",
+      "askAi": "Спросить ИИ",
+      "analyzing": "Анализ...",
+      "resultHeader": "Sukuro ИИ · Объяснение",
+      "s1Title": "Значение",
+      "s1Body": "曖昧 (aimai) означает «неясный, расплывчатый, двусмысленный». Этим словом описывают ответ, позицию, правило или ситуацию, где нет чётких границ и однозначной трактовки. Иероглиф 曖 передаёт оттенок затемнённости и скрытости, а 昧 — неясности и неопределённости; вместе они формируют образ намеренной или ненамеренной расплывчатости.",
+      "s2Title": "Употребление",
+      "s2Body": "曖昧 — это na-прилагательное. С существительными используется модель 曖昧な + существительное, а в наречном значении — 曖昧に + глагол. Частые сочетания: 曖昧な返事 (уклончивый ответ), 曖昧な態度 (неопределённая позиция), 曖昧に答える (ответить расплывчато). Особенно естественно это слово звучит, когда говорящий избегает слишком прямой формулировки.",
+      "s3Title": "Культурная заметка",
+      "s3Body": "В японском общении прямое «нет» часто смягчают ради сохранения гармонии и вежливости. Поэтому двусмысленная формулировка нередко воспринимается не как ошибка, а как социально уместная стратегия. Понимание этой прагматики помогает лучше читать подтекст и живую речь.",
+      "ex1Trans": "Он дал уклончивый ответ.",
+      "ex2Trans": "Это правило сформулировано расплывчато.",
+      "ex3Trans": "Она улыбнулась двусмысленно."
     },
     "cta": {
       "eyebrow": "Начать",
@@ -181,49 +194,49 @@
       "description": "Скачайте Sukuro бесплатно на Android или iOS и начните изучение японского уже сегодня."
     },
     "kana": {
-      "eyebrow": "Kana",
-      "title": "Learn hiragana and katakana",
-      "description": "Sukuro also helps you build a strong reading foundation with both Japanese syllabaries.",
+      "eyebrow": "Кана",
+      "title": "Изучайте хирагану и катакану",
+      "description": "Sukuro также помогает заложить прочную базу чтения с двумя японскими слоговыми азбуками.",
       "hiragana": {
-        "title": "Hiragana",
-        "description": "Used for native Japanese words and grammar endings."
+        "title": "Хирагана",
+        "description": "Используется для исконно японских слов и грамматических окончаний."
       },
       "katakana": {
-        "title": "Katakana",
-        "description": "Used mainly for foreign words, names, and emphasis."
+        "title": "Катакана",
+        "description": "В основном используется для заимствований, имён и смыслового акцента."
       }
     },
     "jlpt": {
       "eyebrow": "JLPT",
-      "title": "Choose your favorite JLPT level",
-      "description": "You can focus your learning on the JLPT level that matches your objective, from beginner to advanced.",
-      "selectLabel": "Select your preferred level:",
-      "favoriteLabel": "Selected level",
+      "title": "Выберите подходящий уровень JLPT",
+      "description": "Вы можете сосредоточить обучение на уровне JLPT, который соответствует вашей цели — от начального до продвинутого.",
+      "selectLabel": "Выберите предпочтительный уровень:",
+      "favoriteLabel": "Выбранный уровень",
       "levels": {
         "n5": {
-          "label": "Beginner",
-          "focus": "Foundation of everyday Japanese",
-          "description": "Focuses on basic vocabulary, essential kanji, and simple sentence patterns for daily conversation."
+          "label": "Начальный",
+          "focus": "Основа повседневного японского",
+          "description": "Сосредоточен на базовой лексике, ключевых кандзи и простых моделях предложений для повседневного общения."
         },
         "n4": {
-          "label": "Elementary",
-          "focus": "Expand practical communication",
-          "description": "Introduces more grammar and vocabulary to understand common situations and short passages."
+          "label": "Элементарный",
+          "focus": "Расширение практической коммуникации",
+          "description": "Добавляет больше грамматики и словаря для понимания типичных ситуаций и коротких текстов."
         },
         "n3": {
-          "label": "Intermediate",
-          "focus": "Bridge to real-world fluency",
-          "description": "Covers more nuanced grammar and broader vocabulary used in real conversations and media."
+          "label": "Средний",
+          "focus": "Переход к реальной беглости",
+          "description": "Охватывает более тонкую грамматику и широкий словарь, используемые в реальных разговорах и медиа."
         },
         "n2": {
-          "label": "Upper-intermediate",
-          "focus": "High comprehension and precision",
-          "description": "Targets advanced reading/listening comprehension for news, formal contexts, and complex topics."
+          "label": "Выше среднего",
+          "focus": "Высокое понимание и точность",
+          "description": "Нацелен на продвинутое чтение и аудирование для новостей, формальных контекстов и сложных тем."
         },
         "n1": {
-          "label": "Advanced",
-          "focus": "Near-native understanding",
-          "description": "Emphasizes subtle grammar, abstract topics, and high-level comprehension close to native usage."
+          "label": "Продвинутый",
+          "focus": "Понимание почти на уровне носителя",
+          "description": "Делает акцент на тонких грамматических нюансах, абстрактных темах и высоком уровне понимания, близком к речи носителей."
         }
       }
     },
@@ -231,241 +244,241 @@
       "vocab": {
         "n5": {
           "w1": {
-            "meaning": "Water",
-            "exampleMeaning": "to drink water"
+            "meaning": "Вода",
+            "exampleMeaning": "пить воду"
           },
           "w2": {
-            "meaning": "To eat",
-            "exampleMeaning": "to eat breakfast"
+            "meaning": "Есть",
+            "exampleMeaning": "есть завтрак"
           },
           "w3": {
-            "meaning": "School",
-            "exampleMeaning": "to go to school"
+            "meaning": "Школа",
+            "exampleMeaning": "идти в школу"
           },
           "w4": {
-            "meaning": "Friend",
-            "exampleMeaning": "to play with a friend"
+            "meaning": "Друг",
+            "exampleMeaning": "играть с другом"
           }
         },
         "n4": {
           "w1": {
-            "meaning": "Promise",
-            "exampleMeaning": "to keep a promise"
+            "meaning": "Обещание",
+            "exampleMeaning": "сдержать обещание"
           },
           "w2": {
-            "meaning": "Experience",
-            "exampleMeaning": "to gain experience abroad"
+            "meaning": "Опыт",
+            "exampleMeaning": "получать опыт за границей"
           },
           "w3": {
-            "meaning": "Review",
-            "exampleMeaning": "to review every day"
+            "meaning": "Повторение",
+            "exampleMeaning": "повторять каждый день"
           },
           "w4": {
-            "meaning": "Hobby",
-            "exampleMeaning": "my hobby is photography"
+            "meaning": "Хобби",
+            "exampleMeaning": "моё хобби — фотография"
           }
         },
         "n3": {
           "w1": {
-            "meaning": "Environment",
-            "exampleMeaning": "to think about environmental issues"
+            "meaning": "Окружающая среда",
+            "exampleMeaning": "думать об экологических проблемах"
           },
           "w2": {
-            "meaning": "Conclusion",
-            "exampleMeaning": "to state the conclusion first"
+            "meaning": "Вывод",
+            "exampleMeaning": "сначала озвучить вывод"
           },
           "w3": {
-            "meaning": "Realization",
-            "exampleMeaning": "to make a dream come true"
+            "meaning": "Реализация",
+            "exampleMeaning": "воплотить мечту"
           },
           "w4": {
-            "meaning": "Appropriate",
-            "exampleMeaning": "to choose an appropriate expression"
+            "meaning": "Уместный",
+            "exampleMeaning": "выбрать уместное выражение"
           }
         },
         "n2": {
           "w1": {
-            "meaning": "Challenge / Task",
-            "exampleMeaning": "to analyze a challenge"
+            "meaning": "Задача / Вызов",
+            "exampleMeaning": "проанализировать задачу"
           },
           "w2": {
-            "meaning": "Logic",
-            "exampleMeaning": "to explain logically"
+            "meaning": "Логика",
+            "exampleMeaning": "объяснить логично"
           },
           "w3": {
-            "meaning": "Phenomenon",
-            "exampleMeaning": "to study social phenomena"
+            "meaning": "Явление",
+            "exampleMeaning": "изучать социальные явления"
           },
           "w4": {
-            "meaning": "Policy measure",
-            "exampleMeaning": "to introduce a new policy measure"
+            "meaning": "Политическая мера",
+            "exampleMeaning": "ввести новую политическую меру"
           }
         },
         "n1": {
           "w1": {
-            "meaning": "Spirit / Drive",
-            "exampleMeaning": "a speech full of determination"
+            "meaning": "Дух / Настрой",
+            "exampleMeaning": "речь, полная решимости"
           },
           "w2": {
-            "meaning": "Public awareness",
-            "exampleMeaning": "to thoroughly disseminate rules"
+            "meaning": "Широкая осведомлённость",
+            "exampleMeaning": "всесторонне довести правила до сведения"
           },
           "w3": {
-            "meaning": "Valid / Reasonable",
-            "exampleMeaning": "to make a sound judgment"
+            "meaning": "Обоснованный",
+            "exampleMeaning": "принять взвешенное решение"
           },
           "w4": {
-            "meaning": "Category / Scope",
-            "exampleMeaning": "to go beyond one’s area of expertise"
+            "meaning": "Категория / Сфера",
+            "exampleMeaning": "выйти за рамки своей специализации"
           }
         }
       },
       "kanji": {
         "n5": {
           "k1": {
-            "meaning": "Sun · Day"
+            "meaning": "Солнце · День"
           },
           "k2": {
-            "meaning": "Moon · Month"
+            "meaning": "Луна · Месяц"
           },
           "k3": {
-            "meaning": "Mountain"
+            "meaning": "Гора"
           },
           "k4": {
-            "meaning": "River"
+            "meaning": "Река"
           },
           "k5": {
-            "meaning": "Person"
+            "meaning": "Человек"
           }
         },
         "n4": {
           "k1": {
-            "meaning": "Pass · Commute"
+            "meaning": "Проходить · Добира́ться"
           },
           "k2": {
-            "meaning": "Business · Study"
+            "meaning": "Дело · Учёба"
           },
           "k3": {
-            "meaning": "Special"
+            "meaning": "Особый"
           },
           "k4": {
-            "meaning": "Explain"
+            "meaning": "Объяснять"
           },
           "k5": {
-            "meaning": "Continue"
+            "meaning": "Продолжать"
           }
         },
         "n3": {
           "k1": {
-            "meaning": "Accustom"
+            "meaning": "Привыкать"
           },
           "k2": {
-            "meaning": "Condition"
+            "meaning": "Состояние"
           },
           "k3": {
-            "meaning": "Present · Submit"
+            "meaning": "Представлять · Подавать"
           },
           "k4": {
-            "meaning": "Plan · Proposal"
+            "meaning": "План · Предложение"
           },
           "k5": {
-            "meaning": "Operate"
+            "meaning": "Управлять"
           }
         },
         "n2": {
           "k1": {
-            "meaning": "Theory · Argument"
+            "meaning": "Теория · Аргумент"
           },
           "k2": {
-            "meaning": "Responsibility"
+            "meaning": "Ответственность"
           },
           "k3": {
-            "meaning": "Measure · Guess"
+            "meaning": "Измерять · Оценивать"
           },
           "k4": {
-            "meaning": "Proof"
+            "meaning": "Доказательство"
           },
           "k5": {
-            "meaning": "Guide"
+            "meaning": "Направлять"
           }
         },
         "n1": {
           "k1": {
-            "meaning": "Manifest"
+            "meaning": "Проявлять"
           },
           "k2": {
-            "meaning": "Consideration"
+            "meaning": "Учёт / Внимание"
           },
           "k3": {
-            "meaning": "Follow"
+            "meaning": "Следовать"
           },
           "k4": {
-            "meaning": "Fine · Detailed"
+            "meaning": "Тонкий · Детальный"
           },
           "k5": {
-            "meaning": "Solid · Firm"
+            "meaning": "Прочный · Твёрдый"
           }
         }
       },
       "grammar": {
         "n5": {
           "g1": {
-            "label": "Basic assertion",
-            "explanation": "States a fact or describes something in the simplest form.",
-            "translation": "This is a book."
+            "label": "Базовое утверждение",
+            "explanation": "Сообщает факт или описывает что-то в самой простой форме.",
+            "translation": "Это книга."
           },
           "g2": {
-            "label": "Expressing likes",
-            "explanation": "Used to express what you like.",
-            "translation": "I like Japanese."
+            "label": "Выражение предпочтений",
+            "explanation": "Используется, чтобы сказать, что вам нравится.",
+            "translation": "Мне нравится японский язык."
           }
         },
         "n4": {
           "g1": {
-            "label": "Obligation",
-            "explanation": "Expresses that something must be done.",
-            "translation": "I must practice kanji every day."
+            "label": "Обязанность",
+            "explanation": "Выражает, что что-то необходимо сделать.",
+            "translation": "Я должен практиковать кандзи каждый день."
           },
           "g2": {
-            "label": "Opinion",
-            "explanation": "Expresses what the speaker thinks.",
-            "translation": "I think this grammar is important."
+            "label": "Мнение",
+            "explanation": "Выражает точку зрения говорящего.",
+            "translation": "Я думаю, что эта грамматика важна."
           }
         },
         "n3": {
           "g1": {
-            "label": "Purpose / Wish",
-            "explanation": "Indicates purpose or a desired outcome.",
-            "translation": "I practice so that I can speak Japanese."
+            "label": "Цель / Желание",
+            "explanation": "Указывает цель или желаемый результат.",
+            "translation": "Я тренируюсь, чтобы говорить по-японски."
           },
           "g2": {
-            "label": "Established rule",
-            "explanation": "Shows a rule, schedule, or arrangement already decided.",
-            "translation": "In class, we are supposed to use only Japanese."
+            "label": "Установленное правило",
+            "explanation": "Показывает правило, расписание или договорённость, уже принятые заранее.",
+            "translation": "На занятии мы должны использовать только японский."
           }
         },
         "n2": {
           "g1": {
-            "label": "No more than",
-            "explanation": "Emphasizes that something is merely / only.",
-            "translation": "This is nothing more than one example."
+            "label": "Не более чем",
+            "explanation": "Подчёркивает, что это всего лишь что-то одно.",
+            "translation": "Это не более чем один пример."
           },
           "g2": {
-            "label": "Along with",
-            "explanation": "Indicates that one change accompanies another.",
-            "translation": "As your level improves, your vocabulary also grows."
+            "label": "По мере",
+            "explanation": "Показывает, что одно изменение сопровождается другим.",
+            "translation": "По мере роста вашего уровня растёт и словарный запас."
           }
         },
         "n1": {
           "g1": {
-            "label": "Concerning / over",
-            "explanation": "Used for debates or issues surrounding a topic.",
-            "translation": "Debate continues over educational reform."
+            "label": "По поводу / вокруг",
+            "explanation": "Используется для споров или вопросов вокруг темы.",
+            "translation": "Дискуссия вокруг образовательной реформы продолжается."
           },
           "g2": {
-            "label": "Cannot help but",
-            "explanation": "Expresses an irresistible feeling or reaction.",
-            "translation": "I cannot help but be surprised hearing this story."
+            "label": "Не мочь не",
+            "explanation": "Выражает непреодолимое чувство или реакцию.",
+            "translation": "Услышав эту историю, я не могу не удивиться."
           }
         }
       }

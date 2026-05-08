@@ -1,23 +1,42 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const route = useRoute()
 
-useHead({
+const SITE_URL = 'https://sukuro-app.com'
+
+// useLocaleHead génère automatiquement hreflang + og:locale pour toutes les langues
+const i18nHead = useLocaleHead({ addSeoAttributes: true })
+
+useHead(() => ({
   titleTemplate: (titleChunk) => {
     return titleChunk ? `${titleChunk} - Sukuro` : 'Sukuro - Learn Japanese'
   },
-  meta: [
-    { name: 'description', content: 'Master Japanese vocabulary, kanji, and grammar with Sukuro.' }
-  ],
+  htmlAttrs: {
+    ...i18nHead.value.htmlAttrs,
+  },
   link: [
-    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
-  ]
-})
+    ...(i18nHead.value.link ?? []),
+  ],
+  meta: [
+    ...(i18nHead.value.meta ?? []),
+  ],
+}))
 
 useSeoMeta({
   ogTitle: 'Sukuro - Learn Japanese',
   ogDescription: 'Master Japanese vocabulary, kanji, and grammar with Sukuro.',
-  ogImage: '/og-image.png',
+  ogImage: `${SITE_URL}/og-image.png`,
+  ogImageAlt: 'Sukuro — Learn Japanese App',
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  ogType: 'website',
+  ogSiteName: 'Sukuro',
+  ogUrl: computed(() => `${SITE_URL}${route.path}`),
   twitterCard: 'summary_large_image',
+  twitterSite: '@sukuroapp',
+  twitterTitle: 'Sukuro - Learn Japanese',
+  twitterDescription: 'Master Japanese vocabulary, kanji, and grammar with Sukuro.',
+  twitterImage: `${SITE_URL}/og-image.png`,
 })
 </script>
 
