@@ -709,19 +709,11 @@ async function handleAskAI() {
         <p class="text-muted-foreground text-[15px] mb-8 max-w-md mx-auto leading-relaxed">
           {{ t('about.cta.description') }}
         </p>
-        <div class="flex flex-col sm:flex-row gap-3 justify-center">
-          <a :href="appConfig.sukuro.links.googlePlay" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto">
-            <Button size="lg" class="w-full gap-2 shadow-md hover:shadow-lg transition-shadow duration-200">
-              <Icon name="lucide:play" class="w-5 h-5" />
-              Google Play
-            </Button>
-          </a>
-          <a :href="appConfig.sukuro.links.appStore" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto">
-            <Button size="lg" variant="outline" class="w-full gap-2 hover:bg-primary/5 transition-colors duration-200">
-              <Icon name="lucide:apple" class="w-5 h-5" />
-              App Store
-            </Button>
-          </a>
+        <div class="flex justify-center">
+          <StoreBadges
+            :google-play-url="appConfig.sukuro.links.googlePlay"
+            :app-store-url="appConfig.sukuro.links.appStore"
+          />
         </div>
       </div>
     </section>

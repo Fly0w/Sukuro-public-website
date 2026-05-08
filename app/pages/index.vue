@@ -81,19 +81,11 @@ useHead({
               {{ t('landing.hero.subtitle') }}
             </p>
           </div>
-          <div class="animate-fade-up animation-delay-200 flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
-            <a :href="appConfig.sukuro.links.googlePlay" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto">
-              <Button size="lg" class="w-full gap-2 shadow-md hover:shadow-lg transition-shadow duration-200">
-                <Icon name="lucide:play" class="w-5 h-5" />
-                Google Play
-              </Button>
-            </a>
-            <a :href="appConfig.sukuro.links.appStore" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto">
-              <Button size="lg" variant="outline" class="w-full gap-2 hover:bg-primary/5 transition-colors duration-200">
-                <Icon name="lucide:apple" class="w-5 h-5" />
-                App Store
-              </Button>
-            </a>
+          <div class="animate-fade-up animation-delay-200 w-full sm:w-auto">
+            <StoreBadges
+              :google-play-url="appConfig.sukuro.links.googlePlay"
+              :app-store-url="appConfig.sukuro.links.appStore"
+            />
           </div>
         </div>
       </div>
