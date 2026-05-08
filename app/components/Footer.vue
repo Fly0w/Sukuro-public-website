@@ -11,9 +11,13 @@ const appConfig = useAppConfig()
       <!-- Logo + description : pleine largeur mobile -->
       <div class="mb-8 md:mb-0 md:hidden">
         <NuxtLink :to="localePath('/')" class="inline-flex items-center space-x-2 mb-3 group">
-          <img
-            src="~/assets/icon/app_icon.svg"
+          <NuxtImg
+            src="/app_icon.png"
             alt="Sukuro Logo"
+            :width="28"
+            :height="28"
+            format="webp"
+            loading="lazy"
             class="h-7 w-7 rounded-md grayscale opacity-70 transition-all duration-200 group-hover:grayscale-0 group-hover:opacity-100"
           />
           <span class="font-bold text-lg text-foreground transition-colors duration-200 group-hover:text-primary">Sukuro</span>
@@ -29,9 +33,13 @@ const appConfig = useAppConfig()
         <!-- Logo (desktop seulement) -->
         <div class="hidden md:block col-span-2">
           <NuxtLink :to="localePath('/')" class="inline-flex items-center space-x-2 mb-4 group">
-            <img
-              src="~/assets/icon/app_icon.svg"
+            <NuxtImg
+              src="/app_icon.png"
               alt="Sukuro Logo"
+              :width="32"
+              :height="32"
+              format="webp"
+              loading="lazy"
               class="h-8 w-8 rounded-md grayscale opacity-70 transition-all duration-200 group-hover:grayscale-0 group-hover:opacity-100"
             />
             <span class="font-bold text-xl text-foreground transition-colors duration-200 group-hover:text-primary">Sukuro</span>

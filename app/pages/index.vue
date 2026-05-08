@@ -243,22 +243,22 @@ const selectedJlpt = computed(() => {
 function jlptButtonClass(level: string, selected: boolean) {
   const base = 'px-3 py-1.5 rounded-full border text-sm font-medium transition-colors duration-150'
   const palette: Record<string, string> = {
-    N5: selected ? 'bg-green-600 text-white border-green-600' : 'bg-green-600/10 text-green-700 border-green-600/30 hover:bg-green-600/20 dark:text-green-300',
-    N4: selected ? 'bg-blue-600 text-white border-blue-600' : 'bg-blue-600/10 text-blue-700 border-blue-600/30 hover:bg-blue-600/20 dark:text-blue-300',
-    N3: selected ? 'bg-orange-500 text-white border-orange-500' : 'bg-orange-500/10 text-orange-700 border-orange-500/30 hover:bg-orange-500/20 dark:text-orange-300',
-    N2: selected ? 'bg-purple-600 text-white border-purple-600' : 'bg-purple-600/10 text-purple-700 border-purple-600/30 hover:bg-purple-600/20 dark:text-purple-300',
-    N1: selected ? 'bg-red-600 text-white border-red-600' : 'bg-red-600/10 text-red-700 border-red-600/30 hover:bg-red-600/20 dark:text-red-300',
+    N5: selected ? 'bg-green-700 text-white border-green-700' : 'bg-green-600/10 text-green-800 border-green-600/30 hover:bg-green-600/20 dark:text-green-200',
+    N4: selected ? 'bg-blue-700 text-white border-blue-700' : 'bg-blue-600/10 text-blue-800 border-blue-600/30 hover:bg-blue-600/20 dark:text-blue-200',
+    N3: selected ? 'bg-orange-600 text-white border-orange-600' : 'bg-orange-500/10 text-orange-800 border-orange-500/30 hover:bg-orange-500/20 dark:text-orange-200',
+    N2: selected ? 'bg-purple-700 text-white border-purple-700' : 'bg-purple-600/10 text-purple-800 border-purple-600/30 hover:bg-purple-600/20 dark:text-purple-200',
+    N1: selected ? 'bg-red-700 text-white border-red-700' : 'bg-red-600/10 text-red-800 border-red-600/30 hover:bg-red-600/20 dark:text-red-200',
   }
   return `${base} ${palette[level] ?? 'bg-muted text-muted-foreground border-border'}`
 }
 
 function jlptBadgeClass(level: string) {
   const palette: Record<string, string> = {
-    N5: 'bg-green-600/15 text-green-700 dark:text-green-300',
-    N4: 'bg-blue-600/15 text-blue-700 dark:text-blue-300',
-    N3: 'bg-orange-500/15 text-orange-700 dark:text-orange-300',
-    N2: 'bg-purple-600/15 text-purple-700 dark:text-purple-300',
-    N1: 'bg-red-600/15 text-red-700 dark:text-red-300',
+    N5: 'bg-green-600/15 text-green-800 dark:text-green-200',
+    N4: 'bg-blue-600/15 text-blue-800 dark:text-blue-200',
+    N3: 'bg-orange-500/15 text-orange-800 dark:text-orange-200',
+    N2: 'bg-purple-600/15 text-purple-800 dark:text-purple-200',
+    N1: 'bg-red-600/15 text-red-800 dark:text-red-200',
   }
   return palette[level] ?? 'bg-muted text-muted-foreground'
 }
@@ -335,11 +335,20 @@ async function handleAskAI() {
           <div class="animate-fade-up animation-delay-100 shrink-0">
             <div class="relative">
               <div class="absolute inset-0 rounded-[28%] bg-primary/20 blur-2xl scale-110 pointer-events-none" />
-              <img
+              <NuxtPicture
                 src="/app_icon.png"
                 alt="Sukuro App Icon"
-                class="relative w-36 h-36 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-[22%] shadow-2xl shadow-primary/20 object-cover"
-              >
+                :width="256"
+                :height="256"
+                sizes="xs:144px sm:192px md:224px lg:256px"
+                format="webp,avif"
+                preload
+                :img-attrs="{
+                  class: 'relative w-36 h-36 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-[22%] shadow-2xl shadow-primary/20 object-cover',
+                  fetchpriority: 'high',
+                  loading: 'eager',
+                }"
+              />
             </div>
           </div>
         </div>
@@ -371,7 +380,7 @@ async function handleAskAI() {
     <section class="w-full py-10 md:py-16">
       <div class="container mx-auto px-4 md:px-6">
         <div class="mb-8 animate-fade-up">
-          <span class="text-xs font-semibold uppercase tracking-widest text-primary/70">{{ t('about.kana.eyebrow') }}</span>
+          <span class="text-xs font-semibold uppercase tracking-widest text-primary">{{ t('about.kana.eyebrow') }}</span>
           <h2 class="text-2xl md:text-3xl font-bold tracking-tight mt-1 mb-3">{{ t('about.kana.title') }}</h2>
           <p class="text-muted-foreground text-[15px] max-w-2xl leading-relaxed">{{ t('about.kana.description') }}</p>
         </div>
@@ -404,7 +413,7 @@ async function handleAskAI() {
     <section class="w-full py-10 md:py-16 bg-muted/20">
       <div class="container mx-auto px-4 md:px-6">
         <div class="mb-8 animate-fade-up">
-          <span class="text-xs font-semibold uppercase tracking-widest text-primary/70">{{ t('about.jlpt.eyebrow') }}</span>
+          <span class="text-xs font-semibold uppercase tracking-widest text-primary">{{ t('about.jlpt.eyebrow') }}</span>
           <h2 class="text-2xl md:text-3xl font-bold tracking-tight mt-1 mb-3">{{ t('about.jlpt.title') }}</h2>
           <p class="text-muted-foreground text-[15px] max-w-2xl leading-relaxed">{{ t('about.jlpt.description') }}</p>
         </div>
@@ -422,7 +431,7 @@ async function handleAskAI() {
             </button>
           </div>
           <div class="rounded-lg border border-primary/20 bg-primary/5 p-4 md:p-5">
-            <p class="text-xs uppercase tracking-widest text-primary/70 font-semibold mb-1">{{ t('about.jlpt.favoriteLabel') }}</p>
+            <p class="text-xs uppercase tracking-widest text-primary font-semibold mb-1">{{ t('about.jlpt.favoriteLabel') }}</p>
             <h3 class="text-xl font-bold mb-2">{{ selectedJlpt.id }} — {{ selectedJlpt.label }}</h3>
             <p class="text-sm font-medium text-foreground/80 mb-2">{{ selectedJlpt.focus }}</p>
             <p class="text-sm text-muted-foreground leading-relaxed">{{ selectedJlpt.description }}</p>
@@ -435,7 +444,7 @@ async function handleAskAI() {
     <section class="w-full py-10 md:py-16 bg-muted/20">
       <div class="container mx-auto px-4 md:px-6">
         <div class="mb-8 animate-fade-up">
-          <span class="text-xs font-semibold uppercase tracking-widest text-primary/70">{{ t('about.vocab.eyebrow') }}</span>
+          <span class="text-xs font-semibold uppercase tracking-widest text-primary">{{ t('about.vocab.eyebrow') }}</span>
           <h2 class="text-2xl md:text-3xl font-bold tracking-tight mt-1 mb-3">{{ t('about.vocab.title') }}</h2>
           <p class="text-muted-foreground text-[15px] max-w-xl leading-relaxed">{{ t('about.vocab.description') }}</p>
         </div>
@@ -465,7 +474,7 @@ async function handleAskAI() {
             <div class="text-center pb-3 border-b border-border/40">
               <p class="text-xs text-muted-foreground tracking-wide">{{ card.kana }}</p>
               <p class="text-3xl md:text-4xl font-bold text-foreground my-0.5 leading-tight">{{ card.kanji }}</p>
-              <p class="text-[11px] text-muted-foreground/60">{{ card.romaji }}</p>
+                <p class="text-[11px] text-muted-foreground">{{ card.romaji }}</p>
             </div>
             <p class="text-sm font-semibold text-primary text-center">{{ card.meaning }}</p>
             <div class="mt-auto pt-2 border-t border-border/30">
@@ -481,7 +490,7 @@ async function handleAskAI() {
     <section class="w-full py-10 md:py-16">
       <div class="container mx-auto px-4 md:px-6">
         <div class="mb-8 animate-fade-up">
-          <span class="text-xs font-semibold uppercase tracking-widest text-primary/70">{{ t('about.kanji.eyebrow') }}</span>
+          <span class="text-xs font-semibold uppercase tracking-widest text-primary">{{ t('about.kanji.eyebrow') }}</span>
           <h2 class="text-2xl md:text-3xl font-bold tracking-tight mt-1 mb-3">{{ t('about.kanji.title') }}</h2>
           <p class="text-muted-foreground text-[15px] max-w-xl leading-relaxed">{{ t('about.kanji.description') }}</p>
         </div>
@@ -512,10 +521,10 @@ async function handleAskAI() {
             <p class="text-xs font-semibold text-primary">{{ k.meaning }}</p>
             <div class="w-full pt-2 border-t border-border/40 space-y-1">
               <p class="text-[11px] text-muted-foreground">
-                <span class="text-muted-foreground/50">{{ t('about.kanji.onLabel') }} </span>{{ k.on }}
+                <span class="text-muted-foreground">{{ t('about.kanji.onLabel') }} </span>{{ k.on }}
               </p>
               <p class="text-[11px] text-muted-foreground">
-                <span class="text-muted-foreground/50">{{ t('about.kanji.kunLabel') }} </span>{{ k.kun }}
+                <span class="text-muted-foreground">{{ t('about.kanji.kunLabel') }} </span>{{ k.kun }}
               </p>
             </div>
           </div>
@@ -527,7 +536,7 @@ async function handleAskAI() {
     <section class="w-full py-10 md:py-16 bg-muted/20">
       <div class="container mx-auto px-4 md:px-6">
         <div class="mb-8 animate-fade-up">
-          <span class="text-xs font-semibold uppercase tracking-widest text-primary/70">{{ t('about.grammar.eyebrow') }}</span>
+          <span class="text-xs font-semibold uppercase tracking-widest text-primary">{{ t('about.grammar.eyebrow') }}</span>
           <h2 class="text-2xl md:text-3xl font-bold tracking-tight mt-1 mb-3">{{ t('about.grammar.title') }}</h2>
           <p class="text-muted-foreground text-[15px] max-w-xl leading-relaxed">{{ t('about.grammar.description') }}</p>
         </div>
@@ -565,7 +574,7 @@ async function handleAskAI() {
               <div class="mt-auto rounded-lg bg-muted/40 px-4 py-3 space-y-1.5">
                 <p class="text-base font-semibold text-foreground">{{ g.example }}</p>
                 <p class="text-[11px] text-muted-foreground italic">{{ g.reading }}</p>
-                <p class="text-[12px] font-medium text-primary/80">{{ g.translation }}</p>
+                <p class="text-[12px] font-medium text-primary">{{ g.translation }}</p>
               </div>
             </div>
           </div>
@@ -584,7 +593,7 @@ async function handleAskAI() {
               <div class="flex items-center justify-center w-6 h-6 rounded-full bg-gradient-to-br from-primary/30 to-primary/10">
                 <Icon name="lucide:sparkles" class="w-3 h-3 text-primary" />
               </div>
-              <span class="text-xs font-semibold uppercase tracking-widest text-primary/70">{{ t('about.ai.eyebrow') }}</span>
+              <span class="text-xs font-semibold uppercase tracking-widest text-primary">{{ t('about.ai.eyebrow') }}</span>
             </div>
             <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-3">{{ t('about.ai.title') }}</h2>
             <p class="text-muted-foreground text-[15px] max-w-xl leading-relaxed">{{ t('about.ai.description') }}</p>
@@ -602,7 +611,7 @@ async function handleAskAI() {
                 <div>
                   <div class="flex items-center gap-2 flex-wrap">
                     <span class="text-lg font-semibold text-foreground">{{ aiWord.reading }}</span>
-                    <span class="text-muted-foreground/60 text-sm">·</span>
+                    <span class="text-muted-foreground text-sm">·</span>
                     <span class="text-sm text-muted-foreground">{{ aiWord.romaji }}</span>
                     <span class="text-[10px] font-bold px-2 py-0.5 rounded-full" :class="jlptBadgeClass(aiWord.level)">{{ aiWord.level }}</span>
                   </div>
@@ -671,7 +680,7 @@ async function handleAskAI() {
                 <div class="px-5 md:px-6 pb-5 space-y-4">
                   <div class="rounded-2xl rounded-tl-sm bg-card border border-border/50 shadow-sm p-4 md:p-5 space-y-4">
                     <div v-for="(section, i) in aiSections" :key="i">
-                      <h4 class="text-xs font-semibold uppercase tracking-wider text-primary/70 mb-1">{{ section.title }}</h4>
+                      <h4 class="text-xs font-semibold uppercase tracking-wider text-primary mb-1">{{ section.title }}</h4>
                       <p class="text-sm text-foreground/80 leading-relaxed">{{ section.body }}</p>
                     </div>
                   </div>
@@ -719,7 +728,15 @@ async function handleAskAI() {
                 </p>
               </div>
               <div class="mt-4 pt-3 border-t border-border/40 flex items-center gap-3">
-                <img src="/app_icon.png" alt="Sukuro" class="w-8 h-8 rounded-lg object-cover shrink-0">
+                <NuxtImg
+                  src="/app_icon.png"
+                  alt="Sukuro"
+                  :width="32"
+                  :height="32"
+                  format="webp"
+                  loading="lazy"
+                  class="w-8 h-8 rounded-lg object-cover shrink-0"
+                />
                 <div>
                   <p class="text-sm font-semibold text-foreground/80">Florian</p>
                   <p class="text-xs text-muted-foreground">{{ t('landing.creator.role') }}</p>
@@ -734,7 +751,7 @@ async function handleAskAI() {
     <!-- CTA -->
     <section class="w-full py-10 md:py-16 bg-muted/20">
       <div class="container mx-auto px-4 md:px-6 text-center animate-fade-up">
-        <span class="text-xs font-semibold uppercase tracking-widest text-primary/70">{{ t('about.cta.eyebrow') }}</span>
+        <span class="text-xs font-semibold uppercase tracking-widest text-primary">{{ t('about.cta.eyebrow') }}</span>
         <h2 class="text-2xl md:text-3xl font-bold tracking-tight mt-2 mb-3">{{ t('about.cta.title') }}</h2>
         <p class="text-muted-foreground text-[15px] mb-8 max-w-md mx-auto leading-relaxed">{{ t('about.cta.description') }}</p>
         <div class="flex justify-center">

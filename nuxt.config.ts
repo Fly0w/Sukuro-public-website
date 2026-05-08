@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/i18n',
     'shadcn-nuxt',
+    '@nuxt/image',
   ],
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
@@ -34,7 +35,12 @@ export default defineNuxtConfig({
 
   fonts: {
     families: [
-      { name: 'Noto Sans', provider: 'google', weights: [400, 500, 600, 700] },
+      {
+        name: 'Noto Sans',
+        provider: 'google',
+        weights: [400, 500, 600, 700],
+        subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext', 'vietnamese', 'devanagari'],
+      },
     ],
     defaults: {
       preload: true,
@@ -54,6 +60,7 @@ export default defineNuxtConfig({
         'clsx',
         'tailwind-merge',
         'lucide-vue-next',
+        '@vueuse/core',
       ]
     }
   },
@@ -61,6 +68,18 @@ export default defineNuxtConfig({
   shadcn: {
     prefix: '',
     componentDir: '@/components/ui',
+  },
+
+  image: {
+    quality: 85,
+    format: ['webp', 'avif'],
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+    },
   },
   i18n: {
     locales: [

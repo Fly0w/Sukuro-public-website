@@ -10,9 +10,13 @@ const mobileMenuOpen = ref(false)
     <div class="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
       <div class="flex items-center gap-6 md:gap-10">
         <NuxtLink :to="localePath('/')" class="flex items-center space-x-2 group">
-          <img
-            src="~/assets/icon/app_icon.svg"
+          <NuxtImg
+            src="/app_icon.png"
             alt="Sukuro Logo"
+            :width="32"
+            :height="32"
+            format="webp"
+            loading="eager"
             class="h-8 w-8 rounded-md transition-transform duration-200 group-hover:scale-110"
           />
           <span class="inline-block font-bold text-xl text-primary transition-opacity duration-200 group-hover:opacity-80">Sukuro</span>
@@ -50,7 +54,7 @@ const mobileMenuOpen = ref(false)
           <SheetContent side="right" class="w-72 px-0">
             <SheetHeader class="px-6 pb-4 border-b border-border/60">
               <div class="flex items-center gap-2.5">
-                <img src="~/assets/icon/app_icon.svg" alt="Sukuro Logo" class="h-8 w-8 rounded-md" />
+                <NuxtImg src="/app_icon.png" alt="Sukuro Logo" :width="32" :height="32" format="webp" loading="eager" class="h-8 w-8 rounded-md" />
                 <SheetTitle class="text-lg font-bold text-primary">Sukuro</SheetTitle>
               </div>
               <SheetDescription class="sr-only">Mobile navigation links for Sukuro website</SheetDescription>
