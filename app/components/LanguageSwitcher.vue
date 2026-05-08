@@ -6,7 +6,7 @@ const { locale, locales, setLocale } = useI18n()
 const availableLocales = computed(() => {
   return locales.value.map(l => {
     if (typeof l === 'string') return { code: l, name: l }
-    return { code: l.code, name: l.language || l.code }
+    return { code: l.code, name: (l as { name?: string }).name || l.language || l.code }
   })
 })
 

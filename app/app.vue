@@ -9,7 +9,7 @@ useHead({
     { name: 'description', content: 'Master Japanese vocabulary, kanji, and grammar with Sukuro.' }
   ],
   link: [
-    { rel: 'icon', type: 'image/png', href: '/favicon.ico' }
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
   ]
 })
 
@@ -24,6 +24,6 @@ useSeoMeta({
 <template>
   <NuxtLayout>
     <NuxtRouteAnnouncer />
-    <NuxtPage />
+    <NuxtPage :transition="{ name: 'page', mode: 'out-in' }" />
   </NuxtLayout>
 </template>

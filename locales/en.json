@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Home",
+    "about": "About",
     "privacy": "Privacy Policy",
     "support": "Support"
   },
@@ -15,6 +16,281 @@
       "message": "Message from the creator will be added here later."
     }
   },
+  "about": {
+    "seoDescription": "Discover how Sukuro helps you master Japanese vocabulary, kanji, and grammar with smart flashcards and AI-powered explanations.",
+    "hero": {
+      "eyebrow": "About Sukuro",
+      "titleBefore": "Your smart companion for",
+      "titleHighlight": "learning Japanese",
+      "subtitle": "Sukuro combines spaced-repetition flashcards, structured kanji study, grammar patterns, and AI-powered explanations — all in one focused app."
+    },
+    "pillars": {
+      "vocabulary": {
+        "title": "Vocabulary",
+        "desc": "Smart flashcards with spaced repetition"
+      },
+      "kanji": {
+        "title": "Kanji",
+        "desc": "Readings, meanings and stroke order"
+      },
+      "grammar": {
+        "title": "Grammar",
+        "desc": "Pattern-based lessons with examples"
+      }
+    },
+    "vocab": {
+      "eyebrow": "Vocabulary",
+      "title": "Build your word bank",
+      "levelLabel": "Choose JLPT level for vocabulary examples:",
+      "description": "Learn new words with their hiragana reading, romaji, and meaning. Each card includes an example sentence so you see the word in context.",
+      "water": {
+        "meaning": "Water",
+        "exampleMeaning": "to drink water"
+      },
+      "eat": {
+        "meaning": "To eat",
+        "exampleMeaning": "to eat breakfast"
+      },
+      "school": {
+        "meaning": "School",
+        "exampleMeaning": "to go to school"
+      },
+      "friend": {
+        "meaning": "Friend",
+        "exampleMeaning": "to play with a friend"
+      }
+    },
+    "kanji": {
+      "eyebrow": "Kanji",
+      "title": "Master the characters",
+      "levelLabel": "Choose JLPT level for kanji examples:",
+      "description": "Each kanji is presented with its on'yomi (Chinese reading), kun'yomi (Japanese reading), core meaning, and JLPT level — everything you need in one glance.",
+      "onLabel": "On:",
+      "kunLabel": "Kun:",
+      "sun": { "meaning": "Sun · Day" },
+      "moon": { "meaning": "Moon · Month" },
+      "mountain": { "meaning": "Mountain" },
+      "river": { "meaning": "River" },
+      "person": { "meaning": "Person" }
+    },
+    "grammar": {
+      "eyebrow": "Grammar",
+      "title": "Learn sentence patterns",
+      "levelLabel": "Choose JLPT level for grammar examples:",
+      "description": "Grammar in Sukuro is taught through practical patterns. Each lesson shows the structure, explains the usage, and provides a real example sentence with translation.",
+      "p1": {
+        "label": "Basic assertion",
+        "explanation": "States a fact or describes something. The most fundamental sentence structure in Japanese.",
+        "translation": "This is a book."
+      },
+      "p2": {
+        "label": "Ongoing action",
+        "explanation": "Expresses an action in progress or a continuing state at the moment of speaking.",
+        "translation": "I am studying Japanese."
+      },
+      "p3": {
+        "label": "Expressing likes",
+        "explanation": "Used to express that you like or are fond of something or someone.",
+        "translation": "I like Japanese."
+      }
+    },
+    "kana": {
+      "eyebrow": "Kana",
+      "title": "Learn hiragana and katakana",
+      "description": "Sukuro also helps you build a strong reading foundation with both Japanese syllabaries.",
+      "hiragana": {
+        "title": "Hiragana",
+        "description": "Used for native Japanese words and grammar endings."
+      },
+      "katakana": {
+        "title": "Katakana",
+        "description": "Used mainly for foreign words, names, and emphasis."
+      }
+    },
+    "jlpt": {
+      "eyebrow": "JLPT",
+      "title": "Choose your favorite JLPT level",
+      "description": "You can focus your learning on the JLPT level that matches your objective, from beginner to advanced.",
+      "selectLabel": "Select your preferred level:",
+      "favoriteLabel": "Selected level",
+      "levels": {
+        "n5": {
+          "label": "Beginner",
+          "focus": "Foundation of everyday Japanese",
+          "description": "Focuses on basic vocabulary, essential kanji, and simple sentence patterns for daily conversation."
+        },
+        "n4": {
+          "label": "Elementary",
+          "focus": "Expand practical communication",
+          "description": "Introduces more grammar and vocabulary to understand common situations and short passages."
+        },
+        "n3": {
+          "label": "Intermediate",
+          "focus": "Bridge to real-world fluency",
+          "description": "Covers more nuanced grammar and broader vocabulary used in real conversations and media."
+        },
+        "n2": {
+          "label": "Upper-intermediate",
+          "focus": "High comprehension and precision",
+          "description": "Targets advanced reading/listening comprehension for news, formal contexts, and complex topics."
+        },
+        "n1": {
+          "label": "Advanced",
+          "focus": "Near-native understanding",
+          "description": "Emphasizes subtle grammar, abstract topics, and high-level comprehension close to native usage."
+        }
+      }
+    },
+    "examples": {
+      "vocab": {
+        "n5": {
+          "w1": { "meaning": "Water", "exampleMeaning": "to drink water" },
+          "w2": { "meaning": "To eat", "exampleMeaning": "to eat breakfast" },
+          "w3": { "meaning": "School", "exampleMeaning": "to go to school" },
+          "w4": { "meaning": "Friend", "exampleMeaning": "to play with a friend" }
+        },
+        "n4": {
+          "w1": { "meaning": "Promise", "exampleMeaning": "to keep a promise" },
+          "w2": { "meaning": "Experience", "exampleMeaning": "to gain experience abroad" },
+          "w3": { "meaning": "Review", "exampleMeaning": "to review every day" },
+          "w4": { "meaning": "Hobby", "exampleMeaning": "my hobby is photography" }
+        },
+        "n3": {
+          "w1": { "meaning": "Environment", "exampleMeaning": "to think about environmental issues" },
+          "w2": { "meaning": "Conclusion", "exampleMeaning": "to state the conclusion first" },
+          "w3": { "meaning": "Realization", "exampleMeaning": "to make a dream come true" },
+          "w4": { "meaning": "Appropriate", "exampleMeaning": "to choose an appropriate expression" }
+        },
+        "n2": {
+          "w1": { "meaning": "Challenge / Task", "exampleMeaning": "to analyze a challenge" },
+          "w2": { "meaning": "Logic", "exampleMeaning": "to explain logically" },
+          "w3": { "meaning": "Phenomenon", "exampleMeaning": "to study social phenomena" },
+          "w4": { "meaning": "Policy measure", "exampleMeaning": "to introduce a new policy measure" }
+        },
+        "n1": {
+          "w1": { "meaning": "Spirit / Drive", "exampleMeaning": "a speech full of determination" },
+          "w2": { "meaning": "Public awareness", "exampleMeaning": "to thoroughly disseminate rules" },
+          "w3": { "meaning": "Valid / Reasonable", "exampleMeaning": "to make a sound judgment" },
+          "w4": { "meaning": "Category / Scope", "exampleMeaning": "to go beyond one’s area of expertise" }
+        }
+      },
+      "kanji": {
+        "n5": {
+          "k1": { "meaning": "Sun · Day" },
+          "k2": { "meaning": "Moon · Month" },
+          "k3": { "meaning": "Mountain" },
+          "k4": { "meaning": "River" },
+          "k5": { "meaning": "Person" }
+        },
+        "n4": {
+          "k1": { "meaning": "Pass · Commute" },
+          "k2": { "meaning": "Business · Study" },
+          "k3": { "meaning": "Special" },
+          "k4": { "meaning": "Explain" },
+          "k5": { "meaning": "Continue" }
+        },
+        "n3": {
+          "k1": { "meaning": "Accustom" },
+          "k2": { "meaning": "Condition" },
+          "k3": { "meaning": "Present · Submit" },
+          "k4": { "meaning": "Plan · Proposal" },
+          "k5": { "meaning": "Operate" }
+        },
+        "n2": {
+          "k1": { "meaning": "Theory · Argument" },
+          "k2": { "meaning": "Responsibility" },
+          "k3": { "meaning": "Measure · Guess" },
+          "k4": { "meaning": "Proof" },
+          "k5": { "meaning": "Guide" }
+        },
+        "n1": {
+          "k1": { "meaning": "Manifest" },
+          "k2": { "meaning": "Consideration" },
+          "k3": { "meaning": "Follow" },
+          "k4": { "meaning": "Fine · Detailed" },
+          "k5": { "meaning": "Solid · Firm" }
+        }
+      },
+      "grammar": {
+        "n5": {
+          "g1": {
+            "label": "Basic assertion",
+            "explanation": "States a fact or describes something in the simplest form.",
+            "translation": "This is a book."
+          },
+          "g2": {
+            "label": "Expressing likes",
+            "explanation": "Used to express what you like.",
+            "translation": "I like Japanese."
+          }
+        },
+        "n4": {
+          "g1": {
+            "label": "Obligation",
+            "explanation": "Expresses that something must be done.",
+            "translation": "I must practice kanji every day."
+          },
+          "g2": {
+            "label": "Opinion",
+            "explanation": "Expresses what the speaker thinks.",
+            "translation": "I think this grammar is important."
+          }
+        },
+        "n3": {
+          "g1": {
+            "label": "Purpose / Wish",
+            "explanation": "Indicates purpose or a desired outcome.",
+            "translation": "I practice so that I can speak Japanese."
+          },
+          "g2": {
+            "label": "Established rule",
+            "explanation": "Shows a rule, schedule, or arrangement already decided.",
+            "translation": "In class, we are supposed to use only Japanese."
+          }
+        },
+        "n2": {
+          "g1": {
+            "label": "No more than",
+            "explanation": "Emphasizes that something is merely / only.",
+            "translation": "This is nothing more than one example."
+          },
+          "g2": {
+            "label": "Along with",
+            "explanation": "Indicates that one change accompanies another.",
+            "translation": "As your level improves, your vocabulary also grows."
+          }
+        },
+        "n1": {
+          "g1": {
+            "label": "Concerning / over",
+            "explanation": "Used for debates or issues surrounding a topic.",
+            "translation": "Debate continues over educational reform."
+          },
+          "g2": {
+            "label": "Cannot help but",
+            "explanation": "Expresses an irresistible feeling or reaction.",
+            "translation": "I cannot help but be surprised hearing this story."
+          }
+        }
+      }
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Powered by AI",
+      "description": "When you make a mistake or don't understand a concept, Sukuro's AI (powered by Google Gemini) generates a clear, context-aware explanation — right inside the app, no extra searching needed.",
+      "chatHeader": "Sukuro AI · Explanation",
+      "userQuestion": "What's the difference between は (wa) and が (ga)?",
+      "waExplanation": "marks the topic of the sentence.",
+      "gaExplanation": "marks the subject — the doer of the action.",
+      "example1Note": "The cat eats fish. (topic: cat)",
+      "example2Note": "The cat arrived. (subject: cat)"
+    },
+    "cta": {
+      "eyebrow": "Get started",
+      "title": "Ready to start learning?",
+      "description": "Download Sukuro for free on Android or iOS and start your Japanese journey today."
+    }
+  },
   "footer": {
     "rights": "© 2026 Sukuro. All rights reserved.",
     "links": "Links",
@@ -22,49 +298,35 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: February 27, 2026",
+    "lastUpdated": "Last updated: May 8, 2026",
     "intro": {
       "title": "1. Introduction",
-      "text": "Welcome to Sukuro. We take your privacy very seriously. This privacy policy explains how we collect, use, disclose, and protect your information when you use our mobile application."
+      "text": "Welcome to Sukuro. Your privacy matters to us. This policy explains what data the app handles and how we use it. The short version: Sukuro does not collect any personal information and does not require you to create an account."
     },
     "data": {
       "title": "2. Data we collect",
-      "text": "We collect the following types of data to ensure the proper functioning of the app:",
-      "auth": "Account information (Authentication): When you sign in with Google or Apple, we receive your email address and a unique user identifier. This data is managed through our authentication provider, Supabase.",
-      "progress": "Progress data: We store your learning progress (completed lessons, scores, learned vocabulary) in our database in order to synchronize your experience across your devices.",
-      "technical": "Technical data (Logs): Technical information (device type, operating system version, crash reports) may be collected automatically to help us fix bugs and improve the app."
+      "text": "Sukuro does not collect any personal information. No account creation, no email address, and no personal identifier is ever required or stored. The only data generated by the app is:",
+      "local": "Learning progress (completed lessons, scores, vocabulary learned): stored exclusively on your device using local storage. It is never transmitted to our servers.",
+      "technical": "Crash reports and anonymous usage statistics: may be collected by the Google Play Store or Apple App Store platforms. This is handled solely by those platforms under their respective privacy policies, outside of our control."
     },
     "ai": {
       "title": "3. Use of Artificial Intelligence (AI)",
-      "text": "Sukuro uses Google Gemini (Google Generative AI) services to generate educational content, corrections, or example sentences.",
-      "point1": "Text data (e.g. your answers to an exercise) may be sent to Google servers to be processed.",
-      "point2": "This data is not used by Google to train their models (according to their standard API terms of use) and is used only to provide the immediate response in the app."
+      "text": "Sukuro uses Google Gemini (Google Generative AI) to generate educational content such as explanations and example sentences.",
+      "point1": "When you request an AI explanation, the text of the relevant exercise or question is sent to Google's servers for processing. No personal information is included in these requests.",
+      "point2": "According to Google's standard API terms of use, this data is not used to train their models and is processed solely to generate the immediate response shown in the app."
     },
     "sharing": {
-      "title": "4. Sharing data with third parties",
-      "text": "We never sell your personal data. We share data only with the following service providers who help us operate the app:",
-      "supabase": "Supabase: For database hosting and user authentication.",
-      "google": "Google (Firebase/Cloud): For authentication (Google Sign-In) and AI services (Gemini).",
-      "apple": "Apple: For authentication (Sign in with Apple) on iOS devices."
+      "title": "4. Third-party services",
+      "text": "We do not sell, trade, or share any personal data. The only third-party service used by Sukuro is:",
+      "google": "Google Gemini API: Used to generate AI-powered explanations and example sentences. Exercise text may be processed on Google's servers. Please refer to Google's Privacy Policy for details.",
+      "note": "No other third-party analytics, tracking, or advertising services are used."
     },
-    "security": {
-      "title": "5. Data security",
-      "text": "We implement appropriate security measures to protect your data. All communications between the app and our servers are encrypted (HTTPS/SSL). Access to your account is protected by the secure authentication protocols of Google and Apple."
-    },
-    "retention": {
-      "title": "6. Data retention and deletion",
-      "text1": "We retain your data as long as your account is active.",
-      "text2": "In line with Google Play Store requirements, you have the right to request the complete deletion of your account and all associated data.",
-      "text3": "To request deletion of your account, you can:",
-      "point1": "Use the \"Delete my account\" option in the app settings (if available), or",
-      "point2": "Contact us directly at the following address: {email}."
-    },
-    "children": {
-      "title": "7. Children",
-      "text": "Our app is intended for language learning for a general audience. We do not knowingly collect personal data from children under 13 without verifiable parental consent."
+    "storage": {
+      "title": "5. Data storage and deletion",
+      "text": "All your learning data is stored locally on your device. We do not maintain any server-side database of your personal information. To permanently delete all app data, simply uninstall Sukuro from your device."
     },
     "contact": {
-      "title": "8. Contact",
+      "title": "6. Contact",
       "text": "If you have any questions about this privacy policy, please contact us at:",
       "name": "Florian Budniewski",
       "email": "Email: {email}"
@@ -80,12 +342,12 @@
     "faq": {
       "title": "Frequently Asked Questions",
       "q1": {
-        "q": "How do I delete my account?",
-        "a": "You can delete your account directly from the app settings. Alternatively, you can email us at the address above to request account deletion."
+        "q": "Is my learning progress saved if I change devices?",
+        "a": "Your progress is currently stored locally on your device. Switching to a new device or reinstalling the app will reset your progress. Cross-device sync may be added in a future update."
       },
       "q2": {
-        "q": "How is my data used?",
-        "a": "We only collect data necessary for the app to function, such as your learning progress. For more details, please read our Privacy Policy."
+        "q": "Does Sukuro collect any personal data?",
+        "a": "No. Sukuro does not require an account and does not collect any personal information. Your learning progress stays on your device. The only external service used is Google Gemini for AI explanations. For full details, see our Privacy Policy."
       }
     }
   }

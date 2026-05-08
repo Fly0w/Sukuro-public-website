@@ -1,0 +1,28 @@
+name: public-website-translations
+description: Règle pour la gestion des traductions dans le projet `public-website` (locales JSON, composants Vue, etc.).
+---
+
+## Principe général
+
+Cette règle ne s’applique **qu’au projet** `public-website/`.
+
+Quand tu ajoutes, modifies ou supprimes du contenu **affiché à l’utilisateur** dans `public-website` (texte d’UI, labels, titres, messages, erreurs, tooltips, placeholders, etc.), tu dois :
+
+- **Créer ou mettre à jour la clé de traduction** correspondante dans le fichier de référence (ex. `app_en.arb`, `en.json`, etc.).
+- **Propager cette clé dans tous les fichiers de traduction** du projet pour chaque langue supportée.
+- **Fournir une valeur de traduction dans chaque langue**, ou, à défaut, une valeur vide `""` en respectant les règles propres à chaque stack (voir les skills dédiées).
+
+## Règles spécifiques Web / JSON (`public-website`)
+
+- Quand tu ajoutes du texte pour le site public (par ex. dans `public-website/locales/en.json` ou dans un composant Vue de `public-website/app/components`), tu dois :
+  - Créer la clé dans **tous** les fichiers de locales JSON (`en.json`, `fr.json`, etc.).
+  - Veiller à ce que la structure de l’arborescence des clés reste identique entre les langues.
+  - Générer les traductions pour chaque langue (ou laisser une valeur temporaire clairement marquée si la traduction n’est pas encore connue, en suivant les conventions du projet).
+
+## Comportement attendu de l’agent
+
+- Ne jamais introduire de texte “en dur” dans le code ou les templates si une mécanique de traduction existe déjà pour ce module.
+- Lorsqu’un nouvel écran, une nouvelle page ou une nouvelle fonctionnalité est ajoutée :
+  - Identifier tous les textes UI.
+  - Créer les clés de traduction nécessaires.
+  - Mettre à jour **tous** les fichiers de traduction concernés et générer les valeurs traduites dans toutes les langues supportées, en s’appuyant sur les skills appropriées.

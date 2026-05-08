@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "ホーム",
+    "about": "について",
     "privacy": "プライバシーポリシー",
     "support": "サポート"
   },
@@ -22,50 +23,36 @@
   },
   "privacy": {
     "title": "プライバシーポリシー",
-    "lastUpdated": "最終更新日：2026年2月27日",
+    "lastUpdated": "最終更新：2026年5月8日",
     "intro": {
       "title": "1. はじめに",
-      "text": "Sukuroへようこそ。当社はお客様のプライバシーを非常に重視しています。このプライバシーポリシーでは、当社のモバイルアプリを利用する際の情報収集、利用、開示、および保護の方法について説明します。"
+      "text": "Sukuroへようこそ。お客様のプライバシーを大切にしています。本ポリシーでは、アプリが取り扱うデータとその利用方法について説明します。要点：Sukuroは個人情報を収集せず、アカウントの作成も必要ありません。"
     },
     "data": {
       "title": "2. 収集するデータ",
-      "text": "アプリの正常な動作を保証するために、以下の種類のデータを収集します：",
-      "auth": "アカウント情報（認証）：GoogleまたはAppleでサインインすると、メールアドレスと一意のユーザー識別子が提供されます。このデータは、当社の認証プロバイダであるSupabaseを通じて管理されます。",
-      "progress": "進捗データ：デバイス間で学習体験を同期するために、学習の進捗状況（完了したレッスン、スコア、学習した語彙）をデータベースに保存します。",
-      "technical": "技術データ（ログ）：バグの修正やアプリの改善を目的として、技術情報（デバイスの種類、OSのバージョン、クラッシュレポート）が自動的に収集される場合があります。"
+      "text": "Sukuroは個人情報を収集しません。アカウント作成、メールアドレス、個人を特定する識別子の入力や保存は一切必要ありません。アプリが生成するデータは次のとおりです。",
+      "local": "学習の進捗（完了したレッスン、スコア、習得した語彙）：端末のローカルストレージにのみ保存され、当社のサーバーへ送信されることはありません。",
+      "technical": "クラッシュレポートおよび匿名の利用統計：Google PlayストアまたはApple App Storeのプラットフォームにより収集される場合があります。これらは当社の管理外で、各プラットフォームのプライバシーポリシーに従います。"
     },
     "ai": {
       "title": "3. 人工知能（AI）の利用",
-      "text": "Sukuroは教育コンテンツ、解説、例文を生成するためにGoogle Gemini（Google Generative AI）サービスを使用しています。",
-      "point1": "テキストデータ（演習への回答など）は、処理のためにGoogleのサーバーに送信される場合があります。",
-      "point2": "これらのデータがGoogleによってモデルのトレーニングに使用されることはなく（標準的なAPI利用規約に基づく）、アプリ内で即座に回答を提供するためだけに使用されます。"
+      "text": "Sukuroは解説や例文などの教育コンテンツを生成するためにGoogle Gemini（Google Generative AI）を使用しています。",
+      "point1": "AIによる解説を求めると、該当する演習や問題のテキストが処理のためにGoogleのサーバーに送信されます。これらのリクエストには個人情報は含まれません。",
+      "point2": "Googleの標準API利用規約に基づき、これらのデータはモデルの学習には使用されず、アプリに表示される応答を生成するためだけに処理されます。"
     },
     "sharing": {
-      "title": "4. 第三者へのデータ共有",
-      "text": "当社が個人データを販売することはありません。アプリの運営を支援する以下のサービスプロバイダとだけデータを共有します：",
-      "supabase": "Supabase：データベースのホスティングとユーザー認証。",
-      "google": "Google (Firebase/Cloud)：認証（Google Sign-In）およびAIサービス（Gemini）。",
-      "apple": "Apple：iOSデバイスでの認証（Sign in with Apple）。"
+      "title": "4. 第三者サービス",
+      "text": "個人データを販売・譲渡・共有することはありません。Sukuroが利用する第三者サービスは次のとおりです。",
+      "google": "Google Gemini API：AIによる解説や例文の生成に使用されます。演習のテキストがGoogleのサーバーで処理される場合があります。詳細はGoogleのプライバシーポリシーをご覧ください。",
+      "note": "その他の第三者による分析、トラッキング、広告サービスは使用していません。"
     },
-    "security": {
-      "title": "5. データのセキュリティ",
-      "text": "当社はデータを保護するために適切なセキュリティ対策を実施しています。アプリと当社のサーバー間の通信はすべて暗号化されています（HTTPS/SSL）。アカウントへのアクセスは、GoogleおよびAppleの安全な認証プロトコルによって保護されます。"
-    },
-    "retention": {
-      "title": "6. データの保持と削除",
-      "text1": "当社は、アカウントがアクティブである限りデータを保持します。",
-      "text2": "Google Playストアの要件に従い、お客様にはアカウントおよび関連するすべてのデータの完全な削除をリクエストする権利があります。",
-      "text3": "アカウントの削除をリクエストするには、以下のいずれかを行ってください：",
-      "point1": "アプリの設定の「アカウントを削除」オプションを利用する（利用可能な場合）、または",
-      "point2": "次のアドレスに直接お問い合わせください：{email}"
-    },
-    "children": {
-      "title": "7. 子供について",
-      "text": "当社のアプリは、一般向けの言語学習を目的としています。保護者の確認可能な同意なしに、13歳未満の子供から意図的に個人データを収集することはありません。"
+    "storage": {
+      "title": "5. データの保存と削除",
+      "text": "学習データはすべてお使いの端末にローカル保存されます。お客様の個人情報を保持するサーバー側のデータベースは運用していません。アプリのデータを完全に削除するには、端末からSukuroをアンインストールしてください。"
     },
     "contact": {
-      "title": "8. お問い合わせ",
-      "text": "このプライバシーポリシーについてご質問がある場合は、以下までお問い合わせください：",
+      "title": "6. お問い合わせ",
+      "text": "本プライバシーポリシーに関するご質問は、次の連絡先までお願いいたします。",
       "name": "Florian Budniewski",
       "email": "メール：{email}"
     }
@@ -80,12 +67,407 @@
     "faq": {
       "title": "よくある質問",
       "q1": {
-        "q": "アカウントを削除するにはどうすればよいですか？",
-        "a": "アプリの設定から直接アカウントを削除できます。または、上記のアドレスにメールを送信してアカウントの削除をリクエストすることもできます。"
+        "q": "端末を変えても学習の進捗は残りますか？",
+        "a": "現在、進捗はお使いの端末にローカル保存されています。端末の変更やアプリの再インストールでは進捗がリセットされます。将来的に複数端末間の同期を追加する場合があります。"
       },
       "q2": {
-        "q": "私のデータはどのように使用されますか？",
-        "a": "学習の進捗状況など、アプリの機能に必要なデータのみを収集します。詳細については、プライバシーポリシーをお読みください。"
+        "q": "Sukuroは個人データを収集しますか？",
+        "a": "いいえ。Sukuroはアカウントを必要とせず、個人情報は収集しません。学習の進捗は端末上に留まります。外部サービスとしてはAI解説にGoogle Geminiのみを使用しています。詳しくはプライバシーポリシーをご覧ください。"
+      }
+    }
+  },
+  "about": {
+    "seoDescription": "SukuroがフラッシュカードとAIの解説で、語彙・漢字・文法の習得をどう支えるかご紹介します。",
+    "hero": {
+      "eyebrow": "Sukuroについて",
+      "titleBefore": "日本語学習の",
+      "titleHighlight": "スマートなパートナー",
+      "subtitle": "Sukuroは間隔反復フラッシュカード、体系的な漢字学習、文型パターン、そしてAIによる解説を、ひとつのアプリにまとめました。"
+    },
+    "pillars": {
+      "vocabulary": {
+        "title": "語彙",
+        "desc": "間隔反復で覚えるスマートなフラッシュカード"
+      },
+      "kanji": {
+        "title": "漢字",
+        "desc": "音読み・訓読み・意味・書き順"
+      },
+      "grammar": {
+        "title": "文法",
+        "desc": "パターン別のレッスンと例文"
+      }
+    },
+    "vocab": {
+      "eyebrow": "語彙",
+      "title": "単語力を育てる",
+      "description": "ひらがな・ローマ字・意味とともに新しい単語を学べます。各カードには例文も載せ、文脈の中で単語を確認できます。",
+      "water": {
+        "meaning": "水",
+        "exampleMeaning": "水を飲む"
+      },
+      "eat": {
+        "meaning": "食べる",
+        "exampleMeaning": "朝ごはんを食べる"
+      },
+      "school": {
+        "meaning": "学校",
+        "exampleMeaning": "学校に行く"
+      },
+      "friend": {
+        "meaning": "友達",
+        "exampleMeaning": "友達と遊ぶ"
+      },
+      "levelLabel": "語彙の例のJLPTレベルを選択:"
+    },
+    "kanji": {
+      "eyebrow": "漢字",
+      "title": "文字を習得する",
+      "description": "各漢字には音読み・訓読み・意味・JLPTレベルを一覧で表示。必要な情報が一目で分かります。",
+      "onLabel": "音：",
+      "kunLabel": "訓：",
+      "sun": {
+        "meaning": "太陽・日"
+      },
+      "moon": {
+        "meaning": "月・月（暦）"
+      },
+      "mountain": {
+        "meaning": "山"
+      },
+      "river": {
+        "meaning": "川"
+      },
+      "person": {
+        "meaning": "人"
+      },
+      "levelLabel": "漢字の例のJLPTレベルを選択:"
+    },
+    "grammar": {
+      "eyebrow": "文法",
+      "title": "文のパターンを学ぶ",
+      "description": "Sukuroの文法は実践的なパターンで学びます。構造・使い方を示し、例文と訳もセットで確認できます。",
+      "p1": {
+        "label": "基本的な断定",
+        "explanation": "事実を述べたり事物を説明したりします。日本語で最も基本的な文の型です。",
+        "translation": "これは本です。"
+      },
+      "p2": {
+        "label": "進行・継続",
+        "explanation": "話している時点で進行中の動作や続いている状態を表します。",
+        "translation": "日本語を勉強しています。"
+      },
+      "p3": {
+        "label": "好き・嗜好",
+        "explanation": "何か・誰かが好きだという気持ちを表すのに使います。",
+        "translation": "日本語が好きです。"
+      },
+      "levelLabel": "文法の例のJLPTレベルを選択:"
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "AIがサポート",
+      "description": "間違えたり意味が分からなかったりしたとき、SukuroのAI（Google Gemini）が文脈に沿った分かりやすい解説をアプリ内で生成します。別途検索する必要はありません。",
+      "chatHeader": "Sukuro AI · 解説",
+      "userQuestion": "は（wa）とが（ga）の違いは何ですか？",
+      "waExplanation": "文の「テーマ」を示します。",
+      "gaExplanation": "「主語」、動作の主体を示します。",
+      "example1Note": "猫が魚を食べる（テーマは猫）",
+      "example2Note": "猫が来た（主語は猫）"
+    },
+    "cta": {
+      "eyebrow": "はじめる",
+      "title": "学習を始めませんか？",
+      "description": "AndroidまたはiOSでSukuroを無料ダウンロードし、今日から日本語の旅を始めましょう。"
+    },
+    "kana": {
+      "eyebrow": "Kana",
+      "title": "Learn hiragana and katakana",
+      "description": "Sukuro also helps you build a strong reading foundation with both Japanese syllabaries.",
+      "hiragana": {
+        "title": "Hiragana",
+        "description": "Used for native Japanese words and grammar endings."
+      },
+      "katakana": {
+        "title": "Katakana",
+        "description": "Used mainly for foreign words, names, and emphasis."
+      }
+    },
+    "jlpt": {
+      "eyebrow": "JLPT",
+      "title": "Choose your favorite JLPT level",
+      "description": "You can focus your learning on the JLPT level that matches your objective, from beginner to advanced.",
+      "selectLabel": "Select your preferred level:",
+      "favoriteLabel": "Selected level",
+      "levels": {
+        "n5": {
+          "label": "Beginner",
+          "focus": "Foundation of everyday Japanese",
+          "description": "Focuses on basic vocabulary, essential kanji, and simple sentence patterns for daily conversation."
+        },
+        "n4": {
+          "label": "Elementary",
+          "focus": "Expand practical communication",
+          "description": "Introduces more grammar and vocabulary to understand common situations and short passages."
+        },
+        "n3": {
+          "label": "Intermediate",
+          "focus": "Bridge to real-world fluency",
+          "description": "Covers more nuanced grammar and broader vocabulary used in real conversations and media."
+        },
+        "n2": {
+          "label": "Upper-intermediate",
+          "focus": "High comprehension and precision",
+          "description": "Targets advanced reading/listening comprehension for news, formal contexts, and complex topics."
+        },
+        "n1": {
+          "label": "Advanced",
+          "focus": "Near-native understanding",
+          "description": "Emphasizes subtle grammar, abstract topics, and high-level comprehension close to native usage."
+        }
+      }
+    },
+    "examples": {
+      "vocab": {
+        "n5": {
+          "w1": {
+            "meaning": "Water",
+            "exampleMeaning": "to drink water"
+          },
+          "w2": {
+            "meaning": "To eat",
+            "exampleMeaning": "to eat breakfast"
+          },
+          "w3": {
+            "meaning": "School",
+            "exampleMeaning": "to go to school"
+          },
+          "w4": {
+            "meaning": "Friend",
+            "exampleMeaning": "to play with a friend"
+          }
+        },
+        "n4": {
+          "w1": {
+            "meaning": "Promise",
+            "exampleMeaning": "to keep a promise"
+          },
+          "w2": {
+            "meaning": "Experience",
+            "exampleMeaning": "to gain experience abroad"
+          },
+          "w3": {
+            "meaning": "Review",
+            "exampleMeaning": "to review every day"
+          },
+          "w4": {
+            "meaning": "Hobby",
+            "exampleMeaning": "my hobby is photography"
+          }
+        },
+        "n3": {
+          "w1": {
+            "meaning": "Environment",
+            "exampleMeaning": "to think about environmental issues"
+          },
+          "w2": {
+            "meaning": "Conclusion",
+            "exampleMeaning": "to state the conclusion first"
+          },
+          "w3": {
+            "meaning": "Realization",
+            "exampleMeaning": "to make a dream come true"
+          },
+          "w4": {
+            "meaning": "Appropriate",
+            "exampleMeaning": "to choose an appropriate expression"
+          }
+        },
+        "n2": {
+          "w1": {
+            "meaning": "Challenge / Task",
+            "exampleMeaning": "to analyze a challenge"
+          },
+          "w2": {
+            "meaning": "Logic",
+            "exampleMeaning": "to explain logically"
+          },
+          "w3": {
+            "meaning": "Phenomenon",
+            "exampleMeaning": "to study social phenomena"
+          },
+          "w4": {
+            "meaning": "Policy measure",
+            "exampleMeaning": "to introduce a new policy measure"
+          }
+        },
+        "n1": {
+          "w1": {
+            "meaning": "Spirit / Drive",
+            "exampleMeaning": "a speech full of determination"
+          },
+          "w2": {
+            "meaning": "Public awareness",
+            "exampleMeaning": "to thoroughly disseminate rules"
+          },
+          "w3": {
+            "meaning": "Valid / Reasonable",
+            "exampleMeaning": "to make a sound judgment"
+          },
+          "w4": {
+            "meaning": "Category / Scope",
+            "exampleMeaning": "to go beyond one’s area of expertise"
+          }
+        }
+      },
+      "kanji": {
+        "n5": {
+          "k1": {
+            "meaning": "Sun · Day"
+          },
+          "k2": {
+            "meaning": "Moon · Month"
+          },
+          "k3": {
+            "meaning": "Mountain"
+          },
+          "k4": {
+            "meaning": "River"
+          },
+          "k5": {
+            "meaning": "Person"
+          }
+        },
+        "n4": {
+          "k1": {
+            "meaning": "Pass · Commute"
+          },
+          "k2": {
+            "meaning": "Business · Study"
+          },
+          "k3": {
+            "meaning": "Special"
+          },
+          "k4": {
+            "meaning": "Explain"
+          },
+          "k5": {
+            "meaning": "Continue"
+          }
+        },
+        "n3": {
+          "k1": {
+            "meaning": "Accustom"
+          },
+          "k2": {
+            "meaning": "Condition"
+          },
+          "k3": {
+            "meaning": "Present · Submit"
+          },
+          "k4": {
+            "meaning": "Plan · Proposal"
+          },
+          "k5": {
+            "meaning": "Operate"
+          }
+        },
+        "n2": {
+          "k1": {
+            "meaning": "Theory · Argument"
+          },
+          "k2": {
+            "meaning": "Responsibility"
+          },
+          "k3": {
+            "meaning": "Measure · Guess"
+          },
+          "k4": {
+            "meaning": "Proof"
+          },
+          "k5": {
+            "meaning": "Guide"
+          }
+        },
+        "n1": {
+          "k1": {
+            "meaning": "Manifest"
+          },
+          "k2": {
+            "meaning": "Consideration"
+          },
+          "k3": {
+            "meaning": "Follow"
+          },
+          "k4": {
+            "meaning": "Fine · Detailed"
+          },
+          "k5": {
+            "meaning": "Solid · Firm"
+          }
+        }
+      },
+      "grammar": {
+        "n5": {
+          "g1": {
+            "label": "Basic assertion",
+            "explanation": "States a fact or describes something in the simplest form.",
+            "translation": "This is a book."
+          },
+          "g2": {
+            "label": "Expressing likes",
+            "explanation": "Used to express what you like.",
+            "translation": "I like Japanese."
+          }
+        },
+        "n4": {
+          "g1": {
+            "label": "Obligation",
+            "explanation": "Expresses that something must be done.",
+            "translation": "I must practice kanji every day."
+          },
+          "g2": {
+            "label": "Opinion",
+            "explanation": "Expresses what the speaker thinks.",
+            "translation": "I think this grammar is important."
+          }
+        },
+        "n3": {
+          "g1": {
+            "label": "Purpose / Wish",
+            "explanation": "Indicates purpose or a desired outcome.",
+            "translation": "I practice so that I can speak Japanese."
+          },
+          "g2": {
+            "label": "Established rule",
+            "explanation": "Shows a rule, schedule, or arrangement already decided.",
+            "translation": "In class, we are supposed to use only Japanese."
+          }
+        },
+        "n2": {
+          "g1": {
+            "label": "No more than",
+            "explanation": "Emphasizes that something is merely / only.",
+            "translation": "This is nothing more than one example."
+          },
+          "g2": {
+            "label": "Along with",
+            "explanation": "Indicates that one change accompanies another.",
+            "translation": "As your level improves, your vocabulary also grows."
+          }
+        },
+        "n1": {
+          "g1": {
+            "label": "Concerning / over",
+            "explanation": "Used for debates or issues surrounding a topic.",
+            "translation": "Debate continues over educational reform."
+          },
+          "g2": {
+            "label": "Cannot help but",
+            "explanation": "Expresses an irresistible feeling or reaction.",
+            "translation": "I cannot help but be surprised hearing this story."
+          }
+        }
       }
     }
   }
