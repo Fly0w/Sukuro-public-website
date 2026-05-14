@@ -40,6 +40,7 @@ useSeoMeta({
         <ul class="list-disc list-outside ml-5 space-y-2 marker:text-primary/50">
           <li class="text-[15px] text-muted-foreground leading-relaxed">{{ t('privacy.data.local') }}</li>
           <li class="text-[15px] text-muted-foreground leading-relaxed">{{ t('privacy.data.technical') }}</li>
+          <li class="text-[15px] text-muted-foreground leading-relaxed">{{ t('privacy.data.ads') }}</li>
         </ul>
       </section>
 
@@ -65,6 +66,7 @@ useSeoMeta({
         </p>
         <ul class="list-disc list-outside ml-5 space-y-2 marker:text-primary/50">
           <li class="text-[15px] text-muted-foreground leading-relaxed">{{ t('privacy.sharing.google') }}</li>
+          <li class="text-[15px] text-muted-foreground leading-relaxed">{{ t('privacy.sharing.admob') }}</li>
         </ul>
         <p class="text-[15px] text-muted-foreground leading-relaxed mt-3 italic">
           {{ t('privacy.sharing.note') }}

@@ -24,32 +24,34 @@
   },
   "privacy": {
     "title": "Patakaran sa Pagkapribado",
-    "lastUpdated": "Huling na-update: Mayo 8, 2026",
+    "lastUpdated": "Huling na-update: Mayo 14, 2026",
     "intro": {
       "title": "1. Panimula",
-      "text": "Maligayang pagdating sa Sukuro. Mahalaga sa amin ang iyong pagkapribado. Ipinaliwanag ng patakarang ito kung anong datos ang hinahawakan ng app at paano ito ginagamit. Sa maikling salita: hindi kinokolekta ng Sukuro ang anumang personal na impormasyon at hindi mo kinakailangang lumikha ng account."
+      "text": "Maligayang pagdating sa Sukuro. Mahalaga sa amin ang iyong pagkapribado. Ipinaliwanag ng patakarang ito kung anong datos ang hinahawakan ng app at paano ito ginagamit. Hindi kailangang lumikha ng account sa Sukuro. Ang app ay libre at sinusuportahan ng mga advertisement: ang mga ad ay ibinibigay ng Google AdMob, na maaaring mangolekta ng ilang identifier ng device gaya ng inilarawan sa ibaba."
     },
     "data": {
       "title": "2. Data na kinokolekta namin",
-      "text": "Hindi kinokolekta ng Sukuro ang anumang personal na impormasyon. Walang paglikha ng account, walang email address, at walang personal na identifier na hinihingi o iniimbak. Ang tanging data na nililikha ng app ay:",
-      "local": "Progress sa pag-aaral (natapos na mga aralin, marka, natutunang bokabularyo): iniimbak lamang sa iyong device gamit ang local storage. Hindi kailanman ipinapadala sa aming mga server.",
-      "technical": "Mga ulat ng pag-crash at anonymous na istatistika ng paggamit: maaaring kolektahin ng mga platapormang Google Play Store o Apple App Store. Ito ay pinangangasiwaan lamang ng mga platapormang iyon alinsunod sa kanilang mga patakaran sa pagkapribado, labas sa aming kontrol."
+      "text": "Hindi kinokolekta ng Sukuro ang personal na impormasyon tulad ng iyong pangalan, email address, o mga kredensyal ng account. Ang data na nililikha ng app ay:",
+      "local": "Mga kagustuhan at progreso sa pag-aaral (mga paborito, filter, AI credits, mga setting ng wika): iniimbak lamang sa iyong device gamit ang local storage at hindi kailanman ipinapadala sa aming mga server.",
+      "technical": "Mga ulat ng pag-crash at anonymous na istatistika ng paggamit: maaaring kolektahin ng mga platapormang Google Play Store o Apple App Store alinsunod sa kani-kanilang mga patakaran sa pagkapribado.",
+      "ads": "Data ng advertising: Maaaring mangolekta ang Google AdMob ng iyong advertising identifier (IDFA sa iOS / GAID sa Android), impormasyon ng device, tinatayang lokasyon (sa pamamagitan ng IP address), at data ng pakikipag-ugnayan sa ad (mga impression, click) upang maghatid at masukat ng mga advertisement. Sa iOS, hihilingin ang iyong pahintulot sa pamamagitan ng App Tracking Transparency (ATT) na dialog bago magsimula ang anumang tracking."
     },
     "ai": {
       "title": "3. Paggamit ng Artificial Intelligence (AI)",
       "text": "Gumagamit ang Sukuro ng Google Gemini (Google Generative AI) upang makabuo ng educational content tulad ng mga paliwanag at halimbawang pangungusap.",
-      "point1": "Kapag humiling ka ng paliwanag mula sa AI, ang teksto ng nauugnay na ehersisyo o tanong ay ipinapadala sa mga server ng Google para iproseso. Walang personal na impormasyon na kasama sa mga kahilingang ito.",
+      "point1": "Kapag humiling ka ng paliwanag mula sa AI, ang teksto ng nauugnay na flashcard ay ipinapadala sa mga server ng Google para iproseso. Walang personal na impormasyon na kasama sa mga kahilingang ito.",
       "point2": "Ayon sa pamantayang mga tuntunin ng paggamit ng API ng Google, ang data na ito ay hindi ginagamit upang sanayin ang kanilang mga modelo at ipinoproseso lamang upang makabuo ng agarang tugon na ipinapakita sa app."
     },
     "sharing": {
       "title": "4. Mga serbisyo ng third party",
-      "text": "Hindi kami nagbebenta, nagpapalitan, o nagbabahagi ng anumang personal na data. Ang tanging third-party na serbisyo na ginagamit ng Sukuro ay:",
-      "google": "Google Gemini API: Ginagamit upang makabuo ng mga paliwanag at halimbawang pangungusap na pinapagana ng AI. Maaaring iproseso ang teksto ng ehersisyo sa mga server ng Google. Tingnan ang Patakaran sa Pagkapribado ng Google para sa mga detalye.",
-      "note": "Walang iba pang third-party na analytics, tracking, o advertising na serbisyo ang ginagamit."
+      "text": "Hindi kami nagbebenta, nagpapalitan, o nagbabahagi ng personal na data. Ang mga third-party na serbisyo na ginagamit ng Sukuro ay:",
+      "google": "Google Gemini API: Ginagamit upang makabuo ng mga paliwanag na pinapagana ng AI. Ang teksto ng nauugnay na flashcard ay ipinapadala sa mga server ng Google para iproseso. Walang personal na impormasyon na kasama. Tingnan ang Patakaran sa Pagkapribado ng Google para sa mga detalye.",
+      "admob": "Google AdMob: Ginagamit upang magpakita ng mga advertisement. Maaaring mangolekta ang AdMob ng mga advertising identifier, impormasyon ng device, tinatayang lokasyon (sa pamamagitan ng IP), at data ng pakikipag-ugnayan sa ad. Sa iOS, hihilingin ang iyong pahintulot sa pamamagitan ng App Tracking Transparency (ATT) prompt bago magsimula ang tracking. Tingnan ang Patakaran sa Pagkapribado ng Google para sa mga detalye.",
+      "note": "Walang iba pang third-party na analytics o tracking na serbisyo ang ginagamit."
     },
     "storage": {
       "title": "5. Pag-iimbak at pagtanggal ng data",
-      "text": "Ang lahat ng iyong data sa pag-aaral ay iniimbak nang lokal sa iyong device. Hindi kami nagpapanatili ng anumang server-side na database ng iyong personal na impormasyon. Upang permanenteng tanggalin ang lahat ng data ng app, i-uninstall lamang ang Sukuro mula sa iyong device."
+      "text": "Ang iyong mga kagustuhan at progreso sa pag-aaral ay iniimbak nang lokal sa iyong device. Ang aming server ay nag-iimbak lamang ng anonymous, hindi makilalang data (pinagsama-samang istatistika ng flashcard at mga ulat sa nilalaman) na hindi maiugnay sa sinumang indibidwal. Walang personal na impormasyon ang nakaimbak sa server. Upang tanggalin ang lahat ng lokal na data ng app, i-uninstall lamang ang Sukuro mula sa iyong device."
     },
     "contact": {
       "title": "6. Makipag-ugnayan",
@@ -73,7 +75,7 @@
       },
       "q2": {
         "q": "Kinokolekta ba ng Sukuro ang anumang personal na data?",
-        "a": "Hindi. Hindi humihingi ang Sukuro ng account at hindi kinokolekta ang anumang personal na impormasyon. Ang iyong progress sa pag-aaral ay nananatili sa iyong device. Ang tanging panlabas na serbisyo na ginagamit ay Google Gemini para sa mga paliwanag ng AI. Para sa buong detalye, tingnan ang aming Patakaran sa Pagkapribado."
+        "a": "Hindi humihingi ang Sukuro ng account at hindi kinokolekta ang personal na impormasyon. Ang iyong data sa pag-aaral ay nananatili sa iyong device. Gumagamit ang app ng Google AdMob para sa mga ad (na maaaring mangolekta ng advertising identifier) at Google Gemini para sa mga paliwanag ng AI. Para sa buong detalye, tingnan ang aming Patakaran sa Pagkapribado."
       }
     }
   },

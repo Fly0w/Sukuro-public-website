@@ -24,32 +24,34 @@
   },
   "privacy": {
     "title": "Chính sách bảo mật",
-    "lastUpdated": "Cập nhật lần cuối: 8 tháng 5 năm 2026",
+    "lastUpdated": "Cập nhật lần cuối: ngày 14 tháng 5 năm 2026",
     "intro": {
       "title": "1. Giới thiệu",
-      "text": "Chào mừng đến với Sukuro. Chúng tôi coi trọng quyền riêng tư của bạn. Chính sách này giải thích dữ liệu nào được ứng dụng xử lý và cách chúng tôi sử dụng. Tóm lại: Sukuro không thu thập thông tin cá nhân và không yêu cầu bạn tạo tài khoản."
+      "text": "Chào mừng đến với Sukuro. Chúng tôi coi trọng quyền riêng tư của bạn. Chính sách này giải thích dữ liệu nào ứng dụng xử lý và cách chúng tôi sử dụng chúng. Sukuro không yêu cầu bạn tạo tài khoản. Ứng dụng miễn phí và được tài trợ bởi quảng cáo: quảng cáo được phân phối bởi Google AdMob, có thể thu thập một số mã định danh thiết bị như mô tả bên dưới."
     },
     "data": {
       "title": "2. Dữ liệu chúng tôi thu thập",
-      "text": "Sukuro không thu thập thông tin cá nhân. Không cần tạo tài khoản, không yêu cầu hay lưu địa chỉ email hay mã định danh cá nhân. Dữ liệu duy nhất do ứng dụng tạo ra là:",
-      "local": "Tiến độ học tập (bài học đã hoàn thành, điểm số, từ vựng đã học): chỉ được lưu trên thiết bị của bạn (bộ nhớ cục bộ). Không bao giờ được gửi đến máy chủ của chúng tôi.",
-      "technical": "Báo cáo sự cố và thống kê sử dụng ẩn danh: có thể được các nền tảng Google Play Store hoặc Apple App Store thu thập. Việc này hoàn toàn do các nền tảng đó xử lý theo chính sách riêng của họ, ngoài tầm kiểm soát của chúng tôi."
+      "text": "Sukuro không thu thập thông tin cá nhân như tên, địa chỉ email hoặc thông tin đăng nhập tài khoản của bạn. Dữ liệu được tạo ra bởi ứng dụng bao gồm:",
+      "local": "Tùy chọn và tiến trình học tập (mục yêu thích, bộ lọc, tín dụng AI, cài đặt ngôn ngữ): được lưu trữ hoàn toàn trên thiết bị của bạn bằng bộ nhớ cục bộ và không bao giờ được truyền đến máy chủ của chúng tôi.",
+      "technical": "Báo cáo sự cố và thống kê sử dụng ẩn danh: có thể được thu thập bởi các nền tảng Google Play Store hoặc Apple App Store theo chính sách bảo mật tương ứng của họ.",
+      "ads": "Dữ liệu quảng cáo: Google AdMob có thể thu thập mã định danh quảng cáo của bạn (IDFA trên iOS / GAID trên Android), thông tin thiết bị, vị trí gần đúng (qua địa chỉ IP) và dữ liệu tương tác quảng cáo (lượt hiển thị, lượt nhấp) để phân phối và đo lường quảng cáo. Trên iOS, bạn sẽ được yêu cầu đồng ý qua hộp thoại App Tracking Transparency (ATT) trước khi bắt đầu theo dõi."
     },
     "ai": {
       "title": "3. Sử dụng trí tuệ nhân tạo (AI)",
       "text": "Sukuro sử dụng Google Gemini (Google Generative AI) để tạo nội dung giáo dục như lời giải thích và câu ví dụ.",
-      "point1": "Khi bạn yêu cầu giải thích bằng AI, văn bản của bài tập hoặc câu hỏi liên quan được gửi đến máy chủ của Google để xử lý. Không có thông tin cá nhân nào được đưa vào các yêu cầu này.",
+      "point1": "Khi bạn yêu cầu giải thích bằng AI, văn bản của thẻ học liên quan được gửi đến máy chủ của Google để xử lý. Không có thông tin cá nhân nào được đưa vào các yêu cầu này.",
       "point2": "Theo điều khoản sử dụng API tiêu chuẩn của Google, dữ liệu này không được dùng để huấn luyện mô hình của họ và chỉ được xử lý để tạo phản hồi ngay trong ứng dụng."
     },
     "sharing": {
       "title": "4. Dịch vụ bên thứ ba",
-      "text": "Chúng tôi không bán, trao đổi hay chia sẻ dữ liệu cá nhân. Dịch vụ bên thứ ba duy nhất Sukuro sử dụng là:",
-      "google": "Google Gemini API: dùng để tạo lời giải thích và câu ví dụ bằng AI. Văn bản bài tập có thể được xử lý trên máy chủ của Google. Xem Chính sách quyền riêng tư của Google để biết chi tiết.",
-      "note": "Không sử dụng dịch vụ phân tích, theo dõi hay quảng cáo bên thứ ba nào khác."
+      "text": "Chúng tôi không bán, trao đổi hay chia sẻ dữ liệu cá nhân. Các dịch vụ bên thứ ba mà Sukuro sử dụng bao gồm:",
+      "google": "Google Gemini API: dùng để tạo giải thích bằng AI. Văn bản của thẻ học liên quan sẽ được gửi đến máy chủ của Google để xử lý. Không có thông tin cá nhân nào được đưa vào. Vui lòng tham khảo Chính sách bảo mật của Google để biết thêm chi tiết.",
+      "admob": "Google AdMob: được dùng để hiển thị quảng cáo. AdMob có thể thu thập mã định danh quảng cáo, thông tin thiết bị, vị trí gần đúng (qua IP) và dữ liệu tương tác quảng cáo. Trên iOS, sự đồng ý của bạn được yêu cầu qua lời nhắc App Tracking Transparency (ATT) trước khi bắt đầu theo dõi. Vui lòng tham khảo Chính sách bảo mật của Google để biết thêm chi tiết.",
+      "note": "Không có dịch vụ phân tích hoặc theo dõi bên thứ ba nào khác được sử dụng."
     },
     "storage": {
       "title": "5. Lưu trữ và xóa dữ liệu",
-      "text": "Toàn bộ dữ liệu học tập của bạn được lưu cục bộ trên thiết bị. Chúng tôi không duy trì cơ sở dữ liệu phía máy chủ chứa thông tin cá nhân của bạn. Để xóa vĩnh viễn mọi dữ liệu ứng dụng, chỉ cần gỡ cài đặt Sukuro khỏi thiết bị."
+      "text": "Tùy chọn và tiến trình học tập của bạn được lưu trữ cục bộ trên thiết bị. Máy chủ của chúng tôi chỉ lưu trữ dữ liệu ẩn danh, không thể nhận dạng (thống kê thẻ học tổng hợp và báo cáo nội dung) không thể liên kết với bất kỳ cá nhân nào. Không có thông tin cá nhân nào được lưu trữ trên máy chủ. Để xóa tất cả dữ liệu ứng dụng cục bộ, chỉ cần gỡ cài đặt Sukuro khỏi thiết bị của bạn."
     },
     "contact": {
       "title": "6. Liên hệ",
@@ -73,7 +75,7 @@
       },
       "q2": {
         "q": "Sukuro có thu thập dữ liệu cá nhân không?",
-        "a": "Không. Sukuro không yêu cầu tài khoản và không thu thập thông tin cá nhân. Tiến độ học tập của bạn lưu trên thiết bị. Dịch vụ bên ngoài duy nhất là Google Gemini cho giải thích AI. Xem Chính sách bảo mật của chúng tôi để biết đầy đủ."
+        "a": "Sukuro không yêu cầu tài khoản và không thu thập thông tin cá nhân. Dữ liệu học tập của bạn lưu trên thiết bị. Ứng dụng sử dụng Google AdMob cho quảng cáo (có thể thu thập mã định danh quảng cáo) và Google Gemini cho giải thích AI. Xem Chính sách bảo mật của chúng tôi để biết đầy đủ."
       }
     }
   },

@@ -428,32 +428,34 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "lastUpdated": "Dernière mise à jour : 8 mai 2026",
+    "lastUpdated": "Dernière mise à jour : 14 mai 2026",
     "intro": {
       "title": "1. Introduction",
-      "text": "Bienvenue sur Sukuro. La protection de votre vie privée nous importe. Cette politique décrit quelles données l'application traite et comment. En résumé : Sukuro ne recueille aucune donnée personnelle et ne vous oblige pas à créer un compte."
+      "text": "Bienvenue sur Sukuro. La protection de votre vie privée nous importe. Cette politique décrit quelles données l'application traite et comment nous les utilisons. Sukuro ne vous oblige pas à créer un compte. L'application est gratuite et financée par la publicité : les annonces sont diffusées par Google AdMob, qui peut collecter certains identifiants d'appareil comme décrit ci-dessous."
     },
     "data": {
       "title": "2. Données recueillies",
-      "text": "Sukuro ne recueille aucune donnée personnelle. Aucun compte, aucune adresse e-mail ni identifiant personnel n'est requis ou stocké. Les seules données générées par l'application sont :",
-      "local": "Progression d'apprentissage (leçons terminées, scores, vocabulaire appris) : stockée exclusivement sur votre appareil (stockage local). Elle n'est jamais transmise à nos serveurs.",
-      "technical": "Rapports de plantage et statistiques d'utilisation anonymes : peuvent être recueillis par le Google Play Store ou l'App Store d'Apple. Ces traitements relèvent uniquement de ces plateformes et de leurs politiques de confidentialité, en dehors de notre contrôle."
+      "text": "Sukuro ne collecte pas de données personnelles telles que votre nom, adresse e-mail ou identifiants de compte. Les données générées par l'application sont :",
+      "local": "Préférences et progression d'apprentissage (favoris, filtres, crédits IA, paramètres de langue) : stockées exclusivement sur votre appareil via le stockage local, jamais transmises à nos serveurs.",
+      "technical": "Rapports de plantage et statistiques d'utilisation anonymes : peuvent être collectés par les plateformes Google Play Store ou Apple App Store, conformément à leurs politiques de confidentialité respectives.",
+      "ads": "Données publicitaires : Google AdMob peut collecter votre identifiant publicitaire (IDFA sur iOS / GAID sur Android), des informations sur l'appareil, une localisation approximative (via l'adresse IP) et des données d'interaction avec les annonces (impressions, clics) pour diffuser et mesurer la publicité. Sur iOS, votre consentement est demandé via une invite App Tracking Transparency (ATT) avant tout suivi."
     },
     "ai": {
       "title": "3. Utilisation de l'intelligence artificielle (IA)",
       "text": "Sukuro utilise Google Gemini (Google Generative AI) pour générer du contenu pédagogique, des explications et des phrases d'exemple.",
-      "point1": "Lorsque vous demandez une explication par l'IA, le texte de l'exercice ou de la question concernée est envoyé aux serveurs de Google pour traitement. Aucune donnée personnelle n'est incluse dans ces requêtes.",
+      "point1": "Lorsque vous demandez une explication par l'IA, le texte de la flashcard concernée est envoyé aux serveurs de Google pour traitement. Aucune donnée personnelle n'est incluse dans ces requêtes.",
       "point2": "Conformément aux conditions d'utilisation standard de l'API Google, ces données ne sont pas utilisées pour entraîner leurs modèles ; elles servent uniquement à produire la réponse immédiate affichée dans l'application."
     },
     "sharing": {
       "title": "4. Services tiers",
-      "text": "Nous ne vendons, n'échangeons ni ne partageons aucune donnée personnelle. Le seul service tiers utilisé par Sukuro est :",
-      "google": "API Google Gemini : utilisée pour générer les explications et exemples par IA. Le texte des exercices peut être traité sur les serveurs de Google. Consultez la politique de confidentialité de Google pour plus de détails.",
-      "note": "Aucun autre service d'analyse, de suivi ou de publicité tiers n'est utilisé."
+      "text": "Nous ne vendons, n'échangeons ni ne partageons aucune donnée personnelle. Les services tiers utilisés par Sukuro sont :",
+      "google": "API Google Gemini : utilisée pour générer les explications par IA. Le texte de la flashcard concernée est envoyé aux serveurs de Google pour traitement. Aucune donnée personnelle n'est incluse. Consultez la politique de confidentialité de Google pour plus de détails.",
+      "admob": "Google AdMob : utilisé pour afficher des publicités. AdMob peut collecter des identifiants publicitaires, des informations sur l'appareil, une localisation approximative (via l'IP) et des données d'interaction avec les annonces. Sur iOS, votre consentement est demandé via une invite App Tracking Transparency (ATT) avant tout suivi. Consultez la politique de confidentialité de Google pour plus de détails.",
+      "note": "Aucun autre service d'analyse ou de suivi tiers n'est utilisé."
     },
     "storage": {
       "title": "5. Stockage et suppression des données",
-      "text": "Toutes vos données d'apprentissage sont stockées localement sur votre appareil. Nous ne maintenons aucune base de données sur nos serveurs contenant vos informations personnelles. Pour supprimer définitivement toutes les données de l'application, désinstallez simplement Sukuro de votre appareil."
+      "text": "Vos préférences et votre progression d'apprentissage sont stockées localement sur votre appareil. Notre serveur ne stocke que des données anonymes et non identifiables (statistiques agrégées de flashcards et signalements de contenu) ne pouvant être liées à aucun individu. Aucune donnée personnelle n'est stockée côté serveur. Pour supprimer toutes les données locales de l'application, désinstallez simplement Sukuro de votre appareil."
     },
     "contact": {
       "title": "6. Contact",
@@ -477,7 +479,7 @@
       },
       "q2": {
         "q": "Sukuro collecte-t-il des données personnelles ?",
-        "a": "Non. Sukuro ne demande pas de compte et ne recueille aucune donnée personnelle. Votre progression d'apprentissage reste sur votre appareil. Le seul service externe utilisé est Google Gemini pour les explications par IA. Pour plus de détails, consultez notre politique de confidentialité."
+        "a": "Sukuro ne demande pas de compte et ne collecte aucune donnée personnelle. Votre progression d'apprentissage reste sur votre appareil. L'application utilise Google AdMob pour les publicités (qui peut collecter un identifiant publicitaire) et Google Gemini pour les explications par IA. Pour plus de détails, consultez notre politique de confidentialité."
       }
     }
   }
