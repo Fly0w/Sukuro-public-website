@@ -17,7 +17,12 @@ const currentLocaleName = computed(() => {
 <template>
   <DropdownMenu :modal="false">
     <DropdownMenuTrigger asChild>
-      <Button variant="outline" size="sm" class="flex items-center gap-2">
+      <Button
+        variant="outline"
+        size="sm"
+        class="flex items-center gap-2"
+        aria-label="Change language"
+      >
         <Icon name="lucide:globe" class="w-4 h-4" />
         <span class="hidden sm:inline-block">{{ currentLocaleName }}</span>
       </Button>
