@@ -5,7 +5,7 @@ export default defineAppConfig({
       appStore: 'https://apps.apple.com/app/idTODO',
       instagram: 'https://www.instagram.com/sukuro_official/',
       x: 'https://x.com/TODO',
-      tiktok: 'https://tiktok.com/@TODO'
+      tiktok: 'https://www.tiktok.com/@sukuro.official?_r=1&_t=ZN-96LRZn0lAYA'
     }
   }
 })

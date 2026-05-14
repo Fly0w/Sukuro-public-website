@@ -86,13 +86,13 @@ const appConfig = useAppConfig()
                 <Icon name="lucide:twitter" class="w-3.5 h-3.5 shrink-0 transition-transform duration-150 group-hover/social:scale-110" />
                 X (Twitter)
               </a>
-            </li>
+            </li>-->
             <li>
               <a :href="appConfig.sukuro.links.tiktok" target="_blank" rel="noopener noreferrer" class="text-sm text-muted-foreground hover:text-primary transition-colors duration-150 flex items-center gap-2 group/social">
                 <Icon name="lucide:video" class="w-3.5 h-3.5 shrink-0 transition-transform duration-150 group-hover/social:scale-110" />
                 TikTok
               </a>
-            </li> -->
+            </li> 
           </ul>
         </div>
 
