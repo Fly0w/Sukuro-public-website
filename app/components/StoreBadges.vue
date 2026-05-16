@@ -70,14 +70,18 @@ const appStoreBadgeSrc = computed(() => appStoreByLocale[localeCode.value] ?? as
       <img
         :src="googlePlayBadgeSrc"
         alt="Get it on Google Play"
+        width="239"
+        height="71"
         class="h-14 w-auto max-w-full mx-auto sm:mx-0"
       >
     </a>
 
-    <a v-if="false" :href="props.appStoreUrl" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto">
+    <a :href="props.appStoreUrl" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto">
       <img
         :src="appStoreBadgeSrc"
         alt="Download on the App Store"
+        width="120"
+        height="40"
         class="h-14 w-auto max-w-full mx-auto sm:mx-0"
       >
     </a>
